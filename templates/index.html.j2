@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI产业情报局 · {{ date_iso }}</title>
+<style>
+:root{
+  --paper:#f6f3ec;--paper-2:#fdfbf6;--ink:#1a1512;--ink-soft:#3d3630;
+  --muted:#736b62;--faint:#a49a8e;--line:#ded6c8;--line-strong:#c4b9a8;
+  --red:#9c2b22;--new-bg:#fdf0ee;
+  --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased;}
+::selection{background:rgba(156,43,34,.16);}
+a{color:inherit;text-decoration:none;}
+.masthead{max-width:1220px;margin:0 auto;padding:34px 36px 0;}
+.masthead-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:10px;border-bottom:1px solid var(--ink);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+.masthead-top .live{display:inline-flex;align-items:center;gap:7px;color:var(--red);}
+.masthead-top .live::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--red);box-shadow:0 0 0 3px rgba(156,43,34,.12);}
+.masthead h1{font-family:var(--serif);font-weight:700;font-size:clamp(34px,6.2vw,68px);line-height:1.05;letter-spacing:-.01em;padding:22px 0 18px;text-align:center;}
+.masthead h1 span{display:block;font-size:clamp(15px,2.2vw,22px);font-weight:400;letter-spacing:.42em;color:var(--red);margin-top:14px;text-indent:.42em;}
+.masthead-bottom{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:9px 0 10px;border-top:3px double var(--ink);border-bottom:1px solid var(--line-strong);font-size:11.5px;letter-spacing:.1em;color:var(--muted);}
+.masthead-bottom .topics{letter-spacing:.14em;color:var(--ink-soft);font-weight:500;}
+.masthead-bottom .date{font-variant-numeric:tabular-nums;letter-spacing:.08em;}
+.nav{position:relative;z-index:100;background:rgba(246,243,236,.97);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line-strong);transition:box-shadow .3s;}
+.nav.is-fixed{position:fixed;top:0;left:0;right:0;box-shadow:0 2px 14px rgba(0,0,0,.08);}
+.nav-inner{max-width:1220px;margin:0 auto;padding:0 36px;display:flex;gap:0;overflow-x:auto;scrollbar-width:none;}
+.nav-inner::-webkit-scrollbar{display:none;}
+.nav a{flex:0 0 auto;position:relative;padding:13px 17px 12px;font-size:12.5px;letter-spacing:.06em;color:var(--muted);white-space:nowrap;transition:color .2s;cursor:pointer;}
+.nav a::after{content:'';position:absolute;left:17px;right:17px;bottom:0;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .28s cubic-bezier(.22,.61,.36,1);}
+.nav a:hover{color:var(--ink);}
+.nav a.active{color:var(--ink);font-weight:600;}
+.nav a.active::after{transform:scaleX(1);}
+.nav-spacer{height:0;}
+main{max-width:1220px;margin:0 auto;padding:0 36px 90px;}
+section{scroll-margin-top:70px;}
+.lede{margin:44px 0 0;padding:26px 0 26px 26px;border-left:3px solid var(--red);}
+.lede-label{display:block;font-size:10.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.lede p{font-family:var(--serif);font-size:clamp(16px,2vw,19px);line-height:1.95;color:var(--ink-soft);letter-spacing:.01em;}
+.toc{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin:44px 0 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line-strong);}
+.toc-item{position:relative;display:block;padding:20px 16px 22px;border-left:1px solid var(--line);transition:background .25s;cursor:pointer;}
+.toc-item:first-child{border-left:none;padding-left:0;}
+.toc-item::before{content:'';position:absolute;top:-2px;left:0;right:0;height:3px;background:var(--c);transform:scaleX(0);transform-origin:left;transition:transform .3s cubic-bezier(.22,.61,.36,1);}
+.toc-item:hover{background:var(--paper-2);}
+.toc-item:hover::before{transform:scaleX(1);}
+.toc-num{display:block;font-family:var(--serif);font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--c);margin-bottom:7px;}
+.toc-name{display:block;font-family:var(--serif);font-size:15px;font-weight:600;line-height:1.35;margin-bottom:8px;}
+.toc-status{display:inline-block;font-size:10.5px;letter-spacing:.08em;color:var(--muted);border-bottom:1px solid var(--line-strong);padding-bottom:1px;}
+.board{margin-top:78px;border-top:2px solid var(--ink);padding-top:26px;}
+.board-meta{display:flex;align-items:baseline;gap:14px;margin-bottom:14px;flex-wrap:wrap;}
+.board-num{font-family:var(--serif);font-size:13px;font-weight:700;letter-spacing:.1em;color:var(--red);font-variant-numeric:tabular-nums;}
+.board-kicker{font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);}
+.board-status{margin-left:auto;flex:0 0 auto;font-size:10.5px;font-weight:600;letter-spacing:.12em;color:var(--c);border:1px solid color-mix(in srgb,var(--c) 34%,transparent);padding:3px 10px;border-radius:1px;}
+.board-headline{font-family:var(--serif);font-size:clamp(24px,3.4vw,34px);font-weight:700;line-height:1.32;letter-spacing:-.005em;color:var(--ink);max-width:24em;padding-bottom:24px;margin-bottom:30px;border-bottom:1px solid var(--line-strong);}
+.board-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);gap:0;}
+.col--news{padding-right:52px;}
+.col--analysis{padding-left:52px;border-left:1px solid var(--line);}
+@media(max-width:960px){.board-body{grid-template-columns:1fr;gap:34px;}.col--news{padding-right:0;}.col--analysis{padding-left:0;border-left:none;border-top:1px solid var(--line);padding-top:30px;}}
+.col-label{display:block;font-size:10.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--faint);margin-bottom:20px;}
+.news{display:grid;grid-template-columns:64px minmax(0,1fr);gap:20px;padding:20px 0;border-top:1px solid var(--line);transition:background .2s;}
+.news:first-of-type{border-top:none;padding-top:0;}
+.news.is-new{background:var(--new-bg);margin:0 -12px;padding:20px 12px;border-top-color:transparent;border-radius:2px;}
+.news.is-new:first-of-type{padding-top:14px;}
+.news-date{padding-top:2px;font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--faint);font-variant-numeric:tabular-nums;line-height:1.5;}
+.news-date .yr{display:block;font-size:9.5px;letter-spacing:.08em;color:#bdb2a4;margin-top:1px;}
+.news.is-new .news-date{color:var(--red);}
+.news.is-new .news-date .yr{color:var(--red);opacity:.7;}
+.news-tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--red);margin-bottom:5px;}
+.news-badge{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.08em;color:#fff;background:var(--red);padding:1px 7px;border-radius:2px;margin-left:8px;vertical-align:2px;}
+.news h3{font-family:var(--serif);font-size:17px;font-weight:600;line-height:1.55;letter-spacing:.005em;margin-bottom:7px;color:var(--ink);}
+.news p{font-size:13.5px;line-height:1.82;color:var(--muted);}
+.news b{color:var(--ink-soft);font-weight:600;}
+.news-source{margin-top:9px;font-size:11.5px;letter-spacing:.02em;color:var(--faint);}
+.news-source a{position:relative;color:var(--red);border-bottom:1px solid rgba(156,43,34,.35);transition:border-color .2s,color .2s;cursor:pointer;display:inline-block;padding-right:12px;}
+.news-source a::after{content:'↗';position:absolute;right:0;top:0;font-size:9.5px;opacity:.55;transition:opacity .2s,transform .2s;}
+.news-source a:hover{color:#7a1f18;border-bottom-color:var(--red);}
+.news-source a:hover::after{opacity:1;transform:translate(1px,-1px);}
+.news-source .sep{color:var(--line-strong);margin:0 8px;}
+.analysis{border-top:1px solid var(--line-strong);padding-top:16px;margin-bottom:26px;}
+.analysis:first-of-type{border-top:none;padding-top:0;}
+.analysis h4{display:flex;align-items:center;gap:9px;font-size:10.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+.analysis h4::after{content:'';flex:1;height:1px;background:var(--line);}
+.analysis p{font-family:var(--serif);font-size:15.5px;line-height:2;color:var(--ink-soft);letter-spacing:.005em;}
+.analysis p + p{margin-top:12px;}
+.analysis--outlook{border:1px solid var(--line);border-top:2px solid var(--red);background:var(--paper-2);padding:20px 22px 22px;margin-bottom:0;}
+.analysis--outlook h4{color:var(--ink-soft);}
+.analysis--outlook p{font-size:15px;color:var(--ink-soft);}
+.chain{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;padding:32px 20px;background:var(--paper-2);border:1px solid var(--line);margin-bottom:30px;}
+.chain-node{font-family:var(--serif);font-size:14px;font-weight:600;padding:9px 20px;color:var(--c);border:1px solid color-mix(in srgb,var(--c) 34%,transparent);background:#fff;white-space:nowrap;}
+.chain-arrow{color:var(--faint);font-size:14px;user-select:none;}
+.chain-loop{width:100%;text-align:center;font-size:11px;letter-spacing:.1em;color:var(--faint);margin-top:4px;}
+.rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0;border-top:1px solid var(--line-strong);border-left:1px solid var(--line);}
+.rel{padding:22px 24px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .25s;}
+.rel:hover{background:var(--paper-2);}
+.rel-path{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11px;font-weight:700;letter-spacing:.08em;margin-bottom:11px;color:var(--faint);}
+.rel-path b{color:var(--c);font-weight:700;font-family:var(--serif);font-size:13px;}
+.rel p{font-size:13.5px;line-height:1.85;color:var(--muted);}
+.conclusion{margin-top:30px;border-top:2px solid var(--ink);padding-top:22px;}
+.conclusion h4{font-size:10.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+.conclusion p{font-family:var(--serif);font-size:16px;line-height:2;color:var(--ink-soft);}
+.summary{margin-top:86px;border-top:2px solid var(--ink);padding-top:30px;}
+.summary-head{display:flex;align-items:baseline;gap:16px;padding-bottom:16px;border-bottom:1px solid var(--line-strong);margin-bottom:6px;}
+.summary-head .kicker{font-size:10.5px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--red);}
+.summary-head h2{font-family:var(--serif);font-size:clamp(26px,3.6vw,36px);font-weight:700;letter-spacing:-.005em;margin-left:auto;}
+.sum{display:grid;grid-template-columns:64px minmax(0,1fr);gap:28px;padding:28px 0;border-bottom:1px solid var(--line);}
+.sum-num{font-family:var(--serif);font-size:30px;font-weight:700;line-height:1;color:var(--line-strong);font-variant-numeric:tabular-nums;letter-spacing:-.02em;}
+.sum h3{font-family:var(--serif);font-size:21px;font-weight:700;line-height:1.45;margin-bottom:10px;letter-spacing:-.005em;}
+.sum p{font-family:var(--serif);font-size:15px;line-height:2;color:var(--ink-soft);max-width:62em;}
+footer{max-width:1220px;margin:0 auto;padding:26px 36px 56px;border-top:1px solid var(--line-strong);display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:11px;letter-spacing:.08em;color:var(--faint);}
+@media(max-width:1080px){.toc{grid-template-columns:repeat(3,1fr);}.toc-item:nth-child(4){border-left:none;padding-left:0;}}
+@media(max-width:900px){.masthead{padding:26px 24px 0;}.nav-inner{padding:0 24px;}main{padding:0 24px 70px;}.masthead h1{padding:18px 0 14px;}.lede{padding-left:20px;}.toc{grid-template-columns:repeat(2,1fr);}.toc-item:nth-child(odd){border-left:none;padding-left:0;}.board{margin-top:58px;}.board-status{margin-left:0;}.summary{margin-top:64px;}.sum{grid-template-columns:1fr;gap:8px;}.sum-num{font-size:22px;}}
+@media(max-width:600px){.masthead{padding:22px 18px 0;}.nav-inner{padding:0 18px;}main{padding:0 18px 56px;}.masthead-top{font-size:9px;letter-spacing:.16em;}.masthead-bottom{font-size:10.5px;}.lede{padding:20px 0 20px 16px;}.lede p{font-size:15.5px;line-height:1.9;}.toc{grid-template-columns:1fr;border-bottom:none;}.toc-item{border-left:none;border-bottom:1px solid var(--line);padding:16px 4px;}.toc-item:first-child{padding-left:4px;}.news{grid-template-columns:50px minmax(0,1fr);gap:14px;}.news h3{font-size:16px;}.news.is-new{margin:0 -8px;padding:16px 8px;}.board-headline{font-size:23px;}.analysis p,.sum p{font-size:14.5px;line-height:1.95;}.chain{padding:22px 14px;}.chain-arrow{display:none;}.chain-node{flex:1 1 42%;text-align:center;padding:8px 10px;font-size:13px;}.rel-grid{border-left:none;}.rel{border-right:none;padding:18px 0 20px;}.summary-head{flex-wrap:wrap;}.summary-head h2{margin-left:0;width:100%;}footer{padding:22px 18px 46px;font-size:10px;}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>AI Industry Intelligence</span>
+    <span class="live">Daily Brief · {{ date_iso[5:] }}</span>
+  </div>
+  <h1>AI 产业情报局<span>CHIP · MEMORY · LLM · AGENT · HARDWARE · AI DRAMA</span></h1>
+  <div class="masthead-bottom">
+    <span class="topics">{% for b in boards %}{{ b.name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>
+    <span class="date">{{ date_cn }}</span>
+  </div>
+</header>
+
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <a href="#overview">概览</a>
+    {% for b in boards %}<a href="#{{ b.id }}">{{ b.name }}</a>{% endfor %}
+    <a href="#linkage">板块联动</a>
+    <a href="#summary">总结</a>
+  </div>
+</nav>
+<div class="nav-spacer" id="navSpacer"></div>
+
+<main>
+
+  <aside class="lede">
+    <span class="lede-label">一句话判断</span>
+    <p>{{ lede }}</p>
+  </aside>
+
+  <section id="overview">
+    <nav class="toc">
+      {% for b in boards %}
+      <a class="toc-item" href="#{{ b.id }}" style="--c:{{ b.color }}">
+        <span class="toc-num">{{ "%02d"|format(loop.index) }}</span>
+        <span class="toc-name">{{ b.name }}</span>
+        <span class="toc-status">{{ b.status }}</span>
+      </a>
+      {% endfor %}
+    </nav>
+  </section>
+
+  {% for b in boards %}
+  <section id="{{ b.id }}" class="board" style="--c:{{ b.color }}">
+    <div class="board-meta">
+      <span class="board-num">{{ "%02d"|format(loop.index) }}</span>
+      <span class="board-kicker">{{ b.name }}</span>
+      <span class="board-status">{{ b.status }}</span>
+    </div>
+    <h2 class="board-headline">{{ b.name }} · {{ b.status }}</h2>
+    <div class="board-body">
+      <div class="col col--news">
+        <span class="col-label">最新资讯</span>
+        {% for n in b.news %}
+        <article class="news{% if n.is_new %} is-new{% endif %}">
+          <div class="news-date">{{ n.date_short }}<span class="yr">{{ n.year }}</span></div>
+          <div>
+            <span class="news-tag">{{ n.tag }}</span>{% if n.is_new %}<span class="news-badge">NEW</span>{% endif %}
+            <h3>{{ n.title }}</h3>
+            <p>{{ n.summary }}</p>
+            <div class="news-source">来源：
+              {% for s in n.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener noreferrer" title="{{ s.desc }}">{{ s.name }}</a>{% if not loop.last %}<span class="sep">·</span>{% endif %}{% endfor %}
+            </div>
+          </div>
+        </article>
+        {% else %}
+        <p style="font-size:13px;color:var(--faint);padding:16px 0;">本板块今日暂无新增资讯。</p>
+        {% endfor %}
+      </div>
+      <div class="col col--analysis">
+        <span class="col-label">深度解析</span>
+        <div class="analysis">
+          <h4>解析</h4>
+          {% for p in b.analysis %}<p>{{ p }}</p>{% endfor %}
+        </div>
+        <div class="analysis analysis--outlook">
+          <h4>展望</h4>
+          {% for p in b.outlook %}<p>{{ p }}</p>{% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+
+  <section id="linkage" class="board" style="--c:#4a5d43">
+    <div class="board-meta">
+      <span class="board-num">{{ "%02d"|format(boards|length + 1) }}</span>
+      <span class="board-kicker">板块联动</span>
+      <span class="board-status">传导链</span>
+    </div>
+    <h2 class="board-headline">六个板块之间的传导关系与共同矛盾</h2>
+    <div class="chain">
+      {% for c in chain %}
+      <div class="chain-node" style="--c:{{ c.color }}">{{ c.name }}</div>{% if not loop.last %}<span class="chain-arrow">→</span>{% endif %}
+      {% endfor %}
+    </div>
+    <div class="rel-grid">
+      {% for r in relations %}
+      <div class="rel" style="--c:{{ r.color }}">
+        <div class="rel-path"><b>{{ r.from_name }}</b><span>→</span>{% for tn in r.to_names %}<b>{{ tn }}</b>{% if not loop.last %} / {% endif %}{% endfor %}</div>
+        <p>{{ r.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="conclusion">
+      <h4>共同矛盾</h4>
+      <p>{{ linkage_conclusion }}</p>
+    </div>
+  </section>
+
+  <section id="summary" class="summary">
+    <div class="summary-head">
+      <span class="kicker">Editorial</span><h2>总结</h2>
+    </div>
+    {% for item in summary_items %}
+    <div class="sum">
+      <div class="sum-num">{{ "%02d"|format(loop.index) }}</div>
+      <div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+</main>
+
+<footer>
+  <div>AI 产业情报局 · 每日定时推送</div>
+  <div>数据截至 {{ date_iso }} · 内容由 DeepSeek 自动生成，仅供参考，不构成投资建议</div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var nav = document.getElementById('mainNav');
+  var spacer = document.getElementById('navSpacer');
+  if(!nav || !spacer) return;
+  var navTop = 0, navHeight = 0;
+  function measure(){
+    var wasFixed = nav.classList.contains('is-fixed');
+    if(wasFixed) nav.classList.remove('is-fixed');
+    navTop = nav.offsetTop;
+    navHeight = nav.offsetHeight;
+    spacer.style.height = navHeight + 'px';
+    document.documentElement.style.scrollPaddingTop = navHeight + 'px';
+    if(wasFixed) nav.classList.add('is-fixed');
+    update();
+  }
+  function update(){
+    if(window.scrollY >= navTop){ nav.classList.add('is-fixed'); spacer.style.height = navHeight + 'px'; }
+    else { nav.classList.remove('is-fixed'); spacer.style.height = '0px'; }
+  }
+  measure();
+  window.addEventListener('load', measure);
+  window.addEventListener('resize', measure);
+  window.addEventListener('scroll', update, { passive: true });
+})();
+(function(){
+  var nav = document.querySelector('.nav');
+  var navLinks = document.querySelectorAll('.nav a');
+  var sections = document.querySelectorAll('main section[id]');
+  function smoothTo(targetId){
+    var el = document.getElementById(targetId);
+    if(!el) return;
+    var navHeight = nav ? nav.offsetHeight : 0;
+    var top = el.getBoundingClientRect().top + window.pageYOffset - navHeight;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+  document.querySelectorAll('a[href]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var href = this.getAttribute('href');
+      if(!href) return;
+      if(href.charAt(0) === '#'){
+        var id = href.slice(1);
+        if(id && document.getElementById(id)){
+          e.preventDefault();
+          smoothTo(id);
+          history.replaceState(null, '', '#' + id);
+        }
+        return;
+      }
+      if(/^https?:\/\//i.test(href)){
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(href, '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
+  if('IntersectionObserver' in window){
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          var id = '#' + entry.target.id;
+          navLinks.forEach(function(a){ a.classList.toggle('active', a.getAttribute('href') === id); });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+    sections.forEach(function(s){ observer.observe(s); });
+  }
+})();
+</script>
+</body>
+</html>
