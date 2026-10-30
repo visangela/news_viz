@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI产业情报局 · {{ date_iso }}</title>
+<title>AI 产业情报局 · {{ date_iso }}</title>
 <script>
   // 尽早设置主题，避免 FOUC（页面闪烁）
   (function(){
@@ -498,7 +498,7 @@ footer{
     <span>AI Industry Intelligence</span>
     <span class="live">Daily Brief · {{ date_iso[5:] }}</span>
   </div>
-  <h1>AI产业情报局<span>CHIP · MEMORY · LLM · AGENT · HARDWARE · AI DRAMA</span></h1>
+  <h1>AI 产业情报局<span>CHIP · MEMORY · LLM · AGENT · HARDWARE · AI DRAMA</span></h1>
   <div class="masthead-bottom">
     <span class="topics">{% for b in boards %}{{ b.name }}{% if not loop.last %} · {% endif %}{% endfor %}</span>
     <span class="date">{{ date_cn }}</span>
@@ -511,7 +511,7 @@ footer{
       <a href="#overview">概览</a>
       {% for b in boards %}<a href="#{{ b.id }}">{{ b.name }}</a>{% endfor %}
       <a href="#linkage">板块联动</a>
-      <a href="#summary">总总结</a>
+      <a href="#summary">总结</a>
     </div>
     <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深浅模式" title="切换深浅模式">
       <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -615,7 +615,7 @@ footer{
 
   <section id="summary" class="summary">
     <div class="summary-head">
-      <span class="kicker">Editorial</span><h2>总总结</h2>
+      <span class="kicker">Editorial</span><h2>总结</h2>
     </div>
     {% for item in summary_items %}
     <div class="sum">
@@ -631,7 +631,7 @@ footer{
 </main>
 
 <footer>
-  <div>AI产业情报局 · 每日定时推送</div>
+  <div>AI 产业情报局 · 每日定时推送</div>
   <div>数据截至 {{ date_iso }} · 内容由 DeepSeek 自动生成，仅供参考，不构成投资建议</div>
 </footer>
 
@@ -736,7 +736,7 @@ document.documentElement.classList.add('js');
         e.stopPropagation();
         window.open(href, '_blank', 'noopener,noreferrer');
       }
-    });
+    }); 
   });
 
   if('IntersectionObserver' in window){
