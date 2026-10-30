@@ -4,8 +4,8 @@
 由 DeepSeek 生成结构化资讯 + 深度产业解析，渲染为静态 HTML 并部署到 GitHub Pages。
 
 ## 架构
-GitHub Actions (每日 UTC 00:00)
-→ scripts/fetcher.py 抓取 RSS，按板块关键词过滤、URL 去重
+GitHub Actions (每日 UTC 00:00)  
+→ scripts/fetcher.py 抓取 RSS，按板块关键词过滤、URL 去重  
 → scripts/analyzer.py DeepSeek 两步分析：
 
 1. 原始资讯 → 结构化（title/tag/summary/source/url）
