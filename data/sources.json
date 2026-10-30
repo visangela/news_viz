@@ -2,6 +2,7 @@
   "chip": {
     "name": "芯片与半导体",
     "color": "#2a4d69",
+    "color_dark": "#82b0d0",
     "keywords": ["芯片", "半导体", "晶圆", "光刻", "CoWoS", "HBM", "先进封装", "制程", "台积电", "三星", "英伟达", "NVIDIA", "TSMC", "碳化硅", "CoPoS", "IC载板", "chip", "semiconductor", "wafer", "foundry"],
     "feeds": [
       {"name": "IT之家", "url": "https://www.ithome.com/rss/"},
@@ -13,6 +14,7 @@
   "memory": {
     "name": "存储",
     "color": "#9c2b22",
+    "color_dark": "#e5897a",
     "keywords": ["存储", "DRAM", "NAND", "内存", "闪存", "HBM", "SSD", "SK海力士", "美光", "三星电子", "铠侠", "长江存储", "长鑫", "memory", "storage"],
     "feeds": [
       {"name": "IT之家", "url": "https://www.ithome.com/rss/"},
@@ -23,6 +25,7 @@
   "llm": {
     "name": "AI 大模型",
     "color": "#5b4b6e",
+    "color_dark": "#b0a0c8",
     "keywords": ["大模型", "LLM", "GPT", "Claude", "Gemini", "Kimi", "DeepSeek", "Qwen", "Mistral", "OpenAI", "Anthropic", "月之暗面", "智谱", "百川", "开源模型", "参数", "上下文", "MoE"],
     "feeds": [
       {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
@@ -35,6 +38,7 @@
   "agent": {
     "name": "AI 应用与 Agent",
     "color": "#4a5d43",
+    "color_dark": "#9dc088",
     "keywords": ["Agent", "智能体", "AI应用", "AI产品", "Claude Code", "Cursor", "Copilot", "灵光", "千问", "Manus", "MCP", "Skills", "workflow", "自动化"],
     "feeds": [
       {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
@@ -46,6 +50,7 @@
   "hardware": {
     "name": "AI 硬件",
     "color": "#3d5a5c",
+    "color_dark": "#89c2c5",
     "keywords": ["AI硬件", "AI芯片", "端侧", "边缘计算", "RTX", "GPU", "NPU", "AI PC", "AI手机", "智能眼镜", "机器人", "服务器", "NVIDIA", "AMD", "Intel"],
     "feeds": [
       {"name": "IT之家", "url": "https://www.ithome.com/rss/"},
@@ -56,6 +61,7 @@
   "drama": {
     "name": "AI 短剧",
     "color": "#8a6d3b",
+    "color_dark": "#dbb877",
     "keywords": ["短剧", "微短剧", "AI短剧", "漫剧", "红果", "即梦", "快手星芒", "抖音短剧", "AI视频", "Sora", "Runway", "可灵", "Vidu", "生数科技"],
     "feeds": [
       {"name": "36氪", "url": "https://36kr.com/feed"},

@@ -34,7 +34,7 @@ def build_render_context(
                 "date_short": date_short,
                 "year": year,
                 "tag": item.get("tag", ""),
-                "is_new": i < 3,           # 最新三条视为当日新增
+                "is_new": i < 3,
                 "title": item.get("title", ""),
                 "summary": item.get("summary", ""),
                 "sources": [{
@@ -48,20 +48,24 @@ def build_render_context(
             "id": board_id,
             "name": cfg["name"],
             "color": cfg["color"],
+            "color_dark": cfg.get("color_dark", cfg["color"]),
             "status": analysis.get("status", "—"),
             "news": news_render,
             "analysis": analysis.get("analysis", []),
             "outlook": analysis.get("outlook", []),
         })
 
-    linkage_relations = []
-    board_color = {b["id"]: b["color"] for b in boards}
     board_name = {b["id"]: b["name"] for b in boards}
+    board_color = {b["id"]: b["color"] for b in boards}
+    board_color_dark = {b["id"]: b["color_dark"] for b in boards}
+
+    linkage_relations = []
     for rel in LINKAGE_RELATIONS:
         linkage_relations.append({
             "from_name": board_name.get(rel["from"], rel["from"]),
             "to_names": [board_name.get(t, t) for t in rel["to"]],
             "color": board_color.get(rel["from"], "#9c2b22"),
+            "color_dark": board_color_dark.get(rel["from"], "#e5897a"),
             "text": rel["text"],
         })
 
@@ -72,7 +76,12 @@ def build_render_context(
         "date_iso": today.strftime("%Y-%m-%d"),
         "lede": board_analysis.get("lede", ""),
         "boards": boards,
-        "chain": [{"id": b["id"], "name": b["name"], "color": b["color"]} for b in boards],
+        "chain": [{
+            "id": b["id"],
+            "name": b["name"],
+            "color": b["color"],
+            "color_dark": b["color_dark"],
+        } for b in boards],
         "relations": linkage_relations,
         "linkage_conclusion": board_analysis.get("linkage_conclusion", ""),
         "summary_items": board_analysis.get("summary", []),
