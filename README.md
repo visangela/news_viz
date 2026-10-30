@@ -10,20 +10,9 @@ GitHub Actions (每日 UTC 00:00)
 
 1. 原始资讯 → 结构化（title/tag/summary/source/url）
 
-2. 结构化资讯 + 最近7天判断 → 板块解析、lede、联动、总结
-→ scripts/renderer.py Jinja2 渲染 templates/index.html.j2
-→ dist/index.html
-→ git commit + push
-→ GitHub Pages 自动部署
+2. 结构化资讯 + 最近7天判断 → 板块解析、lede、联动、总结  
+→ scripts/renderer.py Jinja2 渲染 templates/index.html.j2  
+→ dist/index.html  
+→ git commit + push  
+→ GitHub Pages 自动部署  
 
-
-## 快速开始
-
-### 1. 创建仓库并上传本项目
-
-```bash
-git init
-git add .
-git commit -m "init"
-git remote add origin https://github.com/<your-name>/ai-industry-dashboard.git
-git push -u origin main
