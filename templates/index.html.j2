@@ -48,35 +48,58 @@
 }
 
 [data-theme="dark"]{
-  /* 纸面：中性冷灰，不带黄调 */
-  --paper:#1e1f22;
-  --paper-2:#25272b;
+  /* === GitHub Soft Dark === */
+  /* 纸面：蓝调深灰，GitHub Dark Dimmed canvas */
+  --paper:#22272e;
+  --paper-2:#2d333b;
 
-  /* 文字：暖白 + 三级灰阶，靠明度拉层级 */
-  --ink:#e8e6e1;
-  --ink-soft:#c2bfb8;
-  --muted:#8e8b85;
-  --faint:#63615c;
+  /* 文字：三级明度，全部蓝调灰 */
+  --ink:#cdd9e5;
+  --ink-soft:#adbac7;
+  --muted:#768390;
+  --faint:#636e7b;
 
-  /* 分隔线：低对比，不抢视线 */
-  --line:#2e3035;
-  --line-strong:#3f4147;
+  /* 分隔线 */
+  --line:#373e47;
+  --line-strong:#444c56;
 
-  /* 强调色：降低饱和度，从“正红”退到“砖红” */
-  --red:#c96b5a;
-  --red-deep:#dd8a7b;
-  --red-glow:rgba(201,107,90,.16);
+  /* 强调色：GitHub danger */
+  --red:#e5534b;
+  --red-deep:#f47c74;
+  --red-glow:rgba(229,83,75,.15);
 
-  /* 今日高亮：极淡的暖灰粉，只做“标记”不做“色块” */
-  --new-bg:#2a2524;
+  /* 今日高亮：比 paper 亮一档，几乎察觉不到 */
+  --new-bg:#262c34;
 
-  /* 导航与交互 */
-  --nav-bg:rgba(30,31,34,.94);
-  --nav-shadow:0 2px 18px rgba(0,0,0,.45);
-  --selection:rgba(201,107,90,.22);
-  --toggle-bg:#2a2c30;
-  --toggle-border:#3f4147;
-  --entry-hover:rgba(201,107,90,.05);
+  /* 导航 */
+  --nav-bg:rgba(34,39,46,.94);
+  --nav-shadow:0 2px 16px rgba(1,4,9,.45);
+
+  /* 选中 */
+  --selection:rgba(229,83,75,.22);
+
+  /* Toggle */
+  --toggle-bg:#2d333b;
+  --toggle-border:#444c56;
+
+  /* 归档页 hover */
+  --entry-hover:rgba(229,83,75,.05);
+}
+
+/* 深色下：让日期和 NEW 徽章承担今日标记职责，去掉色块 */
+[data-theme="dark"] .news.is-new{
+  background:transparent;
+  margin:0;
+  padding:20px 0;
+  border-top-color:var(--line);
+  border-radius:0;
+}
+[data-theme="dark"] .news.is-new:first-of-type{padding-top:0;}
+
+/* 深色下：正文强调高亮压到几乎不可见，避免打断阅读 */
+[data-theme="dark"] .analysis strong,
+[data-theme="dark"] .lede strong{
+  background:linear-gradient(180deg,transparent 64%,rgba(229,83,75,.08) 64%);
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -607,7 +630,8 @@ footer{
   </section>
   {% endfor %}
 
-  <section id="linkage" class="board" style="--c-light:#4a5d43;--c-dark:#9dc088">
+  {# <section id="linkage" class="board" style="--c-light:#4a5d43;--c-dark:#9dc088"> #}
+  <section id="linkage" class="board" style="--c-light:#4a5d43;--c-dark:#57ab5a">
     <div class="board-meta">
       <span class="board-num">{{ "%02d"|format(boards|length + 1) }}</span>
       <span class="board-kicker">板块联动</span>
