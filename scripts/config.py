@@ -60,3 +60,9 @@ LINKAGE_RELATIONS = [
         "text": "短剧行业的 AI 素材标识、生成物追溯、平台准入，为 Agent 的安全与透明度提供了最早的规模化监管样本。"
     }
 ]
+
+ARCHIVE_PATH = DATA_DIR / "news_archive.json"
+ARCHIVE_TEMPLATE_PATH = ROOT / "templates" / "archive.html.j2"
+
+# 归档页面保留历史资讯的天数
+ARCHIVE_RETENTION_DAYS = 90

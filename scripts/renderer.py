@@ -3,7 +3,10 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
-from scripts.config import TEMPLATE_PATH, BOARD_ORDER, LINKAGE_CHAIN, LINKAGE_RELATIONS
+from scripts.config import (
+    TEMPLATE_PATH, ARCHIVE_TEMPLATE_PATH, BOARD_ORDER,
+    LINKAGE_CHAIN, LINKAGE_RELATIONS,
+)
 
 
 def _split_date(iso_str: str) -> tuple:
@@ -88,7 +91,74 @@ def build_render_context(
     }
 
 
+def build_archive_context(
+    sources: dict,
+    archive: dict,
+    today: datetime,
+) -> dict:
+    by_date = archive.get("by_date", {}) if isinstance(archive, dict) else {}
+    date_keys = sorted(by_date.keys())
+
+    boards = []
+    for board_id in BOARD_ORDER:
+        cfg = sources[board_id]
+        entries = []
+        for date_str in sorted(by_date.keys(), reverse=True):
+            day_data = by_date[date_str] or {}
+            items = day_data.get(board_id, []) or []
+            if not items:
+                continue
+            try:
+                dt = datetime.strptime(date_str, "%Y-%m-%d")
+                date_short = dt.strftime("%m.%d")
+                year = str(dt.year)
+            except Exception:
+                date_short, year = date_str, ""
+            for it in items:
+                entries.append({
+                    "date_short": date_short,
+                    "year": year,
+                    "date_full": date_str,
+                    "tag": it.get("tag", ""),
+                    "title": it.get("title", ""),
+                    "url": it.get("url", "#"),
+                    "source": it.get("source", ""),
+                })
+        boards.append({
+            "id": board_id,
+            "name": cfg["name"],
+            "color": cfg["color"],
+            "color_dark": cfg.get("color_dark", cfg["color"]),
+            "entries": entries,
+        })
+
+    if date_keys:
+        date_range = f"{date_keys[0]} 至 {date_keys[-1]}"
+    else:
+        date_range = "—"
+
+    weekday_cn = ["一", "二", "三", "四", "五", "六", "日"][today.weekday()]
+    total_entries = sum(len(b["entries"]) for b in boards)
+
+    return {
+        "date_cn": f"{today.year} 年 {today.month} 月 {today.day} 日　星期{weekday_cn}",
+        "date_iso": today.strftime("%Y-%m-%d"),
+        "boards": boards,
+        "total_entries": total_entries,
+        "date_range": date_range,
+    }
+
+
 def render(context: dict) -> str:
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_PATH.parent)), autoescape=False)
     template = env.get_template(TEMPLATE_PATH.name)
+    return template.render(**context)
+
+
+def render_archive(context: dict) -> str:
+    env = Environment(
+        loader=FileSystemLoader(str(ARCHIVE_TEMPLATE_PATH.parent)),
+        autoescape=False,
+    )
+    template = env.get_template(ARCHIVE_TEMPLATE_PATH.name)
     return template.render(**context)

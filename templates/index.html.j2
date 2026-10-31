@@ -147,6 +147,14 @@ a{color:inherit;text-decoration:none;}
 .nav a:hover{color:var(--ink);}
 .nav a.active{color:var(--ink);font-weight:600;}
 .nav a.active::after{transform:scaleX(1);}
+.nav a.nav-archive{
+  margin-left:8px;
+  color:var(--red);
+  border-left:1px solid var(--line-strong);
+  padding-left:20px;
+}
+.nav a.nav-archive::after{display:none;}
+.nav a.nav-archive:hover{color:var(--red-deep);}
 
 .theme-toggle{
   flex:0 0 auto;
@@ -512,6 +520,7 @@ footer{
       {% for b in boards %}<a href="#{{ b.id }}">{{ b.name }}</a>{% endfor %}
       <a href="#linkage">板块联动</a>
       <a href="#summary">总结</a>
+      <a href="archive.html" class="nav-archive">归档 →</a>
     </div>
     <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深浅模式" title="切换深浅模式">
       <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
