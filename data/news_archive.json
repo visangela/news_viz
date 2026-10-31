@@ -85,6 +85,288 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-01": {
+      "chip": [
+        {
+          "title": "iPad mini 8电池缩水但续航持平",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/020/625.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "荣威家越07首搭豆包座舱助手交付",
+          "tag": "智能汽车",
+          "url": "https://www.ithome.com/1/020/618.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "存储五巨头利润首超美国科技五巨头",
+          "tag": "存储景气",
+          "url": "https://www.ithome.com/1/020/617.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔Reddit暴跌近三成，纳指创半年最大跌幅",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/020/613.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黑石改口：Anthropic或难获投资级评级",
+          "tag": "AI融资",
+          "url": "https://www.ithome.com/1/020/610.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔产能从消费级转向服务器CPU",
+          "tag": "产能调配",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "长鑫4F²架构第六代DRAM完成样片验证",
+          "tag": "国产存储",
+          "url": "https://www.ithome.com/1/020/599.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "奥尔特曼赴韩会见约50名三星高管",
+          "tag": "供应链",
+          "url": "https://www.ithome.com/1/020/597.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为Vision智慧屏6 SE国补探至3333元",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/020/596.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "小米S Pro Mini LED电视国补后再降价",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/020/473.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "iPad mini 8电池4900mAh略低于前代",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/020/625.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "存储五巨头季度利润首超科技五巨头",
+          "tag": "存储景气",
+          "url": "https://www.ithome.com/1/020/617.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "长鑫第六代DRAM平台完成样片验证",
+          "tag": "国产存储",
+          "url": "https://www.ithome.com/1/020/599.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "奥尔特曼赴韩锁定三星存储供应",
+          "tag": "供应链",
+          "url": "https://www.ithome.com/1/020/597.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软前工程师用AI自制PDP-11内存",
+          "tag": "存储涨价",
+          "url": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "宏碁非凡Go Air新增16+512GB版本",
+          "tag": "PC硬件",
+          "url": "https://www.ithome.com/1/020/586.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "机械革命推出54g轻量化电竞鼠标",
+          "tag": "消费外设",
+          "url": "https://www.ithome.com/1/020/578.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "长鑫已与头部客户协商长期供货协议",
+          "tag": "存储景气",
+          "url": "https://www.ithome.com/1/020/573.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI据报下调新一轮融资目标",
+          "tag": "AI融资",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Claude取消5小时使用限制，Ultra用户先解封",
+          "tag": "产品策略",
+          "url": "https://www.qbitai.com/2026/10/506855.html",
+          "source": "量子位"
+        },
+        {
+          "title": "AI自动生成算子性能反超人类手写9.8%",
+          "tag": "AI编程",
+          "url": "https://www.qbitai.com/2026/10/506785.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "论文探讨可进化的Agent团队协作",
+          "tag": "多智能体",
+          "url": "https://arxiv.org/abs/2610.36848",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "风投推出面向Agent优化的官网",
+          "tag": "Agent生态",
+          "url": "https://marathon.vc/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "mobile-agent加速AI编程的移动端迭代",
+          "tag": "开发工具",
+          "url": "https://mobileagent.dev",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DiffNotes让编程Agent内联解释PR",
+          "tag": "代码评审",
+          "url": "https://github.com/igorkasyanchuk/diffnotes",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AI Agent为活体小鼠完成脑部注射",
+          "tag": "具身智能",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DeepSeek开源Agent底座架构",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/10/506904.html",
+          "source": "量子位"
+        },
+        {
+          "title": "DeepSeek开源由Agent自建的编程Agent",
+          "tag": "开源",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Praex推出问答式AI编程Agent",
+          "tag": "开发工具",
+          "url": "https://github.com/ailucius/praex-cli",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "提示缓存让Agent账单降至约四分之一",
+          "tag": "成本优化",
+          "url": "https://blog.getwerk.ai/posts/prompt-caching-a-quarter-of-the-bill",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Tadpole从零构建并在4B模型上后训练",
+          "tag": "小模型",
+          "url": "https://github.com/shakewingo/Tadpole",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Imza推出计划与评审导向编程Agent",
+          "tag": "开发工具",
+          "url": "https://github.com/umutsevdi/imza",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent将Shift_JIS页面误读为20万替换字符",
+          "tag": "Agent缺陷",
+          "url": "https://github.com/openclaw/openclaw/pull/188766",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "鸿海目标拿下全球AI服务器半壁江山",
+          "tag": "AI服务器",
+          "url": "https://www.ithome.com/1/020/627.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "石头P20 Max扫拖机器人国补后2800元",
+          "tag": "消费硬件",
+          "url": "https://www.ithome.com/1/020/619.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "DeepSeek提出Super-agent双层架构",
+          "tag": "Agent架构",
+          "url": "https://www.ithome.com/1/020/615.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔产能转向服务器CPU应对AI需求",
+          "tag": "产能调配",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "开发者用纯JS在浏览器实现486整机模拟",
+          "tag": "软件工程",
+          "url": "https://www.tomshardware.com/video-games/retro-gaming/developer-builds-a-complete-intel-486-pc-emulator-in-a-browser-100-percent-pure-javascript-retro486-includes-modular-tabs-for-screen-motherboard-storage-expansion-cards-and-more",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "长鑫4F²架构第六代DRAM完成验证",
+          "tag": "国产存储",
+          "url": "https://www.ithome.com/1/020/599.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "无界动力与京东合作机器人上岗咖啡店",
+          "tag": "具身智能",
+          "url": "https://www.ithome.com/1/020/598.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "奥尔特曼赴韩会见三星约50名高管",
+          "tag": "供应链",
+          "url": "https://www.ithome.com/1/020/597.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "玩家用废空调散热器改造PC测试台",
+          "tag": "散热方案",
+          "url": "https://www.tomshardware.com/pc-components/liquid-cooling/trashbench-repurposes-a-trash-4-kw-air-conditioner-radiator-for-his-test-bench-to-see-how-well-it-can-cool-a-pc-achieves-a-shocking-28c-on-an-nvidia-rtx-3080",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "漫步者花再联名影驰推海景房音箱",
+          "tag": "消费外设",
+          "url": "https://www.ithome.com/1/020/588.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "雷鸟AR眼镜GT京东降至1239元新低",
+          "tag": "AR硬件",
+          "url": "https://www.ithome.com/1/020/584.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "索尼招聘智能定价总监，PS商店动态定价浮现",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/020/575.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
