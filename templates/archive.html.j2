@@ -35,13 +35,35 @@
   --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
 }
 [data-theme="dark"]{
-  --paper:#1c1b19;--paper-2:#24221f;--ink:#ebe5d9;--ink-soft:#c9c2b5;
-  --muted:#918a7d;--faint:#6b655a;--line:#2f2c28;--line-strong:#443f38;
-  --red:#d4584a;--red-deep:#e88075;--red-glow:rgba(212,88,74,.22);
-  --nav-bg:rgba(28,27,25,.96);--nav-shadow:0 2px 14px rgba(0,0,0,.5);
-  --selection:rgba(212,88,74,.3);
-  --toggle-bg:#2a2825;--toggle-border:#443f38;
-  --entry-hover:rgba(212,88,74,.06);
+  /* 纸面：中性冷灰，不带黄调 */
+  --paper:#1e1f22;
+  --paper-2:#25272b;
+
+  /* 文字：暖白 + 三级灰阶，靠明度拉层级 */
+  --ink:#e8e6e1;
+  --ink-soft:#c2bfb8;
+  --muted:#8e8b85;
+  --faint:#63615c;
+
+  /* 分隔线：低对比，不抢视线 */
+  --line:#2e3035;
+  --line-strong:#3f4147;
+
+  /* 强调色：降低饱和度，从“正红”退到“砖红” */
+  --red:#c96b5a;
+  --red-deep:#dd8a7b;
+  --red-glow:rgba(201,107,90,.16);
+
+  /* 今日高亮：极淡的暖灰粉，只做“标记”不做“色块” */
+  --new-bg:#2a2524;
+
+  /* 导航与交互 */
+  --nav-bg:rgba(30,31,34,.94);
+  --nav-shadow:0 2px 18px rgba(0,0,0,.45);
+  --selection:rgba(201,107,90,.22);
+  --toggle-bg:#2a2c30;
+  --toggle-border:#3f4147;
+  --entry-hover:rgba(201,107,90,.05);
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
