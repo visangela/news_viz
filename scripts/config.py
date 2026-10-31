@@ -10,10 +10,10 @@ NEWS_HISTORY_PATH = DATA_DIR / "news_history.json"
 BOARD_STATE_PATH = DATA_DIR / "board_state.json"
 
 # 只抓取过去 N 小时内发布的资讯
-FETCH_WINDOW_HOURS = 26
+FETCH_WINDOW_HOURS = 48
 
 # 每个板块每日最多保留的新闻条数
-MAX_NEWS_PER_BOARD = 8
+MAX_NEWS_PER_BOARD = 12
 
 # news_history 保留天数
 HISTORY_RETENTION_DAYS = 60

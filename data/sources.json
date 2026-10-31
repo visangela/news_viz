@@ -51,7 +51,8 @@
       {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
       {"name": "量子位", "url": "https://www.qbitai.com/feed"},
       {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
-      {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"}
+      {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"},
+      {"name": "Hacker News Agent", "url": "https://hnrss.org/newest?q=agent"}
     ]
   },
   "hardware": {
