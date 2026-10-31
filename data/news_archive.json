@@ -1,154 +1,88 @@
 {
   "by_date": {
     "2026-10-31": {
-      "chip": [
+      "memory": [
         {
-          "title": "微软Win11搜索直连安卓应用",
-          "tag": "跨端协同",
-          "url": "https://www.ithome.com/1/020/442.htm",
+          "title": "Rufus 4.16 Beta 绕过 UEFI NTFS 漏洞",
+          "tag": "系统工具",
+          "url": "https://www.ithome.com/1/020/452.htm",
           "source": "IT之家"
         },
         {
-          "title": "英伟达CEO黄仁勋疑遭间谍渗透",
-          "tag": "出口管制",
-          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-be-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
-          "source": "Tom's Hardware"
+          "title": "Win11 26H2 预览版重构搜索与游戏模式",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/020/448.htm",
+          "source": "IT之家"
         },
         {
-          "title": "美司法部调查英伟达收购Hugging Face",
-          "tag": "反垄断",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
-          "source": "Tom's Hardware"
-        }
-      ],
-      "memory": [
-        {
-          "title": "富士胶片磁带产能拟扩五倍",
-          "tag": "存储介质",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/fujifilm-plans-5x-production-boost-of-100tb-magnetic-storage-tapes-driven-by-ai-usd63-million-injection-is-the-largest-investment-in-tape-for-20-years",
-          "source": "Tom's Hardware"
+          "title": "Win11 26H1 预览版简化搜索并升级云重建",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/020/445.htm",
+          "source": "IT之家"
         },
         {
-          "title": "GitHub因AI代码激增扩容数据中心",
-          "tag": "算力基建",
-          "url": "https://www.tomshardware.com/software/github-report-highlights-massive-influx-of-ai-generated-code-sixfold-increase-in-activity-over-one-year-required-extra-4-million-cpu-cores-and-160pb-of-storage",
-          "source": "Tom's Hardware"
-        }
-      ],
-      "llm": [
-        {
-          "title": "STEPX Neo发布两周即首次升级",
-          "tag": "AI终端",
-          "url": "https://www.qbitai.com/2026/10/506554.html",
-          "source": "量子位"
-        },
-        {
-          "title": "商汤大装置蝉联中国MaaS市场第二",
-          "tag": "MaaS市场",
-          "url": "https://www.qbitai.com/2026/10/506550.html",
-          "source": "量子位"
+          "title": "WinUI 2.6.4 降低内存占用并简化 AI 接口",
+          "tag": "开发框架",
+          "url": "https://www.ithome.com/1/020/443.htm",
+          "source": "IT之家"
         }
       ],
       "agent": [
         {
-          "title": "如何衡量编码智能体的实际效能",
-          "tag": "评测体系",
-          "url": "https://news.ycombinator.com/item?id=50312612",
+          "title": "Albedo 推出常驻智能体守护进程",
+          "tag": "智能体架构",
+          "url": "https://tangled.org/okami.mom/albedo",
           "source": "Hacker News Agent"
         },
         {
-          "title": "Governor：智能体花费与工具调用防火墙",
-          "tag": "智能体治理",
-          "url": "https://bsvkey-governor-demo.fly.dev/",
+          "title": "SolidWorks 智能体被曝扫描硬盘上传 CAD 文件",
+          "tag": "数据安全",
+          "url": "https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/",
           "source": "Hacker News Agent"
         },
         {
-          "title": "实时CVE订阅源助智能体跟进漏洞",
-          "tag": "安全情报",
-          "url": "https://casco.com/cve",
+          "title": "Smelt 发布轻量级开源编码智能体",
+          "tag": "开源工具",
+          "url": "https://smeltagent.dev",
           "source": "Hacker News Agent"
         },
         {
-          "title": "Assure：核验智能体是否谎报完成",
-          "tag": "结果核验",
-          "url": "https://github.com/mgasparin67-cmd/Agent-verification_Assure",
+          "title": "YC 游戏智能体集群揭示多智能体协作路径",
+          "tag": "多智能体",
+          "url": "https://theainewsreport.com/2026-10-30-yc-agent-swarms-minecraft-mindustry-explained.html",
           "source": "Hacker News Agent"
         },
         {
-          "title": "Fastbrowse开源低成本浏览器智能体",
-          "tag": "浏览器智能体",
-          "url": "https://www.fastbrowse.ai/",
+          "title": "开发者热议智能体上下文同步方案",
+          "tag": "上下文管理",
+          "url": "https://news.ycombinator.com/item?id=50305638",
           "source": "Hacker News Agent"
         },
         {
-          "title": "SkillWire推出编码智能体技能目录",
-          "tag": "技能生态",
-          "url": "https://skillwire.net",
+          "title": "OpenAVT 开源个人智能体语音安全方案",
+          "tag": "语音安全",
+          "url": "https://github.com/ketanbj/openavt",
           "source": "Hacker News Agent"
         },
         {
-          "title": "开发者搭建LLM蜜罐测试智能体上钩",
-          "tag": "对抗安全",
-          "url": "https://victorribeiro.com/bots/",
-          "source": "Hacker News Agent"
-        },
-        {
-          "title": "Open Agent Primitives推企业级安全运行",
-          "tag": "企业智能体",
-          "url": "https://openap.org",
-          "source": "Hacker News Agent"
-        },
-        {
-          "title": "Rust智能体工作区Palomino获关注",
-          "tag": "开发工具",
-          "url": "https://trypalomino.com/",
-          "source": "Hacker News Agent"
-        },
-        {
-          "title": "开源mobile-agent让智能体操控手机",
-          "tag": "移动智能体",
-          "url": "https://github.com/gesposito/mobile-agent",
-          "source": "Hacker News Agent"
-        },
-        {
-          "title": "国防承包商个人智能体接入五角大楼系统",
-          "tag": "安全合规",
-          "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-          "source": "Hacker News Agent"
-        },
-        {
-          "title": "EasyRE-Agent自动破解并自校验答案",
-          "tag": "逆向工程",
-          "url": "https://github.com/wojtas99/EasyRE-Agent",
+          "title": "开发者实测智能体构建商用应用的流程缺口",
+          "tag": "工程实践",
+          "url": "https://nomorehappypath.com/",
           "source": "Hacker News Agent"
         }
       ],
       "hardware": [
         {
-          "title": "英伟达CEO黄仁勋疑遭间谍渗透",
-          "tag": "出口管制",
-          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-be-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
-          "source": "Tom's Hardware"
+          "title": "Anthropic 招股书暴露近 9000 亿美元隐性债务",
+          "tag": "AI 基建",
+          "url": "https://www.ithome.com/1/020/444.htm",
+          "source": "IT之家"
         },
         {
-          "title": "美司法部调查英伟达收购Hugging Face",
-          "tag": "反垄断",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Alienware RTX 5070 Ti整机降价1250美元",
-          "tag": "消费硬件",
-          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-huge-usd1-250-saving-on-this-alienware-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-big-newegg-price-drop-means-you-can-grab-this-4k-ready-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-599-99",
-          "source": "Tom's Hardware"
-        }
-      ],
-      "drama": [
-        {
-          "title": "Genspark视频Agent上线可零基础拍短剧",
-          "tag": "视频生成",
-          "url": "https://www.qbitai.com/2026/10/506478.html",
-          "source": "量子位"
+          "title": "WinUI 2.6.4 简化端侧 AI 模型调用",
+          "tag": "端侧 AI",
+          "url": "https://www.ithome.com/1/020/443.htm",
+          "source": "IT之家"
         }
       ]
     }

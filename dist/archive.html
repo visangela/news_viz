@@ -34,37 +34,62 @@
   --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
   --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
 }
+
 [data-theme="dark"]{
-  /* 纸面：中性冷灰，不带黄调 */
-  --paper:#1e1f22;
-  --paper-2:#25272b;
+  /* === GitHub Soft Dark === */
+  /* 纸面：蓝调深灰，GitHub Dark Dimmed canvas */
+  --paper:#22272e;
+  --paper-2:#2d333b;
 
-  /* 文字：暖白 + 三级灰阶，靠明度拉层级 */
-  --ink:#e8e6e1;
-  --ink-soft:#c2bfb8;
-  --muted:#8e8b85;
-  --faint:#63615c;
+  /* 文字：三级明度，全部蓝调灰 */
+  --ink:#cdd9e5;
+  --ink-soft:#adbac7;
+  --muted:#768390;
+  --faint:#636e7b;
 
-  /* 分隔线：低对比，不抢视线 */
-  --line:#2e3035;
-  --line-strong:#3f4147;
+  /* 分隔线 */
+  --line:#373e47;
+  --line-strong:#444c56;
 
-  /* 强调色：降低饱和度，从“正红”退到“砖红” */
-  --red:#c96b5a;
-  --red-deep:#dd8a7b;
-  --red-glow:rgba(201,107,90,.16);
+  /* 强调色：GitHub danger */
+  --red:#e5534b;
+  --red-deep:#f47c74;
+  --red-glow:rgba(229,83,75,.15);
 
-  /* 今日高亮：极淡的暖灰粉，只做“标记”不做“色块” */
-  --new-bg:#2a2524;
+  /* 今日高亮：比 paper 亮一档，几乎察觉不到 */
+  --new-bg:#262c34;
 
-  /* 导航与交互 */
-  --nav-bg:rgba(30,31,34,.94);
-  --nav-shadow:0 2px 18px rgba(0,0,0,.45);
-  --selection:rgba(201,107,90,.22);
-  --toggle-bg:#2a2c30;
-  --toggle-border:#3f4147;
-  --entry-hover:rgba(201,107,90,.05);
+  /* 导航 */
+  --nav-bg:rgba(34,39,46,.94);
+  --nav-shadow:0 2px 16px rgba(1,4,9,.45);
+
+  /* 选中 */
+  --selection:rgba(229,83,75,.22);
+
+  /* Toggle */
+  --toggle-bg:#2d333b;
+  --toggle-border:#444c56;
+
+  /* 归档页 hover */
+  --entry-hover:rgba(229,83,75,.05);
 }
+
+/* 深色下：让日期和 NEW 徽章承担今日标记职责，去掉色块 */
+[data-theme="dark"] .news.is-new{
+  background:transparent;
+  margin:0;
+  padding:20px 0;
+  border-top-color:var(--line);
+  border-radius:0;
+}
+[data-theme="dark"] .news.is-new:first-of-type{padding-top:0;}
+
+/* 深色下：正文强调高亮压到几乎不可见，避免打断阅读 */
+[data-theme="dark"] .analysis strong,
+[data-theme="dark"] .lede strong{
+  background:linear-gradient(180deg,transparent 64%,rgba(229,83,75,.08) 64%);
+}
+
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{
@@ -324,7 +349,7 @@ footer{
   </div>
   <h1>历史资讯归档<span>PAST BRIEFS · QUICK RECAP</span></h1>
   <div class="masthead-bottom">
-    <span class="stats">共 <b>23</b> 条历史资讯 · 覆盖 <b>2026-10-31 至 2026-10-31</b></span>
+    <span class="stats">共 <b>13</b> 条历史资讯 · 覆盖 <b>2026-10-31 至 2026-10-31</b></span>
     <span class="date">2026 年 10 月 31 日　星期六</span>
   </div>
 </header>
@@ -355,229 +380,165 @@ footer{
   </aside>
 
   
-  <section id="chip" class="archive-board" style="--c-light:#2a4d69;--c-dark:#7da8c4">
+  <section id="chip" class="archive-board" style="--c-light:#2a4d69;--c-dark:#539bf5">
     <div class="archive-board-head">
       <span class="archive-board-num">01</span>
       <span class="archive-board-name">芯片与半导体</span>
-      <span class="archive-board-count"><b>3</b> 条</span>
+      <span class="archive-board-count"><b>0</b> 条</span>
     </div>
     <div class="archive-list">
       
-      <a class="entry" href="https://www.ithome.com/1/020/442.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">跨端协同</span>
-        <span class="entry-title">微软Win11搜索直连安卓应用</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-be-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">出口管制</span>
-        <span class="entry-title">英伟达CEO黄仁勋疑遭间谍渗透</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">反垄断</span>
-        <span class="entry-title">美司法部调查英伟达收购Hugging Face</span>
-        <span class="entry-arrow">↗</span>
-      </a>
+      <div class="archive-empty">本板块暂无历史资讯。</div>
       
     </div>
   </section>
   
-  <section id="memory" class="archive-board" style="--c-light:#9c2b22;--c-dark:#d18b7f">
+  <section id="memory" class="archive-board" style="--c-light:#9c2b22;--c-dark:#e0823d">
     <div class="archive-board-head">
       <span class="archive-board-num">02</span>
       <span class="archive-board-name">存储</span>
-      <span class="archive-board-count"><b>2</b> 条</span>
+      <span class="archive-board-count"><b>4</b> 条</span>
     </div>
     <div class="archive-list">
       
-      <a class="entry" href="https://www.tomshardware.com/tech-industry/data-centers/fujifilm-plans-5x-production-boost-of-100tb-magnetic-storage-tapes-driven-by-ai-usd63-million-injection-is-the-largest-investment-in-tape-for-20-years" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+      <a class="entry" href="https://www.ithome.com/1/020/452.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
         <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">存储介质</span>
-        <span class="entry-title">富士胶片磁带产能拟扩五倍</span>
+        <span class="entry-tag">系统工具</span>
+        <span class="entry-title">Rufus 4.16 Beta 绕过 UEFI NTFS 漏洞</span>
         <span class="entry-arrow">↗</span>
       </a>
       
-      <a class="entry" href="https://www.tomshardware.com/software/github-report-highlights-massive-influx-of-ai-generated-code-sixfold-increase-in-activity-over-one-year-required-extra-4-million-cpu-cores-and-160pb-of-storage" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+      <a class="entry" href="https://www.ithome.com/1/020/448.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
         <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">算力基建</span>
-        <span class="entry-title">GitHub因AI代码激增扩容数据中心</span>
+        <span class="entry-tag">操作系统</span>
+        <span class="entry-title">Win11 26H2 预览版重构搜索与游戏模式</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/445.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">操作系统</span>
+        <span class="entry-title">Win11 26H1 预览版简化搜索并升级云重建</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/443.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">开发框架</span>
+        <span class="entry-title">WinUI 2.6.4 降低内存占用并简化 AI 接口</span>
         <span class="entry-arrow">↗</span>
       </a>
       
     </div>
   </section>
   
-  <section id="llm" class="archive-board" style="--c-light:#5b4b6e;--c-dark:#a99bc4">
+  <section id="llm" class="archive-board" style="--c-light:#5b4b6e;--c-dark:#b083f0">
     <div class="archive-board-head">
       <span class="archive-board-num">03</span>
       <span class="archive-board-name">AI 大模型</span>
+      <span class="archive-board-count"><b>0</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <div class="archive-empty">本板块暂无历史资讯。</div>
+      
+    </div>
+  </section>
+  
+  <section id="agent" class="archive-board" style="--c-light:#4a5d43;--c-dark:#57ab5a">
+    <div class="archive-board-head">
+      <span class="archive-board-num">04</span>
+      <span class="archive-board-name">AI 应用与 Agent</span>
+      <span class="archive-board-count"><b>7</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <a class="entry" href="https://tangled.org/okami.mom/albedo" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">智能体架构</span>
+        <span class="entry-title">Albedo 推出常驻智能体守护进程</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.reddit.com/r/SolidWorks/comments/1xjhrvz/psa_mecagent_ai_agent_for_solidworks_scans_your/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">数据安全</span>
+        <span class="entry-title">SolidWorks 智能体被曝扫描硬盘上传 CAD 文件</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://smeltagent.dev" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">开源工具</span>
+        <span class="entry-title">Smelt 发布轻量级开源编码智能体</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://theainewsreport.com/2026-10-30-yc-agent-swarms-minecraft-mindustry-explained.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">多智能体</span>
+        <span class="entry-title">YC 游戏智能体集群揭示多智能体协作路径</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://news.ycombinator.com/item?id=50305638" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">上下文管理</span>
+        <span class="entry-title">开发者热议智能体上下文同步方案</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://github.com/ketanbj/openavt" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">语音安全</span>
+        <span class="entry-title">OpenAVT 开源个人智能体语音安全方案</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://nomorehappypath.com/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">工程实践</span>
+        <span class="entry-title">开发者实测智能体构建商用应用的流程缺口</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="hardware" class="archive-board" style="--c-light:#3d5a5c;--c-dark:#39c5cf">
+    <div class="archive-board-head">
+      <span class="archive-board-num">05</span>
+      <span class="archive-board-name">AI 硬件</span>
       <span class="archive-board-count"><b>2</b> 条</span>
     </div>
     <div class="archive-list">
       
-      <a class="entry" href="https://www.qbitai.com/2026/10/506554.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
+      <a class="entry" href="https://www.ithome.com/1/020/444.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
         <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">AI终端</span>
-        <span class="entry-title">STEPX Neo发布两周即首次升级</span>
+        <span class="entry-tag">AI 基建</span>
+        <span class="entry-title">Anthropic 招股书暴露近 9000 亿美元隐性债务</span>
         <span class="entry-arrow">↗</span>
       </a>
       
-      <a class="entry" href="https://www.qbitai.com/2026/10/506550.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
+      <a class="entry" href="https://www.ithome.com/1/020/443.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
         <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">MaaS市场</span>
-        <span class="entry-title">商汤大装置蝉联中国MaaS市场第二</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-    </div>
-  </section>
-  
-  <section id="agent" class="archive-board" style="--c-light:#4a5d43;--c-dark:#8fb883">
-    <div class="archive-board-head">
-      <span class="archive-board-num">04</span>
-      <span class="archive-board-name">AI 应用与 Agent</span>
-      <span class="archive-board-count"><b>12</b> 条</span>
-    </div>
-    <div class="archive-list">
-      
-      <a class="entry" href="https://news.ycombinator.com/item?id=50312612" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">评测体系</span>
-        <span class="entry-title">如何衡量编码智能体的实际效能</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://bsvkey-governor-demo.fly.dev/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">智能体治理</span>
-        <span class="entry-title">Governor：智能体花费与工具调用防火墙</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://casco.com/cve" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">安全情报</span>
-        <span class="entry-title">实时CVE订阅源助智能体跟进漏洞</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://github.com/mgasparin67-cmd/Agent-verification_Assure" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">结果核验</span>
-        <span class="entry-title">Assure：核验智能体是否谎报完成</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.fastbrowse.ai/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">浏览器智能体</span>
-        <span class="entry-title">Fastbrowse开源低成本浏览器智能体</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://skillwire.net" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">技能生态</span>
-        <span class="entry-title">SkillWire推出编码智能体技能目录</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://victorribeiro.com/bots/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">对抗安全</span>
-        <span class="entry-title">开发者搭建LLM蜜罐测试智能体上钩</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://openap.org" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">企业智能体</span>
-        <span class="entry-title">Open Agent Primitives推企业级安全运行</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://trypalomino.com/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">开发工具</span>
-        <span class="entry-title">Rust智能体工作区Palomino获关注</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://github.com/gesposito/mobile-agent" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">移动智能体</span>
-        <span class="entry-title">开源mobile-agent让智能体操控手机</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">安全合规</span>
-        <span class="entry-title">国防承包商个人智能体接入五角大楼系统</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://github.com/wojtas99/EasyRE-Agent" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">逆向工程</span>
-        <span class="entry-title">EasyRE-Agent自动破解并自校验答案</span>
+        <span class="entry-tag">端侧 AI</span>
+        <span class="entry-title">WinUI 2.6.4 简化端侧 AI 模型调用</span>
         <span class="entry-arrow">↗</span>
       </a>
       
     </div>
   </section>
   
-  <section id="hardware" class="archive-board" style="--c-light:#3d5a5c;--c-dark:#7fb8bb">
-    <div class="archive-board-head">
-      <span class="archive-board-num">05</span>
-      <span class="archive-board-name">AI 硬件</span>
-      <span class="archive-board-count"><b>3</b> 条</span>
-    </div>
-    <div class="archive-list">
-      
-      <a class="entry" href="https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-be-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">出口管制</span>
-        <span class="entry-title">英伟达CEO黄仁勋疑遭间谍渗透</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">反垄断</span>
-        <span class="entry-title">美司法部调查英伟达收购Hugging Face</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-      <a class="entry" href="https://www.tomshardware.com/desktops/gaming-pcs/score-a-huge-usd1-250-saving-on-this-alienware-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-big-newegg-price-drop-means-you-can-grab-this-4k-ready-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-599-99" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">消费硬件</span>
-        <span class="entry-title">Alienware RTX 5070 Ti整机降价1250美元</span>
-        <span class="entry-arrow">↗</span>
-      </a>
-      
-    </div>
-  </section>
-  
-  <section id="drama" class="archive-board" style="--c-light:#8a6d3b;--c-dark:#cfb07a">
+  <section id="drama" class="archive-board" style="--c-light:#8a6d3b;--c-dark:#c69026">
     <div class="archive-board-head">
       <span class="archive-board-num">06</span>
       <span class="archive-board-name">AI 短剧</span>
-      <span class="archive-board-count"><b>1</b> 条</span>
+      <span class="archive-board-count"><b>0</b> 条</span>
     </div>
     <div class="archive-list">
       
-      <a class="entry" href="https://www.qbitai.com/2026/10/506478.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
-        <span class="entry-date">10.31<span class="yr">2026</span></span>
-        <span class="entry-tag">视频生成</span>
-        <span class="entry-title">Genspark视频Agent上线可零基础拍短剧</span>
-        <span class="entry-arrow">↗</span>
-      </a>
+      <div class="archive-empty">本板块暂无历史资讯。</div>
       
     </div>
   </section>
