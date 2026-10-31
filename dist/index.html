@@ -147,6 +147,14 @@ a{color:inherit;text-decoration:none;}
 .nav a:hover{color:var(--ink);}
 .nav a.active{color:var(--ink);font-weight:600;}
 .nav a.active::after{transform:scaleX(1);}
+.nav a.nav-archive{
+  margin-left:8px;
+  color:var(--red);
+  border-left:1px solid var(--line-strong);
+  padding-left:20px;
+}
+.nav a.nav-archive::after{display:none;}
+.nav a.nav-archive:hover{color:var(--red-deep);}
 
 .theme-toggle{
   flex:0 0 auto;
@@ -512,6 +520,7 @@ footer{
       <a href="#chip">芯片与半导体</a><a href="#memory">存储</a><a href="#llm">AI 大模型</a><a href="#agent">AI 应用与 Agent</a><a href="#hardware">AI 硬件</a><a href="#drama">AI 短剧</a>
       <a href="#linkage">板块联动</a>
       <a href="#summary">总结</a>
+      <a href="archive.html" class="nav-archive">归档 →</a>
     </div>
     <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深浅模式" title="切换深浅模式">
       <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -530,7 +539,7 @@ footer{
 
   <aside class="lede">
     <span class="lede-label">一句话判断</span>
-    <p>今日的全局信号是供给端物理性中断与需求端周期下行在同一天共振：英特尔Fab 28爆炸停产两周、损失约6亿美元，与其PC业务悲观指引引发的半导体单日约1万亿美元市值蒸发叠加，芯片板块呈现供给双杀；同一事故波及存储板块的服务器CPU—内存配比计划，英伟达下架RTX 5080、零售价升至MSRP 2.2倍则让AI硬件的高端GPU官方渠道缺位从旗舰蔓延至次旗舰。三条线索共同指向：本轮AI产业链的约束已从需求不足切换为可交付产能不足，而智能体侧的你画我猜演示则提示应用层仍在低成本试错阶段，尚未形成对上游产能的真实拉动。</p>
+    <p>今日六大板块的共同信号是：AI 产业的竞争重心正从模型能力与单点技术突破，转向资本耐力、供应链分层与生态合规的综合较量。芯片板块华为以麒麟9025、8000S、8020A、8020四款自研SoC同日覆盖1399元至5199元价位，证明自研闭环已具备分层供货能力；存储板块虽标注需求端承压，但荣耀WIN平板、华为畅享100、宏碁战斧9 Neo三款新品同日首销且全部叠加国补，显示高端配置正被压向中低价位；AI硬件板块苹果智能入华接入阿里千问、实时翻译下放AirPods，标志外资AI服务在华必须借本土模型落地的合规范式被系统级确认；大模型板块Anthropic IPO后预计获高垃圾级评级，则把烧钱模式首次用债券市场语言定价。三条线索交汇于同一判断：产业竞争壁垒正从技术领先转向资本、供应链与合规的综合耐力。</p>
   </aside>
 
   <section id="overview">
@@ -539,31 +548,31 @@ footer{
       <a class="toc-item" href="#chip" style="--c-light:#2a4d69;--c-dark:#82b0d0">
         <span class="toc-num">01</span>
         <span class="toc-name">芯片与半导体</span>
-        <span class="toc-status">供给双杀承压</span>
+        <span class="toc-status">自研闭环提速</span>
       </a>
       
       <a class="toc-item" href="#memory" style="--c-light:#9c2b22;--c-dark:#e5897a">
         <span class="toc-num">02</span>
         <span class="toc-name">存储</span>
-        <span class="toc-status">供给双重挤压</span>
+        <span class="toc-status">需求端承压</span>
       </a>
       
       <a class="toc-item" href="#llm" style="--c-light:#5b4b6e;--c-dark:#b0a0c8">
         <span class="toc-num">03</span>
         <span class="toc-name">AI 大模型</span>
-        <span class="toc-status">今日无新增</span>
+        <span class="toc-status">融资环境收紧</span>
       </a>
       
       <a class="toc-item" href="#agent" style="--c-light:#4a5d43;--c-dark:#9dc088">
         <span class="toc-num">04</span>
         <span class="toc-name">AI 应用与 Agent</span>
-        <span class="toc-status">能力观测窗口</span>
+        <span class="toc-status">今日无新增</span>
       </a>
       
       <a class="toc-item" href="#hardware" style="--c-light:#3d5a5c;--c-dark:#89c2c5">
         <span class="toc-num">05</span>
         <span class="toc-name">AI 硬件</span>
-        <span class="toc-status">供给双杀承压</span>
+        <span class="toc-status">生态入口争夺</span>
       </a>
       
       <a class="toc-item" href="#drama" style="--c-light:#8a6d3b;--c-dark:#dbb877">
@@ -580,45 +589,105 @@ footer{
     <div class="board-meta">
       <span class="board-num">01</span>
       <span class="board-kicker">芯片与半导体</span>
-      <span class="board-status">供给双杀承压</span>
+      <span class="board-status">自研闭环提速</span>
     </div>
-    <h2 class="board-headline">芯片与半导体 · 供给双杀承压</h2>
+    <h2 class="board-headline">芯片与半导体 · 自研闭环提速</h2>
     <div class="board-body">
       <div class="col col--news">
         <span class="col-label">最新资讯</span>
         
         <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div class="news-date">10.31<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">显卡供给</span><span class="news-badge">NEW</span>
-            <h3>英伟达下架RTX 5080，零售价飙至MSRP 2.2倍</h3>
-            <p>继RTX 5090之后，英伟达又悄然从官方商城下架RTX 5080，零售市场现货价格已涨至建议零售价的2.2倍。官方渠道连续撤下高端显卡，反映供给端严重吃紧，渠道溢价失控将推高整机与AI工作站成本，也加剧玩家与小型算力用户对显卡可得性的担忧。</p>
+            <span class="news-tag">自研芯片</span><span class="news-badge">NEW</span>
+            <h3>华为Pura 90 Plus开售首发麒麟9025</h3>
+            <p>华为Pura 90 Plus于10月31日开售，焕新优惠价5199元起，首发搭载麒麟9025芯片，配1英寸5000万像素主摄、5700mAh电池与100W快充。麒麟新芯片下放至旗舰影像机型，显示华为自研SoC迭代节奏稳定，并在双十一节点以价格优惠争夺高端市场。</p>
             <div class="news-source">来源：
-              <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp" target="_blank" rel="noopener noreferrer" title="英伟达下架RTX 5080，零售价飙至MSRP 2.2倍">Tom's Hardware</a>
+              <a href="https://www.ithome.com/1/020/423.htm" target="_blank" rel="noopener noreferrer" title="华为Pura 90 Plus开售首发麒麟9025">IT之家</a>
             </div>
           </div>
         </article>
         
         <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div class="news-date">10.31<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">财报</span><span class="news-badge">NEW</span>
-            <h3>英特尔PC业务预警，半导体单日蒸发1万亿美元市值</h3>
-            <p>英特尔对PC业务给出悲观展望，引发半导体板块单日合计蒸发约1万亿美元市值，苹果几乎未受影响。PC需求疲软叠加自身制程与产能问题，使英特尔成为拖累整个芯片股的情绪引爆点，市场开始重新定价传统PC链条的周期下行风险。</p>
+            <span class="news-tag">影像技术</span><span class="news-badge">NEW</span>
+            <h3>荣耀称将推阿莱拍照模式与Robot Phone二代</h3>
+            <p>荣耀首席影像工程师罗巍透露，将与阿莱合作推出基于LogC曲线与RAW信号重构的全新拍照模式，并预告Robot Phone二代及两款创新形态产品。手机厂商借电影级影像差异化竞争，AI重构成像流程或成高端影像新战场。</p>
             <div class="news-source">来源：
-              <a href="https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed" target="_blank" rel="noopener noreferrer" title="英特尔PC业务预警，半导体单日蒸发1万亿美元市值">Tom's Hardware</a>
+              <a href="https://www.ithome.com/1/020/419.htm" target="_blank" rel="noopener noreferrer" title="荣耀称将推阿莱拍照模式与Robot Phone二代">IT之家</a>
             </div>
           </div>
         </article>
         
         <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div class="news-date">10.31<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">晶圆产能</span><span class="news-badge">NEW</span>
-            <h3>英特尔以色列Fab 28爆炸停产两周，损失约6亿美元</h3>
-            <p>英特尔CFO在财报电话会上称，10月14日基里亚特加特Fab 28爆炸致2死1重伤，工厂停产约两周，预计Q4与2027年Q1各减收约3亿美元，合计约6亿美元。损失几乎全部集中在10nm级服务器产品，Q4毛利率将因此下降约200个基点，出货影响延续至2027年初。</p>
+            <span class="news-tag">折叠屏</span><span class="news-badge">NEW</span>
+            <h3>三星广告再讽苹果折叠iPhone Duo</h3>
+            <p>三星发布多轮广告，以切片青苹果和屏幕亮线图片调侃苹果首款折叠机iPhone Duo，并对比Galaxy Z Fold8在厚度与重量上的优势。折叠屏进入苹果入局前的舆论预热期，三星借先发经验抢占心智，折叠供应链竞争将升温。</p>
             <div class="news-source">来源：
-              <a href="https://www.ithome.com/1/020/385.htm" target="_blank" rel="noopener noreferrer" title="英特尔以色列Fab 28爆炸停产两周，损失约6亿美元">IT之家</a>
+              <a href="https://www.ithome.com/1/020/417.htm" target="_blank" rel="noopener noreferrer" title="三星广告再讽苹果折叠iPhone Duo">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">中端手机</span>
+            <h3>华为畅享100系列首销1399元起</h3>
+            <p>华为畅享100系列于10月31日首销，1399元起，分别搭载麒麟8000S、8020A、8020处理器，预装HarmonyOS 7。麒麟芯片覆盖千元至中端价位，显示华为芯片供给能力恢复，并以鸿蒙生态加速下沉市场渗透。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/414.htm" target="_blank" rel="noopener noreferrer" title="华为畅享100系列首销1399元起">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">游戏本</span>
+            <h3>宏碁战斧9 Neo新配置12999元开售</h3>
+            <p>宏碁掠夺者战斧9 Neo新增i7-14650HX加RTX 5070 12GB配置，补贴后12999元，整机性能释放175W，配16英寸2.5K 180Hz屏。RTX 50系笔记本GPU加速铺货，游戏本进入新平台换代周期，双十一补贴刺激换机需求。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="宏碁战斧9 Neo新配置12999元开售">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">AI战略</span>
+            <h3>苹果CEO称绝不为了AI而做AI</h3>
+            <p>苹果CEO特努斯接受《连线》采访，强调苹果不会为AI而AI，AI应隐身于体验，成为像芯片和屏幕一样的底层能力，公司也不会转型为AI模型公司。该表态明确苹果以硬件与产品体验为核心的路线，与激进AI叙事形成对照。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/409.htm" target="_blank" rel="noopener noreferrer" title="苹果CEO称绝不为了AI而做AI">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">车规芯片</span>
+            <h3>吉利回应星舰7车机芯片与宣传不符</h3>
+            <p>针对2025款银河星舰7车主投诉车机实装亿咖通E02而非宣传的龙鹰一号，吉利银河称已启动E02升级E04的专项技术评估，并提供车机延保5年与复购券。车规芯片宣传合规问题凸显，智能座舱硬件透明度受监管与舆论关注。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/407.htm" target="_blank" rel="noopener noreferrer" title="吉利回应星舰7车机芯片与宣传不符">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">市值排名</span>
+            <h3>苹果收盘市值5.03万亿美元反超英伟达</h3>
+            <p>10月30日美股收盘，苹果市值5.03万亿美元，反超英伟达的4.93万亿美元，重夺全球市值最高上市公司。英伟达单日跌4.2%而苹果仅跌1.2%，反映市场在AI算力高估值与硬件消费基本盘之间重新权衡。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/404.htm" target="_blank" rel="noopener noreferrer" title="苹果收盘市值5.03万亿美元反超英伟达">IT之家</a>
             </div>
           </div>
         </article>
@@ -628,11 +697,11 @@ footer{
         <span class="col-label">深度解析</span>
         <div class="analysis">
           <h4>解析</h4>
-          <p>今日最值得注意的信号是英特尔PC业务悲观指引引发半导体板块单日蒸发约1万亿美元市值，叠加其以色列Fab 28爆炸停产两周、损失约6亿美元，两件事在同一天指向同一结构性问题：传统芯片巨头的产能与需求两端同时失血。市值蒸发并非单纯情绪反应，而是市场开始把PC链条的周期下行与晶圆产能的物理性中断分开定价——前者是需求侧收缩，后者是不可替代产能的硬缺口，二者叠加意味着英特尔既无法用产能弹性对冲需求下滑，也难以用需求回暖掩盖供给损失，其作为板块情绪锚的稳定性正在下降。</p><p>与近7日判断对照，这是明显的转折而非延续：此前板块主线是国产闭环加速与算力架构重构，讨论焦点在增量机会；今日则转向存量供给的脆弱性。英伟达连续下架RTX 5090与5080、渠道价达MSRP 2.2倍，与英特尔Fab 28停产形成呼应——高端GPU与服务器CPU两条关键供给链同时收紧，而苹果几乎未受波及，说明拥有自有制程与垂直整合能力的厂商正在获得相对优势。产业链博弈的核心已从谁拿到更多AI订单，转为谁掌握不可替代的产能与议价权，缺乏自有产能的整机与云厂商将被迫承担双重成本传导。</p><p>中期看，2027年前半导体板块将呈现供给约束主导的分化格局。英特尔的10nm级服务器产品出货影响延续至2027年初，叠加存储涨价周期预计持续至2027年上半年，数据中心整机的CPU与内存两大成本项同步抬升，云厂商资本开支节奏可能被迫放缓或向自研芯片倾斜。英伟达高端显卡的渠道溢价若不能通过增产缓解，小型算力用户与AI工作站市场将被挤出，需求向租赁与云端集中。具备自有晶圆产能、先进封装与垂直整合能力的厂商将在这一轮供给收缩中扩大份额，而依赖外部代工的中小玩家面临被出清的风险。</p><p>长期看，2028年后这轮供给冲击将加速半导体产业的结构性重组。晶圆厂事故与地缘风险暴露了单点产能的不可替代性，推动头部厂商从追求极致制程转向产能冗余与地理分散布局，先进封装与成熟制程的价值将被重新评估。英伟达向CPU延伸、云厂商自研芯片、国产供应链闭环三条路径会同时挤压传统IDM的中间地带，英特尔的角色可能从制程引领者退化为特定市场的产能提供方。AI算力的竞争终局不再是单点性能，而是产能韧性、互联效率与供应链可控性的综合较量，供给安全将取代成本效率成为产业布局的首要变量。</p>
+          <p>今日最值得注意的信号是华为在同一时点用麒麟9025、麒麟8000S、8020A、8020四款芯片覆盖5199元旗舰影像机到1399元千元机，且新芯优先下放至Pura 90 Plus这类走量影像旗舰。这不是单款产品发布，而是自研SoC从单点突破转为分层供货能力的公开证明：只有设计、代工、封测与产能规划形成稳定节奏，厂商才敢在双十一价格战中同时铺开高中低三档。其结构性含义是华为已把芯片不确定性转化为可定价、可排期的产品资产，国产供应链的议价基础从能用转向可承诺。</p><p>与近期趋势相比，这是10月30日官方文档标注麒麟9000S之后国产闭环叙事的延续而非转折，但推进方式已从口径确认升级为产品矩阵落地，节奏明显加快。产业链博弈随之位移：华为以自研芯片加鸿蒙生态在千元档挤压高通中低端出货空间，同时用影像旗舰守住高端价位；苹果CEO强调AI隐身于芯片与屏幕的底层能力，与华为把芯片型号做成显性卖点形成路线分野。叠加苹果市值反超英伟达，市场正把估值锚从算力叙事部分移回硬件消费基本盘，终端SoC的自主可控重新成为定价变量。</p>
         </div>
         <div class="analysis analysis--outlook">
           <h4>展望</h4>
-          
+          <p>中期看，2027年前国产SoC的竞争焦点将从制程节点转向产能与产品分层能力：能否在旗舰、影像、中端、千元四条线同时稳定供货，决定华为能否把国内份额转化为可持续的生态壁垒。风险在于先进制程产能爬坡与良率波动，一旦某档位断供，鸿蒙下沉策略将出现缺口。同时车规芯片宣传合规事件提示，芯片型号正从技术参数变为消费者权益与监管对象，透明标注或成行业硬约束，夸大宣传的合规成本上升。</p><p>长期看，2028年后手机芯片的竞争维度将从单点算力转向芯片、操作系统与影像管线的一体化协同，自研SoC加自研系统的垂直整合者将获得成本与体验的双重优势，通用芯片供应商在中低端的空间被持续压缩。折叠屏与AI重构成像会成为新的差异化战场，芯片需为多模态传感与端侧推理预留架构余量。国产供应链的成熟度将决定全球高端手机格局是否从双寡头走向三极，而车规与边缘侧芯片的合规透明度将成为跨行业复用的前置条件。</p>
         </div>
       </div>
     </div>
@@ -642,21 +711,93 @@ footer{
     <div class="board-meta">
       <span class="board-num">02</span>
       <span class="board-kicker">存储</span>
-      <span class="board-status">供给双重挤压</span>
+      <span class="board-status">需求端承压</span>
     </div>
-    <h2 class="board-headline">存储 · 供给双重挤压</h2>
+    <h2 class="board-headline">存储 · 需求端承压</h2>
     <div class="board-body">
       <div class="col col--news">
         <span class="col-label">最新资讯</span>
         
         <article class="news is-new">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">平板电脑</span><span class="news-badge">NEW</span>
+            <h3>荣耀WIN平板首销3699元起配240Hz屏</h3>
+            <p>荣耀WIN平板10月31日首销，国补到手价3699元起，搭载8.4英寸240Hz OLED屏与第五代骁龙8至尊版，配10000mAh电池和双VC风冷。高刷电竞平板切入细分市场，国补与首销优惠叠加推动高端安卓平板放量。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/425.htm" target="_blank" rel="noopener noreferrer" title="荣耀WIN平板首销3699元起配240Hz屏">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news is-new">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">中端手机</span><span class="news-badge">NEW</span>
+            <h3>华为畅享100系列首销1399元起</h3>
+            <p>华为畅享100系列于10月31日首销，1399元起，分别搭载麒麟8000S、8020A、8020处理器，预装HarmonyOS 7。麒麟芯片覆盖千元至中端价位，显示华为芯片供给能力恢复，并以鸿蒙生态加速下沉市场渗透。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/414.htm" target="_blank" rel="noopener noreferrer" title="华为畅享100系列首销1399元起">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news is-new">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">游戏本</span><span class="news-badge">NEW</span>
+            <h3>宏碁战斧9 Neo新配置12999元开售</h3>
+            <p>宏碁掠夺者战斧9 Neo新增i7-14650HX加RTX 5070 12GB配置，补贴后12999元，整机性能释放175W，配16英寸2.5K 180Hz屏。RTX 50系笔记本GPU加速铺货，游戏本进入新平台换代周期，双十一补贴刺激换机需求。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="宏碁战斧9 Neo新配置12999元开售">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">开源兼容层</span>
+            <h3>Wine 11.21发布提升Linux游戏性能</h3>
+            <p>Wine项目发布11.21版本，重点提升WoW64模式下OpenGL性能，修复20个影响游戏与应用的错误，并初步实现Voice Capture DSP库。Linux兼容层持续改善游戏体验，为脱离Windows的PC游戏生态与掌机平台积累基础。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/405.htm" target="_blank" rel="noopener noreferrer" title="Wine 11.21发布提升Linux游戏性能">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
           <div class="news-date">10.30<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">服务器供给</span><span class="news-badge">NEW</span>
-            <h3>英特尔Fab 28爆炸停产，服务器芯片供给承压</h3>
-            <p>Fab 28爆炸停产约两周，经济损失几乎全部指向10nm级服务器产品，Q4毛利率预计下滑约200个基点，晶圆报废集中在2026年Q4确认。该厂本周末前后才恢复生产，至强系列供给与交付节奏将受扰动，也给服务器内存与整机配套需求带来短期不确定性。</p>
+            <span class="news-tag">AI入华</span>
+            <h3>苹果智能入华接入千问11月4日测试</h3>
+            <p>苹果宣布首批Apple智能功能11月4日随iOS开发者Beta在中国开放测试，12月随iOS 27.3推送，Siri、写作工具与视觉智能接入阿里千问。外资AI服务落地需本土模型合作，苹果在华AI体验补齐，阿里大模型获生态级入口。</p>
             <div class="news-source">来源：
-              <a href="https://www.ithome.com/1/020/385.htm" target="_blank" rel="noopener noreferrer" title="英特尔Fab 28爆炸停产，服务器芯片供给承压">IT之家</a>
+              <a href="https://www.ithome.com/1/020/401.htm" target="_blank" rel="noopener noreferrer" title="苹果智能入华接入千问11月4日测试">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">长时储能</span>
+            <h3>我国60兆瓦液态空气储能并网发电</h3>
+            <p>全球最大规模60兆瓦液态空气储能国家示范项目在青海格尔木并网发电，设备国产化率100%，全年输电量约1.8亿度。长时储能技术实现工程化与商业化突破，为新能源消纳提供不依赖化学电池的新路径。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/399.htm" target="_blank" rel="noopener noreferrer" title="我国60兆瓦液态空气储能并网发电">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">操作系统</span>
+            <h3>微软Win11预览版升级搜索操作能力</h3>
+            <p>微软向Beta与Experimental频道推送多个Win11预览版，搜索可直接调节音量、亮度与光标大小，并支持通过Phone Link拨打电话与发短信。系统搜索向可执行操作入口演进，AI与系统级交互融合成为操作系统竞争焦点。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/388.htm" target="_blank" rel="noopener noreferrer" title="微软Win11预览版升级搜索操作能力">IT之家</a>
             </div>
           </div>
         </article>
@@ -666,11 +807,11 @@ footer{
         <span class="col-label">深度解析</span>
         <div class="analysis">
           <h4>解析</h4>
-          <p>今日最值得注意的信号是英特尔Fab 28爆炸停产的损失几乎全部落在10nm级服务器产品上，Q4毛利率预计下滑约200个基点，晶圆报废在Q4确认。这不是一次普通的产线事故，而是不可替代产能的物理性中断：至强供给与交付节奏受扰，直接打乱服务器整机的CPU—内存配比计划。其结构性含义在于，存储板块的需求信号正被上游供给噪声污染——服务器内存的配套拉货节奏将随CPU到货节奏波动，短期订单能见度下降，原厂对服务器客户的议价窗口反而因整机厂缺芯而收窄。</p><p>这与近两日判断形成延续而非转折：昨日存储板块的核心叙事是涨价压制终端需求，今日则叠加了CPU端的物理性断供，两者性质不同却同向收紧数据中心整机的成本与可得性。产业链博弈的焦点由此从原厂与整机厂之间的价格传导，转向整机厂在CPU短缺下如何重新排产、是否推迟内存采购以等待平台配套。若停产两周内如期恢复，扰动偏短期；若至强交付延迟外溢至2027年一季度，服务器内存的需求节奏将被系统性后移。</p>
+          <p>今日最值得注意的信号不在存储本身，而在终端：荣耀WIN平板以240Hz OLED屏加10000mAh电池、华为畅享100系列以麒麟8000S/8020下探至1399元、宏碁战斧9 Neo以RTX 5070配置补贴后12999元开售，三款新品同日首销且全部叠加国补。这说明双十一与国补叠加正在把高端配置压向中低价位，整机厂用规格升级换取出货量，而存储作为BOM中涨价最猛的部件，其成本被整机厂以补贴和降价方式吸收。结构性含义是：存储原厂的涨价红利，正被下游整机以牺牲毛利的方式对冲，需求侧的放量以价格战为前提，而非终端售价上行。</p><p>与近7日判断对比，这是明显的延续而非转折。10月30日英特尔已警告内存涨价或持续至2027年上半年并给出悲观指引，10月31日又叠加Fab 28爆炸导致至强供给受扰，存储板块此前被定义为供给双重挤压。今日终端侧的密集首销则补上了需求端的另一半图景：整机厂在成本抬升下仍以补贴抢量，说明其对需求萎缩的担忧大于对毛利的坚持。产业链博弈的焦点由此清晰——原厂要维持涨价节奏，整机厂要守住出货规模，二者之间的价差正由国补和渠道补贴填补，这一缓冲垫的厚度决定涨价周期能走多远。</p>
         </div>
         <div class="analysis analysis--outlook">
           <h4>展望</h4>
-          <p>中期（2027年前）看，服务器内存的需求曲线将呈现前低后高的错位形态：CPU供给扰动压制Q4至明年一季度的配套拉货，但AI数据中心的内存容量密度提升趋势不变，原厂产能向HBM与高容量DDR5倾斜的节奏不会因单次事故逆转。关键变量是英特尔复产后的良率爬坡速度与AMD、英伟达平台对服务器CPU缺口的替代承接能力，替代越快，内存需求的延迟越短。</p><p>长期（2028年后）看，此类单点产能事故将强化下游对供应链韧性的定价：云厂商会加速推进CPU供应商多元化与内存长协锁定，存储原厂则更有动力把服务器内存做成高粘性的长约业务而非现货博弈。存储板块的周期波动有望被长约结构部分平抑，但代价是原厂在景气高点让渡部分现货弹性，行业盈利的峰谷差将收窄，估值逻辑从纯周期向类基础设施资产迁移。</p>
+          <p>中期（2027年前），存储板块的核心矛盾将从供给短缺转向需求弹性。英特尔已明确涨价或延续至2027年上半年，意味着原厂的景气窗口至少还有数个季度，但终端以补贴换量的模式难以长期持续：国补退坡或整机厂毛利触底之时，就是涨价传导链条断裂的节点。判断原厂会在2027年上半年主动放缓涨价斜率，以合约价换长约锁量，避免重演需求崩塌。同时服务器侧受至强供给扰动，CPU—内存配比节奏错位将使服务器内存订单能见度下降，原厂或把产能更多倾斜至移动与消费端以平滑波动。</p><p>长期（2028年后），存储的定价权将更多取决于需求结构而非单纯产能周期。AI终端本地推理对高带宽、大容量内存的刚性需求，会为DRAM与NAND提供穿越周期的增量底盘；而PC与手机等传统消费电子的存储容量增长将趋于饱和，价格敏感度上升。判断行业将从原厂单边定价转向与原厂、模组厂、整机厂三方长约共担风险的机制，现货市场的价格发现功能弱化。液态空气储能等长时储能路线的工程化突破，长期也将间接影响数据中心电力成本结构，从而改变存储密度的经济性边界。</p>
         </div>
       </div>
     </div>
@@ -680,9 +821,47 @@ footer{
     <div class="board-meta">
       <span class="board-num">03</span>
       <span class="board-kicker">AI 大模型</span>
+      <span class="board-status">融资环境收紧</span>
+    </div>
+    <h2 class="board-headline">AI 大模型 · 融资环境收紧</h2>
+    <div class="board-body">
+      <div class="col col--news">
+        <span class="col-label">最新资讯</span>
+        
+        <article class="news is-new">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">融资评级</span><span class="news-badge">NEW</span>
+            <h3>Anthropic IPO后或被评高垃圾级信用评级</h3>
+            <p>据FT报道，Anthropic在IPO后预计将获得信用机构的高垃圾级评级，黑石方面认为这将提高其融资难度与成本，影响其支撑巨额支出的能力。头部大模型公司烧钱模式遭遇资本市场审视，融资环境趋紧或加速行业分化。</p>
+            <div class="news-source">来源：
+              <a href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" target="_blank" rel="noopener noreferrer" title="Anthropic IPO后或被评高垃圾级信用评级">TechCrunch AI</a>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+      <div class="col col--analysis">
+        <span class="col-label">深度解析</span>
+        <div class="analysis">
+          <h4>解析</h4>
+          <p>今日最值得注意的信号是Anthropic在IPO后预计将获得信用机构的高垃圾级评级，黑石明确指出这将抬高其融资难度与成本，直接削弱其支撑巨额资本开支的能力。这不只是一家公司的信用问题，而是头部大模型公司烧钱模式首次被债券市场用评级语言定价。其结构性含义在于，大模型的竞争壁垒正从模型能力转向资本耐力：当股权融资不再是无限弹药，债务成本成为约束条件，模型公司的支出节奏、算力采购规模乃至迭代速度都将被重新校准，行业分化的分水岭从技术路线转向资产负债表。</p><p>与近期趋势对比，这是对10月30日开源逼近闭源判断的一次转折性补充。此前市场关注的是Mistral以万亿参数权重争夺企业信任、闭源厂商密集迭代产品矩阵，焦点集中在能力侧；而今日信号把叙事拉回资金侧，说明开源阵营用权重开放降低客户部署成本，闭源阵营却要背负高额训练与推理开支并接受更贵的债务，两种模式的成本结构差异被资本市场放大。产业链博弈由此从模型对模型，延伸为模型公司与信用机构、私募资本之间的定价权博弈，融资环境趋紧将加速缺乏自我造血能力者的出清。</p><p></p>
+        </div>
+        <div class="analysis analysis--outlook">
+          <h4>展望</h4>
+          <p>中期（2027年前），大模型行业将呈现明显的资本分层：具备云业务或成熟现金流支撑的厂商能以较低成本滚动债务维持算力投入，纯模型公司则被迫在评级压力下收缩开支、转向与企业客户签订长期预付款或与云厂商深度绑定以换取算力信用。模型能力的代际差距可能因此阶段性拉大，但更值得关注的是并购与整合升温，头部厂商收购有技术但融资受阻的中小团队，行业集中度上升，开源阵营则依靠社区与企业联合体分摊成本维持竞争力。</p><p>长期（2028年后），大模型将逐步褪去高增长叙事，回归类似重资产基础设施行业的估值框架：信用评级、资本回报率与单位推理成本成为核心指标，而非单纯的基准跑分。行业可能形成少数几家兼具模型能力与低成本资金渠道的平台型公司，叠加一批聚焦垂直场景、以可控成本提供专用模型的服务商。融资约束会倒逼训练效率与推理经济性的技术竞赛，模型规模的无序扩张让位于投入产出比的精细核算，行业从军备竞赛走向可持续经营。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="agent" class="board" style="--c-light:#4a5d43;--c-dark:#9dc088">
+    <div class="board-meta">
+      <span class="board-num">04</span>
+      <span class="board-kicker">AI 应用与 Agent</span>
       <span class="board-status">今日无新增</span>
     </div>
-    <h2 class="board-headline">AI 大模型 · 今日无新增</h2>
+    <h2 class="board-headline">AI 应用与 Agent · 今日无新增</h2>
     <div class="board-body">
       <div class="col col--news">
         <span class="col-label">最新资讯</span>
@@ -694,7 +873,7 @@ footer{
         <span class="col-label">深度解析</span>
         <div class="analysis">
           <h4>解析</h4>
-          <p>AI 大模型板块今日暂无重要新资讯。持续关注后续动向，暂不做新的方向性判断。</p>
+          <p>AI 应用与 Agent板块今日暂无重要新资讯。持续关注后续动向，暂不做新的方向性判断。</p>
         </div>
         <div class="analysis analysis--outlook">
           <h4>展望</h4>
@@ -704,87 +883,97 @@ footer{
     </div>
   </section>
   
-  <section id="agent" class="board" style="--c-light:#4a5d43;--c-dark:#9dc088">
-    <div class="board-meta">
-      <span class="board-num">04</span>
-      <span class="board-kicker">AI 应用与 Agent</span>
-      <span class="board-status">能力观测窗口</span>
-    </div>
-    <h2 class="board-headline">AI 应用与 Agent · 能力观测窗口</h2>
-    <div class="board-body">
-      <div class="col col--news">
-        <span class="col-label">最新资讯</span>
-        
-        <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
-          <div>
-            <span class="news-tag">智能体</span><span class="news-badge">NEW</span>
-            <h3>开发者展示让智能体玩你画我猜的演示项目</h3>
-            <p>Hacker News上出现Show HN项目Sketch Stadium，可观看AI智能体参与你画我猜游戏。这类轻量互动演示以游戏为测试场，直观暴露多模态理解、指令遵循与多轮协作能力，是观察智能体实际表现的低成本窗口，也为评估其交互可靠性提供参考。</p>
-            <div class="news-source">来源：
-              <a href="https://sketch.wakeshift.ai/games/q5ucru" target="_blank" rel="noopener noreferrer" title="开发者展示让智能体玩你画我猜的演示项目">Hacker News</a>
-            </div>
-          </div>
-        </article>
-        
-      </div>
-      <div class="col col--analysis">
-        <span class="col-label">深度解析</span>
-        <div class="analysis">
-          <h4>解析</h4>
-          <p>今日最值得注意的信号是一个看似轻量的Show HN项目：让AI智能体参与你画我猜游戏。其价值不在娱乐性，而在于游戏天然构成多模态理解、指令遵循与多轮协作的复合测试场，且失败代价极低、可公开围观。相比跑分榜单，这类互动演示更接近真实部署中的模糊输入与实时反馈，能暴露模型在语义对齐和意图推断上的短板。其结构性含义是：智能体评估正从静态基准转向可交互、可复现的公开场景，社区自发形成的低成本观测窗口，可能比厂商自报指标更快成为可信度参照。</p><p>与近期趋势对比，这是延续而非转折。过去一周Agent板块的主线是工具链安全与权限边界，Claude Code扩展后门事件把焦点放在Agent被授予读写权限后的可信性；今日的游戏演示则从能力侧提出互补问题：当Agent进入开放交互环境，其行为可预测性是否足够。两条线索共同指向同一产业博弈——Agent的可信度正被拆分为安全与能力两个维度，分别由供应链审核与交互评测承担，而目前两者都缺乏行业统一标准，这正是平台方与模型厂商争夺话语权的空白地带。</p>
-        </div>
-        <div class="analysis analysis--outlook">
-          <h4>展望</h4>
-          <p>中期看，2027年前智能体评估将走向分层：底层是厂商自建的基准测试，中层是第三方可复现的交互场景库，上层是面向具体业务的任务成功率。游戏类演示会沉淀为社区标准测试集的一部分，但难以独立支撑企业采购决策。真正的分水岭在于是否出现跨厂商通用的Agent行为审计规范，一旦形成，工具链安全与能力评测将合并为统一的准入体系，先建立审核与签名机制的生态方将获得开发者迁移红利。</p><p>长期看，2028年后智能体的竞争焦点将从单任务能力转向长期协作中的行为一致性，即模型在连续多轮、模糊目标和权限受限条件下能否保持可预期的决策轨迹。评测方式会进一步向仿真环境与真实业务沙盒融合，形成类似软件测试的持续集成流程。届时产业价值将向掌握真实交互数据与评测基础设施的一方集中，模型本身趋于商品化，而可信度认证与行为可观测性成为新的护城河。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
   <section id="hardware" class="board" style="--c-light:#3d5a5c;--c-dark:#89c2c5">
     <div class="board-meta">
       <span class="board-num">05</span>
       <span class="board-kicker">AI 硬件</span>
-      <span class="board-status">供给双杀承压</span>
+      <span class="board-status">生态入口争夺</span>
     </div>
-    <h2 class="board-headline">AI 硬件 · 供给双杀承压</h2>
+    <h2 class="board-headline">AI 硬件 · 生态入口争夺</h2>
     <div class="board-body">
       <div class="col col--news">
         <span class="col-label">最新资讯</span>
         
         <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div class="news-date">10.31<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">显卡供给</span><span class="news-badge">NEW</span>
-            <h3>英伟达下架RTX 5080，零售价涨至MSRP 2.2倍</h3>
-            <p>RTX 5090之后RTX 5080也被从官方商城撤下，市面价格升至建议零售价2.2倍。高端GPU官方渠道连续缺位，意味着供给紧张已从旗舰蔓延至次旗舰，整机厂商与AI工作站采购成本上升，短期内显卡溢价难以回落。</p>
+            <span class="news-tag">影像技术</span><span class="news-badge">NEW</span>
+            <h3>荣耀称将推阿莱拍照模式与Robot Phone二代</h3>
+            <p>荣耀首席影像工程师罗巍透露，将与阿莱合作推出基于LogC曲线与RAW信号重构的全新拍照模式，并预告Robot Phone二代及两款创新形态产品。手机厂商借电影级影像差异化竞争，AI重构成像流程或成高端影像新战场。</p>
             <div class="news-source">来源：
-              <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp" target="_blank" rel="noopener noreferrer" title="英伟达下架RTX 5080，零售价涨至MSRP 2.2倍">Tom's Hardware</a>
+              <a href="https://www.ithome.com/1/020/419.htm" target="_blank" rel="noopener noreferrer" title="荣耀称将推阿莱拍照模式与Robot Phone二代">IT之家</a>
             </div>
           </div>
         </article>
         
         <article class="news is-new">
-          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div class="news-date">10.31<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">财报</span><span class="news-badge">NEW</span>
-            <h3>英特尔展望拖累，半导体单日蒸发1万亿美元市值</h3>
-            <p>英特尔PC业务悲观指引引发芯片股集体下挫，单日抹去约1万亿美元市值，苹果基本未受波及。事件显示传统PC需求走弱正被市场重新定价，叠加英特尔自身产能与制程困境，产业链上游景气度预期明显转弱。</p>
+            <span class="news-tag">游戏本</span><span class="news-badge">NEW</span>
+            <h3>宏碁战斧9 Neo新配置12999元开售</h3>
+            <p>宏碁掠夺者战斧9 Neo新增i7-14650HX加RTX 5070 12GB配置，补贴后12999元，整机性能释放175W，配16英寸2.5K 180Hz屏。RTX 50系笔记本GPU加速铺货，游戏本进入新平台换代周期，双十一补贴刺激换机需求。</p>
             <div class="news-source">来源：
-              <a href="https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed" target="_blank" rel="noopener noreferrer" title="英特尔展望拖累，半导体单日蒸发1万亿美元市值">Tom's Hardware</a>
+              <a href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="宏碁战斧9 Neo新配置12999元开售">IT之家</a>
             </div>
           </div>
         </article>
         
         <article class="news is-new">
+          <div class="news-date">10.31<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">人才流动</span><span class="news-badge">NEW</span>
+            <h3>字节Seed核心负责人周畅被曝离职创业</h3>
+            <p>据Z Finance消息，字节Seed核心负责人周畅已离职创业，方向为物理AI，获头部美元基金支持，此前曾负责通义千问技术。大模型核心人才向具身智能与物理AI迁移，显示AI创业热点正从语言模型转向世界模型与机器人。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/408.htm" target="_blank" rel="noopener noreferrer" title="字节Seed核心负责人周畅被曝离职创业">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
           <div class="news-date">10.30<span class="yr">2026</span></div>
           <div>
-            <span class="news-tag">晶圆产能</span><span class="news-badge">NEW</span>
-            <h3>英特尔Fab 28爆炸停产两周，损失约6亿美元</h3>
-            <p>英特尔披露以色列Fab 28爆炸事故致工厂停产约两周，Q4与2027年Q1各减收约3亿美元，合计约6亿美元，Q4毛利率下降约200个基点。损失集中于10nm级服务器产品，晶圆报废在Q4确认，出货影响延续至2027年初，服务器CPU供给短期趋紧。</p>
+            <span class="news-tag">AI入华</span>
+            <h3>苹果智能入华接入千问11月4日测试</h3>
+            <p>苹果宣布首批Apple智能功能11月4日随iOS开发者Beta在中国开放测试，12月随iOS 27.3推送，Siri、写作工具与视觉智能接入阿里千问。外资AI服务落地需本土模型合作，苹果在华AI体验补齐，阿里大模型获生态级入口。</p>
             <div class="news-source">来源：
-              <a href="https://www.ithome.com/1/020/385.htm" target="_blank" rel="noopener noreferrer" title="英特尔Fab 28爆炸停产两周，损失约6亿美元">IT之家</a>
+              <a href="https://www.ithome.com/1/020/401.htm" target="_blank" rel="noopener noreferrer" title="苹果智能入华接入千问11月4日测试">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">可穿戴AI</span>
+            <h3>Apple智能入华AirPods支持实时翻译</h3>
+            <p>苹果公布Apple智能入华首批功能，实时翻译整合进信息、FaceTime与电话应用，并扩展至AirPods 5、AirPods Pro 2等耳机，需搭配iPhone 16及后续机型。可穿戴设备成为AI功能落地载体，跨语言交互推动耳机品类价值重估。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/393.htm" target="_blank" rel="noopener noreferrer" title="Apple智能入华AirPods支持实时翻译">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">大模型合作</span>
+            <h3>苹果智能接入阿里千问覆盖Siri与写作</h3>
+            <p>苹果明确在Siri、写作工具与视觉智能三类体验中使用阿里巴巴千问，支持文本与图像理解，用户可登录千问账户或通过Apple登录访问。苹果在华AI采取多模型合作模式，阿里千问获得系统级分发，本土大模型竞争格局生变。</p>
+            <div class="news-source">来源：
+              <a href="https://www.ithome.com/1/020/392.htm" target="_blank" rel="noopener noreferrer" title="苹果智能接入阿里千问覆盖Siri与写作">IT之家</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="news">
+          <div class="news-date">10.30<span class="yr">2026</span></div>
+          <div>
+            <span class="news-tag">AI入华</span>
+            <h3>Apple Intelligence将于iOS 27.3登陆中国</h3>
+            <p>据The Verge报道，苹果宣布Apple Intelligence将随iOS 27.3进入中国，11月4日开放Beta测试，12月正式发布，首批功能有限。苹果AI全球化落地采取分阶段策略，中国市场的合规与本地化合作成为关键变量。</p>
+            <div class="news-source">来源：
+              <a href="https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3" target="_blank" rel="noopener noreferrer" title="Apple Intelligence将于iOS 27.3登陆中国">The Verge</a>
             </div>
           </div>
         </article>
@@ -794,11 +983,11 @@ footer{
         <span class="col-label">深度解析</span>
         <div class="analysis">
           <h4>解析</h4>
-          <p>今日最值得注意的信号是供给端两条线同时收紧：英伟达官方商城接连下架RTX 5090与5080，次旗舰现货溢价升至MSRP的2.2倍；英特尔Fab 28爆炸停产两周，10纳米级服务器产品减收约6亿美元。前者说明高端GPU的官方渠道缺位已从旗舰蔓延至次旗舰，后者是不可替代晶圆产能的物理性中断。二者性质不同却同向叠加：AI工作站与数据中心整机的GPU、CPU两大核心成本项同时抬升，算力扩张的边际成本正被系统性推高，而非单点波动。</p><p>这与昨日判断形成明确延续并有所升级。昨日已指出存储涨价与晶圆厂事故是供给端两次结构性冲击，今日显卡渠道撤柜把冲击从上游产能延伸到终端零售，形成产能、渠道、价格的三段传导。更关键的对照是英特尔同日给出PC业务悲观指引、拖累半导体单日蒸发约1万亿美元市值：市场正在把传统PC需求走弱与AI算力供给紧张分开定价，产业链博弈的焦点从谁受益涨价，转向谁承担成本与需求萎缩的双重挤压。</p>
+          <p>今日最值得注意的信号是苹果智能入华方案落地：Siri、写作工具与视觉智能接入阿里千问，11月4日Beta、12月随iOS 27.3推送，同时实时翻译下放至AirPods。这不是一次普通功能上线，而是外资AI服务在华必须借本土模型落地的合规范式首次被头部厂商以系统级方式确认。其结构性含义在于，硬件终端的AI体验正从自研模型单点转向多模型编排，手机与可穿戴成为模型分发的入口，谁掌握系统级默认位，谁就掌握用户数据回流与生态议价权。</p><p>与近期趋势相比，这是hardware板块从供给双杀承压向需求侧生态博弈的一次明显转折：前几日焦点集中在GPU缺货、晶圆厂事故与存储涨价构成的成本端挤压，今日则转向终端厂商用AI功能重新定义产品价值。产业链博弈由此分层：苹果以合规换市场、阿里以入口换分发，二者各取所需却共同挤压其他本土模型厂商的系统级机会；荣耀联手阿莱做电影级影像，则是手机厂商在硬件同质化下用AI重构成像流程建立差异化，与苹果形成终端侧的两条并行路径。</p><p>人才层面，字节Seed核心负责人周畅离职转向物理AI创业，与上述终端AI落地形成呼应：语言模型的边际创新正让位于具身智能与世界模型，资本与顶尖人才同步向机器人方向迁移。这意味着AI硬件的竞争边界将从手机、耳机扩展到机器人本体与感知系统，终端入口之争只是前哨。</p><p>综合看，今日资讯的共同主线是AI能力正在寻找硬件载体：苹果找耳机与手机，荣耀找影像管线，创业公司找机器人身体。硬件板块的估值逻辑正从算力军备竞赛部分转向入口与场景的卡位，具备系统级分发能力与本土合规资源的厂商将获得超额话语权。</p><p>对产业参与者而言，短期最现实的变量是12月iOS 27.3正式推送后的用户反馈与功能完整度，以及阿里千问能否借系统入口形成开发者生态外溢；中期需观察其他外资终端厂商是否复制多模型合作模式，从而把本土大模型竞争推向默认位争夺。</p><p>风险方面需警惕两点：一是首批功能有限、体验割裂可能削弱AI卖点的实际转化；二是系统级默认位一旦固化，中小模型厂商的生存空间被压缩，生态多样性下降反而抑制长期创新。入口集中与模型多元之间的张力，将是未来一年硬件AI叙事的核心矛盾。</p>
         </div>
         <div class="analysis analysis--outlook">
           <h4>展望</h4>
-          <p>中期看，2027年前AI硬件将处于供给约束主导的紧平衡。高端GPU官方渠道缺位与服务器CPU短期趋紧，会迫使云厂商与整机厂提前锁单、提高库存水位，资本开支节奏被动前移但单位算力成本上升。存储涨价若延续至2027年上半年，PC与消费电子整机将成为价格传导的最终承压方，需求侧萎缩风险累积。产业价值将向具备自有产能、长协锁定能力与互联技术壁垒的环节集中，纯组装与低毛利整机厂议价空间被持续压缩。</p><p>长期看，2028年后供给冲击的周期性成分会消退，但结构性重估不可逆。晶圆厂事故与渠道缺货会加速两条路径：一是先进封装与成熟制程的区域化冗余布局，二是光互联等集群效率技术替代单卡堆叠。AI算力竞争的重心将从抢卡转向系统级成本控制与供应链韧性，掌握CPU-GPU协同调度入口与互联标准的厂商将获得长期议价权，而依赖单一外部供给的下游厂商将持续承受成本波动。</p>
+          <p>中期（2027年前），终端AI的竞争将围绕默认入口与场景闭环展开：手机、耳机、眼镜等可穿戴设备成为多模型编排的载体，厂商不再追求单一自研模型领先，而是以路由与调度能力定义体验。具备本土合规合作资源的厂商将率先完成AI功能全覆盖，影像、翻译、助手三类高频场景成为换机核心卖点，硬件价值重估由参数转向AI可用性。</p><p>长期（2028年后），随着物理AI与具身智能成熟，AI硬件的边界将从个人终端扩展至机器人本体与家庭、工业场景，入口之争升级为感知与执行能力的争夺。系统级AI分发平台可能演化为类似操作系统的垄断结构，监管对默认位与数据回流的介入将成为变量，硬件厂商的护城河最终取决于场景数据闭环而非单点模型性能。</p>
         </div>
       </div>
     </div>
@@ -890,7 +1079,7 @@ footer{
     </div>
     <div class="conclusion">
       <h4>共同矛盾</h4>
-      <p>共同矛盾在于市场对同一组事件给出了两种定价：英特尔财报指引被当作需求侧周期信号，Fab 28爆炸被当作供给侧物理中断，二者在同一天发生却被分开计价，导致芯片与AI硬件板块同时被标注为供给双杀承压。真正的结构性风险是产能不可替代性——10nm级服务器产线的两周停摆无法通过切换代工快速对冲，晶圆报废在Q4确认、毛利率下滑约200个基点，直接扰动服务器整机的CPU—内存配比，使存储板块的需求信号被上游供给噪声污染。与此同时，RTX 5080下架与2.2倍溢价说明高端算力供给的官方渠道正在收缩，涨价成为分配机制。需求端并未消失，而是被供给节奏压制，这决定了短期板块波动的主因是交付能力而非订单意愿。</p>
+      <p>今日最深的共同矛盾在于：终端侧配置升级与价格下探同步加速，而上游资本侧却在收紧。芯片与存储板块显示，华为自研SoC分层供货叠加国补，把旗舰配置压向千元机与中端平板，整机厂以价换量、以配置换份额，短期拉动出货却压缩利润空间；与此同时，大模型板块Anthropic被债券市场以高垃圾级评级定价，说明支撑巨额资本开支的股权融资不再无限，头部公司必须证明商业化闭环。矛盾的结构性含义是：AI硬件的普惠化速度越快，对上游芯片产能与模型服务成本的依赖越深，而资本耐力正成为筛选玩家的真正门槛。苹果借千问入华则提示，合规与本土生态适配可能比模型参数更能决定谁能进入市场。</p>
     </div>
   </section>
 
@@ -902,56 +1091,56 @@ footer{
     <div class="sum">
       <div class="sum-num">01</div>
       <div>
-        <h3>芯片：需求收缩与产能中断同日叠加</h3>
-        <p>英特尔PC业务悲观指引引发半导体板块单日蒸发约1万亿美元市值，同日其以色列Fab 28爆炸停产两周、损失约6亿美元。前者是PC链条周期下行的需求侧信号，后者是不可替代晶圆产能的物理性中断，市场将两者分开定价，但二者共同压缩了传统芯片巨头的产能与需求两端空间，板块短期仍以承压为主。</p>
+        <h3>华为自研SoC完成分层供货闭环</h3>
+        <p>华为同日以麒麟9025、麒麟8000S、8020A、8020四款芯片覆盖5199元Pura 90 Plus到1399元畅享100系列，新芯优先下放走量影像旗舰。这不是单款发布，而是设计、代工、封测与产能规划形成稳定节奏的公开证明，自研SoC从单点突破转为分层供货能力，对高通与联发科的中高端份额构成持续挤压。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">02</div>
       <div>
-        <h3>存储：服务器供给噪声污染需求信号</h3>
-        <p>Fab 28停产的损失几乎全部落在10nm级服务器产品上，Q4毛利率预计下滑约200个基点，晶圆报废在Q4确认。至强供给与交付节奏受扰，直接打乱服务器整机的CPU—内存配比计划。存储板块当前看到的需求波动中混入了显著的上游供给噪声，不宜据此做单一方向判断。</p>
+        <h3>国补叠加双十一把高端配置压向中低价位</h3>
+        <p>荣耀WIN平板240Hz OLED加10000mAh电池3699元起、华为畅享100系列1399元起、宏碁战斧9 Neo以RTX 5070配置补贴后12999元开售，三款新品同日首销且全部叠加国补。整机厂以价换量策略明确，短期拉动出货，但存储等上游需求端承压与终端降价并存，利润空间被双向挤压。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">03</div>
       <div>
-        <h3>AI硬件：高端GPU官方渠道持续缺位</h3>
-        <p>英伟达官方商城接连下架RTX 5090与5080，次旗舰现货溢价升至MSRP的2.2倍。缺货已从旗舰蔓延至次旗舰，官方渠道缺位使涨价成为实际分配机制。这与英特尔晶圆产能中断性质不同却同向叠加，共同抬高AI硬件的交付成本与不确定性。</p>
+        <h3>苹果智能入华确立本土模型合规范式</h3>
+        <p>Siri、写作工具与视觉智能接入阿里千问，11月4日Beta、12月随iOS 27.3推送，实时翻译下放AirPods。这是外资AI服务在华必须借本土模型落地的合规范式首次被头部厂商以系统级方式确认，硬件终端AI体验从自研模型转向本土生态合作，阿里千问获得系统级入口。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">04</div>
       <div>
-        <h3>智能体：低成本互动演示成为能力观测窗口</h3>
-        <p>让AI智能体参与你画我猜的演示项目价值不在娱乐性，而在于游戏天然构成多模态理解、指令遵循与多轮协作的复合测试场，失败代价低且可公开围观。相比跑分榜单，这类演示更接近真实部署中的模糊输入与实时反馈，能暴露语义对齐与意图推断短板，是观察智能体能力的有效窗口。</p>
+        <h3>Anthropic评级事件为烧钱模式定价</h3>
+        <p>Anthropic IPO后预计获信用机构高垃圾级评级，黑石指出这将抬高融资难度与成本，直接削弱其支撑巨额资本开支的能力。这是头部大模型公司烧钱模式首次被债券市场用评级语言定价，竞争壁垒正从模型能力转向资本耐力，股权融资不再无限意味着商业化闭环成为硬约束。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">05</div>
       <div>
-        <h3>大模型：今日无新增，维持观望</h3>
-        <p>AI大模型板块今日暂无重要新资讯。在上游供给承压、应用层处于能力观测期的背景下，暂不做新的方向性判断，持续关注后续模型发布与能力迭代信号。</p>
+        <h3>人才流动与影像军备竞赛并行</h3>
+        <p>字节Seed核心负责人周畅被曝离职创业，反映大模型人才在融资收紧期加速向创业与垂直场景流动；荣耀则宣布阿莱拍照模式与Robot Phone二代，影像与具身智能终端成为硬件差异化新战场。两条线索共同指向：模型层人才外溢正被终端厂商承接为产品能力。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">06</div>
       <div>
-        <h3>短剧：今日无新增，维持观望</h3>
-        <p>AI短剧板块今日暂无重要新资讯。该板块对算力成本与内容供给节奏敏感，在上游GPU与服务器供给收紧的环境下，后续需关注成本传导对内容生产节奏的影响，暂不做方向性判断。</p>
+        <h3>折叠屏与游戏本构成存量市场攻防</h3>
+        <p>三星广告再讽苹果折叠iPhone Duo，折叠屏竞争从产品转向心智争夺；宏碁战斧9 Neo以12999元新配置开售，游戏本在国补窗口以配置升级维持价格锚点。二者均属存量市场的份额攻防，短期难改整体需求格局，但显示PC与手机厂商正用细分形态对冲大盘疲软。</p>
       </div>
     </div>
     
     <div class="sum">
       <div class="sum-num">07</div>
       <div>
-        <h3>全局判断：约束从需求不足切换为产能不足</h3>
-        <p>今日六大板块的共同线索是AI产业链的瓶颈已从需求侧转向可交付产能：晶圆产线中断、高端GPU渠道缺位、服务器配比受扰形成一条供给约束链，而应用层仍处低成本试错阶段，尚未形成对上游产能的真实拉动。短期板块波动主因是交付能力而非订单意愿，需重点跟踪Fab 28复产进度与GPU渠道补货节奏。</p>
+        <h3>AI应用与短剧板块静默待变</h3>
+        <p>AI应用与Agent、AI短剧两板块今日无新增资讯，暂不做方向性判断。结合大模型融资收紧与终端AI入口争夺，后续应重点观察Agent商业化能否在资本耐力约束下跑出可验证收入，以及短剧是否借终端AI能力形成新的内容分发路径。</p>
       </div>
     </div>
     

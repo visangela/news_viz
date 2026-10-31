@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>历史归档 · AI 产业情报局</title>
+<script>
+  (function(){
+    try {
+      var saved = localStorage.getItem('ai-board-theme');
+      var theme;
+      if (saved === 'light' || saved === 'dark') {
+        theme = saved;
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        theme = 'dark';
+      } else {
+        theme = 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
+  })();
+</script>
+<style>
+:root{
+  --paper:#f6f3ec;--paper-2:#fdfbf6;--ink:#1a1512;--ink-soft:#3d3630;
+  --muted:#736b62;--faint:#a49a8e;--line:#ded6c8;--line-strong:#c4b9a8;
+  --red:#9c2b22;--red-deep:#7a1f18;--red-glow:rgba(156,43,34,.12);
+  --nav-bg:rgba(246,243,236,.97);--nav-shadow:0 2px 14px rgba(0,0,0,.08);
+  --selection:rgba(156,43,34,.16);
+  --toggle-bg:#ffffff;--toggle-border:#c4b9a8;
+  --entry-hover:rgba(156,43,34,.04);
+  --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+}
+[data-theme="dark"]{
+  --paper:#1c1b19;--paper-2:#24221f;--ink:#ebe5d9;--ink-soft:#c9c2b5;
+  --muted:#918a7d;--faint:#6b655a;--line:#2f2c28;--line-strong:#443f38;
+  --red:#d4584a;--red-deep:#e88075;--red-glow:rgba(212,88,74,.22);
+  --nav-bg:rgba(28,27,25,.96);--nav-shadow:0 2px 14px rgba(0,0,0,.5);
+  --selection:rgba(212,88,74,.3);
+  --toggle-bg:#2a2825;--toggle-border:#443f38;
+  --entry-hover:rgba(212,88,74,.06);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  transition:background-color .3s ease,color .3s ease;
+}
+::selection{background:var(--selection);}
+a{color:inherit;text-decoration:none;}
+
+/* ============ MASTHEAD ============ */
+.masthead{max-width:1220px;margin:0 auto;padding:34px 36px 0;}
+.masthead-top{
+  display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  padding-bottom:10px;border-bottom:1px solid var(--ink);
+  font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;
+}
+.masthead-top .back{
+  display:inline-flex;align-items:center;gap:6px;
+  color:var(--red);letter-spacing:.06em;
+  transition:color .2s;
+}
+.masthead-top .back:hover{color:var(--red-deep);}
+.masthead h1{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(30px,5.4vw,58px);line-height:1.05;
+  letter-spacing:-.01em;padding:22px 0 16px;text-align:center;
+}
+.masthead h1 span{
+  display:block;font-size:clamp(13px,2vw,18px);font-weight:400;
+  letter-spacing:.42em;color:var(--red);margin-top:14px;text-indent:.42em;
+}
+.masthead-bottom{
+  display:flex;justify-content:space-between;align-items:baseline;
+  gap:16px;flex-wrap:wrap;padding:9px 0 10px;
+  border-top:3px double var(--ink);border-bottom:1px solid var(--line-strong);
+  font-size:11.5px;letter-spacing:.1em;color:var(--muted);
+}
+.masthead-bottom .stats{color:var(--ink-soft);font-weight:500;}
+.masthead-bottom .stats b{color:var(--red);font-weight:700;}
+.masthead-bottom .date{font-variant-numeric:tabular-nums;letter-spacing:.08em;}
+
+/* ============ NAV ============ */
+.nav{
+  position:relative;z-index:100;
+  background:var(--nav-bg);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line-strong);
+  transition:box-shadow .3s;
+}
+.nav.is-fixed{position:fixed;top:0;left:0;right:0;box-shadow:var(--nav-shadow);}
+.nav-outer{
+  max-width:1220px;margin:0 auto;padding:0 36px;
+  display:flex;align-items:center;
+}
+.nav-inner{
+  flex:1;min-width:0;display:flex;gap:0;
+  overflow-x:auto;scrollbar-width:none;
+}
+.nav-inner::-webkit-scrollbar{display:none;}
+.nav a{
+  flex:0 0 auto;position:relative;padding:13px 17px 12px;
+  font-size:12.5px;letter-spacing:.06em;color:var(--muted);
+  white-space:nowrap;transition:color .2s;cursor:pointer;
+}
+.nav a::after{
+  content:'';position:absolute;left:17px;right:17px;bottom:0;height:2px;
+  background:var(--red);transform:scaleX(0);transform-origin:left;
+  transition:transform .28s cubic-bezier(.22,.61,.36,1);
+}
+.nav a:hover{color:var(--ink);}
+.nav a.active{color:var(--ink);font-weight:600;}
+.nav a.active::after{transform:scaleX(1);}
+
+.theme-toggle{
+  flex:0 0 auto;margin-left:10px;
+  width:34px;height:34px;border-radius:50%;
+  border:1px solid var(--toggle-border);
+  background:var(--toggle-bg);color:var(--ink-soft);
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  padding:0;transition:background-color .25s,border-color .25s,color .25s,transform .2s;
+}
+.theme-toggle:hover{color:var(--ink);border-color:var(--ink-soft);transform:scale(1.06);}
+.theme-toggle:active{transform:scale(.95);}
+.theme-toggle svg{width:16px;height:16px;display:block;}
+.theme-toggle .icon-sun{display:none;}
+.theme-toggle .icon-moon{display:block;}
+[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
+[data-theme="dark"] .theme-toggle .icon-moon{display:none;}
+.nav-spacer{height:0;}
+
+/* ============ MAIN ============ */
+main{max-width:1220px;margin:0 auto;padding:0 36px 90px;}
+section{scroll-margin-top:70px;}
+
+.archive-intro{
+  margin:38px 0 0;padding:20px 26px;
+  border-left:3px solid var(--red);
+  background:var(--paper-2);
+  font-size:13.5px;line-height:1.9;color:var(--ink-soft);
+}
+.archive-intro b{color:var(--ink);font-weight:700;}
+
+/* ============ BOARD ============ */
+.archive-board{
+  margin-top:56px;
+  --c:var(--c-light);
+}
+.archive-board-head{
+  display:flex;align-items:baseline;gap:14px;
+  padding-bottom:14px;margin-bottom:0;
+  border-bottom:2px solid var(--ink);
+}
+.archive-board-num{
+  font-family:var(--serif);font-size:12px;font-weight:700;
+  letter-spacing:.12em;color:var(--red);
+  font-variant-numeric:tabular-nums;
+}
+.archive-board-name{
+  font-family:var(--serif);font-size:22px;font-weight:700;
+  letter-spacing:-.005em;line-height:1.3;
+}
+.archive-board-count{
+  margin-left:auto;
+  font-size:11px;letter-spacing:.06em;color:var(--faint);
+  font-variant-numeric:tabular-nums;
+}
+.archive-board-count b{color:var(--c);font-weight:700;}
+
+.archive-list{
+  border-top:1px solid var(--line-strong);
+}
+
+.entry{
+  display:grid;
+  grid-template-columns:72px 76px minmax(0,1fr) 28px;
+  gap:18px;
+  align-items:center;
+  padding:13px 4px;
+  border-bottom:1px solid var(--line);
+  text-decoration:none;color:inherit;
+  transition:background-color .18s;
+}
+.entry:hover{background:var(--entry-hover);}
+.entry-date{
+  font-size:12px;font-weight:600;
+  letter-spacing:.02em;color:var(--faint);
+  font-variant-numeric:tabular-nums;line-height:1.3;
+}
+.entry-date .yr{
+  display:block;font-size:9.5px;
+  letter-spacing:.08em;color:var(--faint);opacity:.7;
+  margin-top:1px;
+}
+.entry-tag{
+  display:inline-block;
+  font-size:10.5px;font-weight:700;
+  letter-spacing:.06em;color:var(--c);
+  border:1px solid color-mix(in srgb,var(--c) 32%,transparent);
+  padding:1px 7px;border-radius:1px;
+  text-align:center;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;
+}
+.entry-title{
+  font-family:var(--serif);
+  font-size:15px;font-weight:500;
+  line-height:1.6;
+  color:var(--ink-soft);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  transition:color .18s;
+}
+.entry:hover .entry-title{color:var(--ink);}
+.entry-arrow{
+  font-size:13px;color:var(--faint);
+  text-align:right;
+  transition:transform .2s,color .2s;
+}
+.entry:hover .entry-arrow{
+  color:var(--c);
+  transform:translate(2px,-2px);
+}
+.archive-empty{
+  padding:28px 4px;
+  font-size:13px;color:var(--faint);
+  border-bottom:1px solid var(--line);
+}
+
+/* ============ FOOTER ============ */
+footer{
+  max-width:1220px;margin:0 auto;padding:26px 36px 56px;
+  border-top:1px solid var(--line-strong);
+  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.08em;color:var(--faint);
+}
+
+/* ============ DARK MODE 板块色 ============ */
+[data-theme="dark"] .archive-board{--c:var(--c-dark);}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:900px){
+  .masthead{padding:26px 24px 0;}
+  .nav-outer{padding:0 24px;}
+  main{padding:0 24px 70px;}
+  .masthead h1{padding:18px 0 14px;}
+  .entry{grid-template-columns:64px 70px minmax(0,1fr) 24px;gap:12px;}
+}
+@media(max-width:640px){
+  .masthead{padding:22px 18px 0;}
+  .nav-outer{padding:0 18px;}
+  main{padding:0 18px 56px;}
+  .masthead-top{font-size:9px;letter-spacing:.16em;}
+  .masthead-bottom{font-size:10.5px;}
+  .archive-intro{padding:16px 18px;font-size:12.5px;line-height:1.85;}
+  .archive-board{margin-top:44px;}
+  .archive-board-name{font-size:18px;}
+  .entry{
+    grid-template-columns:1fr 24px;
+    gap:6px 8px;
+    padding:14px 4px;
+  }
+  .entry-date{
+    grid-column:1/-1;
+    font-size:11px;
+    display:flex;gap:8px;align-items:baseline;
+  }
+  .entry-date .yr{margin-top:0;}
+  .entry-tag{
+    grid-column:1;
+    font-size:10px;
+    justify-self:start;
+    margin-bottom:2px;
+  }
+  .entry-title{
+    grid-column:1;
+    font-size:14px;
+    line-height:1.55;
+  }
+  .entry-arrow{
+    grid-column:2;
+    grid-row:2 / span 2;
+    align-self:center;
+    font-size:14px;
+  }
+  footer{padding:22px 18px 46px;font-size:10px;}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>AI Industry Intelligence · Archive</span>
+    <a href="index.html" class="back">← 返回今日看板</a>
+  </div>
+  <h1>历史资讯归档<span>PAST BRIEFS · QUICK RECAP</span></h1>
+  <div class="masthead-bottom">
+    <span class="stats">共 <b>23</b> 条历史资讯 · 覆盖 <b>2026-10-31 至 2026-10-31</b></span>
+    <span class="date">2026 年 10 月 31 日　星期六</span>
+  </div>
+</header>
+
+<nav class="nav" id="mainNav">
+  <div class="nav-outer">
+    <div class="nav-inner">
+      <a href="index.html">返回今日</a>
+      <a href="#chip">芯片与半导体</a><a href="#memory">存储</a><a href="#llm">AI 大模型</a><a href="#agent">AI 应用与 Agent</a><a href="#hardware">AI 硬件</a><a href="#drama">AI 短剧</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深浅模式" title="切换深浅模式">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4"/>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+<div class="nav-spacer" id="navSpacer"></div>
+
+<main>
+
+  <aside class="archive-intro">
+    <b>快速回顾模式。</b>每条历史资讯只保留精炼后的一句话标题，不展示摘要与深度解析，方便按板块快速回看过去一段时间的产业走向。点击任一标题可在新标签页打开原文。
+  </aside>
+
+  
+  <section id="chip" class="archive-board" style="--c-light:#2a4d69;--c-dark:#82b0d0">
+    <div class="archive-board-head">
+      <span class="archive-board-num">01</span>
+      <span class="archive-board-name">芯片与半导体</span>
+      <span class="archive-board-count"><b>8</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <a class="entry" href="https://www.ithome.com/1/020/423.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">自研芯片</span>
+        <span class="entry-title">华为Pura 90 Plus开售首发麒麟9025</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/419.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">影像技术</span>
+        <span class="entry-title">荣耀称将推阿莱拍照模式与Robot Phone二代</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/417.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">折叠屏</span>
+        <span class="entry-title">三星广告再讽苹果折叠iPhone Duo</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/414.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">中端手机</span>
+        <span class="entry-title">华为畅享100系列首销1399元起</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">游戏本</span>
+        <span class="entry-title">宏碁战斧9 Neo新配置12999元开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/409.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">AI战略</span>
+        <span class="entry-title">苹果CEO称绝不为了AI而做AI</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/407.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">车规芯片</span>
+        <span class="entry-title">吉利回应星舰7车机芯片与宣传不符</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/404.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">市值排名</span>
+        <span class="entry-title">苹果收盘市值5.03万亿美元反超英伟达</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="memory" class="archive-board" style="--c-light:#9c2b22;--c-dark:#e5897a">
+    <div class="archive-board-head">
+      <span class="archive-board-num">02</span>
+      <span class="archive-board-name">存储</span>
+      <span class="archive-board-count"><b>7</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <a class="entry" href="https://www.ithome.com/1/020/425.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">平板电脑</span>
+        <span class="entry-title">荣耀WIN平板首销3699元起配240Hz屏</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/414.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">中端手机</span>
+        <span class="entry-title">华为畅享100系列首销1399元起</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">游戏本</span>
+        <span class="entry-title">宏碁战斧9 Neo新配置12999元开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/405.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">开源兼容层</span>
+        <span class="entry-title">Wine 11.21发布提升Linux游戏性能</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/401.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">AI入华</span>
+        <span class="entry-title">苹果智能入华接入千问11月4日测试</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/399.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">长时储能</span>
+        <span class="entry-title">我国60兆瓦液态空气储能并网发电</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/388.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">操作系统</span>
+        <span class="entry-title">微软Win11预览版升级搜索操作能力</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="llm" class="archive-board" style="--c-light:#5b4b6e;--c-dark:#b0a0c8">
+    <div class="archive-board-head">
+      <span class="archive-board-num">03</span>
+      <span class="archive-board-name">AI 大模型</span>
+      <span class="archive-board-count"><b>1</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <a class="entry" href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：TechCrunch AI）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">融资评级</span>
+        <span class="entry-title">Anthropic IPO后或被评高垃圾级信用评级</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="agent" class="archive-board" style="--c-light:#4a5d43;--c-dark:#9dc088">
+    <div class="archive-board-head">
+      <span class="archive-board-num">04</span>
+      <span class="archive-board-name">AI 应用与 Agent</span>
+      <span class="archive-board-count"><b>0</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <div class="archive-empty">本板块暂无历史资讯。</div>
+      
+    </div>
+  </section>
+  
+  <section id="hardware" class="archive-board" style="--c-light:#3d5a5c;--c-dark:#89c2c5">
+    <div class="archive-board-head">
+      <span class="archive-board-num">05</span>
+      <span class="archive-board-name">AI 硬件</span>
+      <span class="archive-board-count"><b>7</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <a class="entry" href="https://www.ithome.com/1/020/419.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">影像技术</span>
+        <span class="entry-title">荣耀称将推阿莱拍照模式与Robot Phone二代</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/410.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">游戏本</span>
+        <span class="entry-title">宏碁战斧9 Neo新配置12999元开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/408.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">人才流动</span>
+        <span class="entry-title">字节Seed核心负责人周畅被曝离职创业</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/401.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">AI入华</span>
+        <span class="entry-title">苹果智能入华接入千问11月4日测试</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/393.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">可穿戴AI</span>
+        <span class="entry-title">Apple智能入华AirPods支持实时翻译</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/020/392.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">大模型合作</span>
+        <span class="entry-title">苹果智能接入阿里千问覆盖Siri与写作</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：The Verge）">
+        <span class="entry-date">10.31<span class="yr">2026</span></span>
+        <span class="entry-tag">AI入华</span>
+        <span class="entry-title">Apple Intelligence将于iOS 27.3登陆中国</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="drama" class="archive-board" style="--c-light:#8a6d3b;--c-dark:#dbb877">
+    <div class="archive-board-head">
+      <span class="archive-board-num">06</span>
+      <span class="archive-board-name">AI 短剧</span>
+      <span class="archive-board-count"><b>0</b> 条</span>
+    </div>
+    <div class="archive-list">
+      
+      <div class="archive-empty">本板块暂无历史资讯。</div>
+      
+    </div>
+  </section>
+  
+
+</main>
+
+<footer>
+  <div>AI产业情报局 · 历史资讯归档</div>
+  <div>数据截至 2026-10-31 · 内容由 DeepSeek 自动生成，仅供参考，不构成投资建议</div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+
+/* ============ 主题切换 ============ */
+(function(){
+  var KEY = 'ai-board-theme';
+  var root = document.documentElement;
+  function toggle(){
+    var cur = root.getAttribute('data-theme') || 'light';
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem(KEY, next); } catch(e) {}
+  }
+  function bind(){
+    var btn = document.getElementById('themeToggle');
+    if(btn) btn.addEventListener('click', toggle);
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', bind);
+  } else { bind(); }
+})();
+
+/* ============ 固定导航 ============ */
+(function(){
+  var nav = document.getElementById('mainNav');
+  var spacer = document.getElementById('navSpacer');
+  if(!nav || !spacer) return;
+  var navTop = 0, navHeight = 0;
+  function measure(){
+    var wasFixed = nav.classList.contains('is-fixed');
+    if(wasFixed) nav.classList.remove('is-fixed');
+    navTop = nav.offsetTop;
+    navHeight = nav.offsetHeight;
+    spacer.style.height = navHeight + 'px';
+    document.documentElement.style.scrollPaddingTop = navHeight + 'px';
+    if(wasFixed) nav.classList.add('is-fixed');
+    update();
+  }
+  function update(){
+    if(window.scrollY >= navTop){
+      nav.classList.add('is-fixed');
+      spacer.style.height = navHeight + 'px';
+    } else {
+      nav.classList.remove('is-fixed');
+      spacer.style.height = '0px';
+    }
+  }
+  measure();
+  window.addEventListener('load', measure);
+  window.addEventListener('resize', measure);
+  window.addEventListener('scroll', update, { passive: true });
+})();
+
+/* ============ 锚点平滑滚动 + 外链新标签页 ============ */
+(function(){
+  var nav = document.querySelector('.nav');
+  var navLinks = document.querySelectorAll('.nav a');
+  var sections = document.querySelectorAll('main section[id]');
+  function smoothTo(id){
+    var el = document.getElementById(id);
+    if(!el) return;
+    var nh = nav ? nav.offsetHeight : 0;
+    var top = el.getBoundingClientRect().top + window.pageYOffset - nh;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+  document.querySelectorAll('a[href]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var href = this.getAttribute('href');
+      if(!href) return;
+      if(href.charAt(0) === '#'){
+        var id = href.slice(1);
+        if(id && document.getElementById(id)){
+          e.preventDefault();
+          smoothTo(id);
+          history.replaceState(null, '', '#' + id);
+        }
+        return;
+      }
+      if(/^https?:\/\//i.test(href)){
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(href, '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
+  if('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          var id = '#' + en.target.id;
+          navLinks.forEach(function(a){
+            a.classList.toggle('active', a.getAttribute('href') === id);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+    sections.forEach(function(s){ obs.observe(s); });
+  }
+  window.addEventListener('load', function(){
+    if(location.hash){
+      var id = location.hash.slice(1);
+      if(document.getElementById(id)){ setTimeout(function(){ smoothTo(id); }, 80); }
+    }
+  });
+})();
+</script>
+</body>
+</html>

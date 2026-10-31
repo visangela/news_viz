@@ -1,3 +1,152 @@
 {
-  "by_date": {}
+  "by_date": {
+    "2026-10-31": {
+      "chip": [
+        {
+          "title": "华为Pura 90 Plus开售首发麒麟9025",
+          "tag": "自研芯片",
+          "url": "https://www.ithome.com/1/020/423.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "荣耀称将推阿莱拍照模式与Robot Phone二代",
+          "tag": "影像技术",
+          "url": "https://www.ithome.com/1/020/419.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星广告再讽苹果折叠iPhone Duo",
+          "tag": "折叠屏",
+          "url": "https://www.ithome.com/1/020/417.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为畅享100系列首销1399元起",
+          "tag": "中端手机",
+          "url": "https://www.ithome.com/1/020/414.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宏碁战斧9 Neo新配置12999元开售",
+          "tag": "游戏本",
+          "url": "https://www.ithome.com/1/020/410.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果CEO称绝不为了AI而做AI",
+          "tag": "AI战略",
+          "url": "https://www.ithome.com/1/020/409.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "吉利回应星舰7车机芯片与宣传不符",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/020/407.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果收盘市值5.03万亿美元反超英伟达",
+          "tag": "市值排名",
+          "url": "https://www.ithome.com/1/020/404.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "荣耀WIN平板首销3699元起配240Hz屏",
+          "tag": "平板电脑",
+          "url": "https://www.ithome.com/1/020/425.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为畅享100系列首销1399元起",
+          "tag": "中端手机",
+          "url": "https://www.ithome.com/1/020/414.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宏碁战斧9 Neo新配置12999元开售",
+          "tag": "游戏本",
+          "url": "https://www.ithome.com/1/020/410.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Wine 11.21发布提升Linux游戏性能",
+          "tag": "开源兼容层",
+          "url": "https://www.ithome.com/1/020/405.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果智能入华接入千问11月4日测试",
+          "tag": "AI入华",
+          "url": "https://www.ithome.com/1/020/401.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "我国60兆瓦液态空气储能并网发电",
+          "tag": "长时储能",
+          "url": "https://www.ithome.com/1/020/399.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软Win11预览版升级搜索操作能力",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/020/388.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic IPO后或被评高垃圾级信用评级",
+          "tag": "融资评级",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "荣耀称将推阿莱拍照模式与Robot Phone二代",
+          "tag": "影像技术",
+          "url": "https://www.ithome.com/1/020/419.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宏碁战斧9 Neo新配置12999元开售",
+          "tag": "游戏本",
+          "url": "https://www.ithome.com/1/020/410.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "字节Seed核心负责人周畅被曝离职创业",
+          "tag": "人才流动",
+          "url": "https://www.ithome.com/1/020/408.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果智能入华接入千问11月4日测试",
+          "tag": "AI入华",
+          "url": "https://www.ithome.com/1/020/401.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Apple智能入华AirPods支持实时翻译",
+          "tag": "可穿戴AI",
+          "url": "https://www.ithome.com/1/020/393.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果智能接入阿里千问覆盖Siri与写作",
+          "tag": "大模型合作",
+          "url": "https://www.ithome.com/1/020/392.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Apple Intelligence将于iOS 27.3登陆中国",
+          "tag": "AI入华",
+          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+          "source": "The Verge"
+        }
+      ]
+    }
+  }
 }
