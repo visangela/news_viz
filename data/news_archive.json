@@ -239,6 +239,252 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-02": {
+      "chip": [
+        {
+          "title": "Altman赴韩会见三星高层锁定数据中心内存",
+          "tag": "内存供应",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "海贝R6III SE播放器发布四DAC售1798元",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/020/836.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源UEFI工具解锁英伟达GPU算力限制",
+          "tag": "开源工具",
+          "url": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "诺基亚2360 Flip翻盖机曝光用展锐T127",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/020/834.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "酷态科30号适配器发售360W售499元",
+          "tag": "电源芯片",
+          "url": "https://www.ithome.com/1/020/807.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "半导体封测年会定档华为龙芯小米汽车参会",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/020/803.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "极狐10月销量26325台阿尔法T7开启交付",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/020/784.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "REDMI M100 Pro上架天玑7300-Ultra售2499",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/020/778.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "点击式冒险游戏BUZZ or DIE登陆Steam",
+          "tag": "游戏内容",
+          "url": "https://www.ithome.com/1/020/772.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "李在镕赴日考察先进封装五年投400亿日元",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/020/770.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "电动MINI JCW限定系列上市售25.38万元",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/020/769.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "佰维M560 2TB固态评测无DRAM方案标杆",
+          "tag": "存储主控",
+          "url": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Altman赴韩会见三星高层锁定数据中心内存",
+          "tag": "内存供应",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "海贝R6III SE播放器发布四DAC售1798元",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/020/836.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "诺基亚2360 Flip翻盖机曝光用展锐T127",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/020/834.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "长鑫LPDDR收入781.91亿元占比52.02%",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/020/832.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "半导体封测年会定档华为龙芯小米汽车参会",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/020/803.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "REDMI M100 Pro上架天玑7300-Ultra售2499",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/020/778.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "点击式冒险游戏BUZZ or DIE登陆Steam",
+          "tag": "游戏内容",
+          "url": "https://www.ithome.com/1/020/772.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "李在镕赴日考察先进封装五年投400亿日元",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/020/770.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Claude紧急叫停暗改Harness禁止逆向游戏",
+          "tag": "平台治理",
+          "url": "https://www.qbitai.com/2026/11/507038.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "拆解Agent Harness中的Token流向",
+          "tag": "成本优化",
+          "url": "https://armincat.com/articles/where-tokens-go",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "无头编码Agent命令行工具横向评测",
+          "tag": "工具评测",
+          "url": "https://aictrl.dev/blog/headless-coding-agent-cli-benchmark",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Meta Muse被指为伪装成助手的监控网络",
+          "tag": "隐私治理",
+          "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DeepSeek超级Agent静默故障的分层诊断",
+          "tag": "运维诊断",
+          "url": "https://super-agent.io/deepseek-super-agent/troubleshooting/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent集群中出人意料的领导力动态",
+          "tag": "多智能体",
+          "url": "https://www.raindrop.ai/blog/agent-swarm-leadership/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DeepSeek探讨超级Agent自主系统设计",
+          "tag": "架构设计",
+          "url": "https://twitter.com/DeepSeekHarness/status/2116857257245987236",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "用两个GitHub Action证明Agent行为可审计",
+          "tag": "可审计性",
+          "url": "https://medium.com/@MirArshadTalpur/how-to-prove-what-your-ai-agent-did-in-minutes-zizkadbs-two-github-actions-and-mcp-listing-7d3d6669dab6",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "新顶级域名申请折射Agent互联网入口争夺",
+          "tag": "互联网入口",
+          "url": "https://www.netcraft.com/blog/what-new-tld-applications-reveal-icann",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "同模型不同Agent在21个MCP服务器差17分",
+          "tag": "框架差异",
+          "url": "https://m3.sineframe.com/blog/same-model-different-agent",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Minecraft多Agent集群建文明失败陷官僚",
+          "tag": "多智能体",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "用Go构建自愈型自主Agent框架实践",
+          "tag": "工程实践",
+          "url": "https://medium.com/@vishwanathanraman/vibe-coding-an-autonomous-agent-harness-in-go-from-zero-to-self-healing-ai-workflows-785d82f981b6",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Devloops开源对抗式Agent循环减少人工介入",
+          "tag": "开源项目",
+          "url": "https://github.com/fritzprix/devloops",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "影之刃零Steam峰值83万连续四天走高",
+          "tag": "游戏产业",
+          "url": "https://www.ithome.com/1/020/840.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源UEFI工具解锁英伟达GPU算力限制",
+          "tag": "开源工具",
+          "url": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "长鑫LPDDR收入781.91亿元占比52.02%",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/020/832.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "影驰金属大师T8双塔风冷229元上市",
+          "tag": "散热材料",
+          "url": "https://www.ithome.com/1/020/816.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "首届CMG世界机器人登泰山大赛明日开赛",
+          "tag": "赛事",
+          "url": "https://www.ithome.com/1/020/773.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "点击式冒险游戏BUZZ or DIE登陆Steam",
+          "tag": "游戏内容",
+          "url": "https://www.ithome.com/1/020/772.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
