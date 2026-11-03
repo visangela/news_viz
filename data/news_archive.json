@@ -847,6 +847,332 @@
           "source": "AITOP100·大赛"
         }
       ]
+    },
+    "2026-11-04": {
+      "chip": [
+        {
+          "title": "苹果watchOS 27.3上线音频智能功能",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/021/864.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达称AI仿真让晶圆厂提速35倍",
+          "tag": "晶圆制造",
+          "url": "https://www.ithome.com/1/021/857.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "十铨预警内存短缺最严峻阶段未到",
+          "tag": "存储供需",
+          "url": "https://www.ithome.com/1/021/842.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iPad mini 8搭载2nm A20 Pro芯片",
+          "tag": "先进制程",
+          "url": "https://www.ithome.com/1/021/827.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为子品牌星芒新品配置对标旗舰",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/021/825.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "《霍格沃茨之遗》将支持DLSS 5",
+          "tag": "图形GPU",
+          "url": "https://www.ithome.com/1/021/822.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达要求数据中心对华业务限半",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "走私者借监管漏洞将HBM运入中国",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "亚马逊封禁购买七台DGX Spark用户",
+          "tag": "算力硬件",
+          "url": "https://www.tomshardware.com/desktops/mini-pcs/amazon-closes-ai-creators-account-after-he-attempts-to-buy-seven-nvidia-dgx-spark-mini-pcs-epic-ceo-tim-sweeney-says-his-regular-orders-were-canceled-before-arrival-after-he-tried-to-buy-two-gpus",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "微软优化Win11内存管理，8GB设备多任务提速40%",
+          "tag": "系统优化",
+          "url": "https://www.ithome.com/1/021/876.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GTA6预载最高占用212GB存储空间",
+          "tag": "存储需求",
+          "url": "https://www.ithome.com/1/021/850.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "十铨预警内存短缺最严峻阶段尚未到来",
+          "tag": "供需格局",
+          "url": "https://www.ithome.com/1/021/842.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宏碁推Aspire X 16，配16GB内存与512GB SSD",
+          "tag": "终端产品",
+          "url": "https://www.ithome.com/1/021/837.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果面临内存成本空前上涨，制造成本增330亿美元",
+          "tag": "成本传导",
+          "url": "https://www.tomshardware.com/pc-components/dram/apple-faces-unprecedented-memory-cost-increases-as-ram-prices-continue-to-surge-manufacturing-bill-climbs-by-usd33-billion-rising-component-expenses-threaten-margins-through-the-holiday-quarter-and-into-2027",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "DockCase推掌机扩展坞，内置采集卡与4TB NVMe位",
+          "tag": "存储外设",
+          "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/hands-on-with-the-dockcase-mount-ling-2-pro-handheld-dock-with-a-built-in-capture-card-and-space-for-up-to-4tb-of-nvme-storage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "海盗船MP700 SE Gen5 SSD降价180美元",
+          "tag": "SSD价格",
+          "url": "https://www.tomshardware.com/pc-components/ssds/corsair-has-slashed-usd180-off-its-blistering-mp700-se-gen-5-ssd-now-14-cents-per-gb-get-4tb-of-ssd-storage-for-usd579-the-cheapest-drive-on-the-market",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "走私者借监管漏洞将韩产HBM运入中国",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Steam调查：32GB内存玩家占比下降超5%",
+          "tag": "需求结构",
+          "url": "https://www.tomshardware.com/pc-components/ram/steam-survey-shockwaves-felt-as-proportion-of-32gb-ram-systems-drops-by-more-than-5-percent-the-percentage-of-pc-gamers-with-1tb-total-storage-also-shrunk-by-nearly-5-percent",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "开发者用128MB内存运行Win11 26H2",
+          "tag": "技术实验",
+          "url": "https://www.tomshardware.com/software/windows/developer-manages-to-run-windows-11-26h2-with-just-128mb-of-ram-just-3-1-percent-of-recommended-minimum-stripped-down-installation-can-access-desktop-file-explorer-and-notepad",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic算力成本压力加剧，经济性恶化",
+          "tag": "算力成本",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Lotse推出iOS端AI编程Agent应用",
+          "tag": "AI编程",
+          "url": "https://apps.apple.com/us/app/lotse-ai-coding-agent/id6760467136",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Small Print监控MCP服务器对Agent的输出变更",
+          "tag": "MCP治理",
+          "url": "https://smallprint.dev",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "search2o发布全栈Agent服务器套件",
+          "tag": "Agent基建",
+          "url": "https://search2o.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Paneflow用OSC 7501标准化终端Agent状态",
+          "tag": "终端协议",
+          "url": "https://paneflow.dev/blog/agent-status-osc-7501",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DeleganceAI提出有限Agent机为群体提供保证",
+          "tag": "Agent安全",
+          "url": "https://github.com/DeleganceAI/alinery/blob/main/whitepaper/finite-agent-machines.pdf",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "OpenAI研究指出Agent评测与生产行为存在差距",
+          "tag": "Agent安全",
+          "url": "https://alignment.openai.com/eval-production-behavior-gap/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "tmux-restore支持重启后恢复Agent会话",
+          "tag": "开源工具",
+          "url": "https://github.com/andrewboldi/tmux-restore",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "kagent分析Agent沙箱的四维差异",
+          "tag": "沙箱安全",
+          "url": "https://kagent.dev/blog/agent-sandboxes-four-axes",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Cinnamon推出家庭AI Agent区分私密与共享上下文",
+          "tag": "家庭Agent",
+          "url": "https://getcinnamon.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Vectorize提出面向Agent记忆的微调决策模型",
+          "tag": "Agent记忆",
+          "url": "https://hindsight.vectorize.io/blog/2026/11/03/hindsight-models",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "多智能体CrewAI审计方法：定位交接断点",
+          "tag": "智能体运维",
+          "url": "https://medium.com/@MirArshadTalpur/how-to-audit-a-multi-agent-crewai-crew-find-the-handoff-that-broke-the-output-143f13784cdb",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent Tree开源工具可视化Claude Code子智能体",
+          "tag": "开源工具",
+          "url": "https://github.com/MikeGT4/agent-tree",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "AMD前三季净利增116%，AI芯片驱动高增长",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/021/871.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果手表上线音频智能，Siri可实时记录摘要",
+          "tag": "端侧AI",
+          "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
+          "source": "The Verge"
+        },
+        {
+          "title": "苹果Fitness+推四周AI力量训练计划",
+          "tag": "AI应用",
+          "url": "https://www.ithome.com/1/021/865.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Safari 27.3测试版适配折叠iPhone Duo",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/021/863.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "watchOS测试版开放Siri环境监听与转录",
+          "tag": "端侧AI",
+          "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+          "source": "The Verge"
+        },
+        {
+          "title": "国行Apple智能开放测试，12月正式落地",
+          "tag": "平台落地",
+          "url": "https://www.ithome.com/1/021/859.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达称AI仿真让晶圆厂决策提速35倍",
+          "tag": "智能制造",
+          "url": "https://www.ithome.com/1/021/857.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Intel 14A开放PDK 0.9，逼近量产",
+          "tag": "先进制程",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "欧盟顾问称Gemini用新闻或侵犯版权",
+          "tag": "版权治理",
+          "url": "https://www.ithome.com/1/021/835.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "欧洲六国联合查封诈骗服务器百余台",
+          "tag": "网络安全",
+          "url": "https://www.ithome.com/1/021/829.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果iPad mini 8升级OLED与2nm A20 Pro芯片",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/021/827.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达要求数据中心对华业务占比低于49%",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "10月AI短剧市场规模首破4000亿",
+          "tag": "市场规模",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259658",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "海丝之光AI青瓷设计大赛已收官",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=31&type=picture",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "第二届AIGC共创大赛未来栖居收官",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=30&type=picture",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "地外生命探索AIGC共创大赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=29&type=picture",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "WAIC美好奇妙世界AI同行图像赛收官",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=28&type=picture",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "WAIC与AI同行视频赛道赛事已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=27&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "冷湖AI短剧拉力赛第四期已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=26&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "B站超级科学晚展示脑机接口与人造太阳",
+          "tag": "平台内容",
+          "url": "https://www.qbitai.com/2026/11/507339.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
