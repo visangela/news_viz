@@ -66,3 +66,10 @@ ARCHIVE_TEMPLATE_PATH = ROOT / "templates" / "archive.html.j2"
 
 # 归档页面保留历史资讯的天数
 ARCHIVE_RETENTION_DAYS = 90
+# HTML 列表页抓取
+HTML_FETCH_TIMEOUT = 20
+DEFAULT_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36"
+)
