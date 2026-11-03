@@ -485,6 +485,368 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-03": {
+      "chip": [
+        {
+          "title": "Meta携傅利叶开发人形机器人Max",
+          "tag": "机器人",
+          "url": "https://www.ithome.com/1/021/339.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "爱信推全球首款16nm STT-MRAM AI SoC",
+          "tag": "存储芯片",
+          "url": "https://www.ithome.com/1/021/326.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果库存激增154%囤积存储芯片",
+          "tag": "存储芯片",
+          "url": "https://www.ithome.com/1/021/307.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "macOS 27超宽屏支持改进有限",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/021/306.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华擎Z970主板曝光 Nova Lake将出货",
+          "tag": "芯片组",
+          "url": "https://www.ithome.com/1/021/303.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果承认iPhone Duo折叠屏交货延迟",
+          "tag": "供应链",
+          "url": "https://www.ithome.com/1/021/298.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "MacBook Neo拿下菲律宾17万台订单",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/021/297.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达Brev平台曝安全事件",
+          "tag": "网络安全",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5070 Ti整机降价450美元",
+          "tag": "消费硬件",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-usd450-saving-on-this-4k-ready-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-abs-rig-from-newegg-ships-with-24-core-intel-cpu-and-a-2tb-ssd-for-usd2-549-99",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "爱信推全球首款16nm STT-MRAM AI SoC",
+          "tag": "新型存储",
+          "url": "https://www.ithome.com/1/021/326.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果库存激增154%，存储成本压力延续至明年",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/021/307.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华擎Z970主板现身海关，Nova Lake平台备货",
+          "tag": "平台芯片",
+          "url": "https://www.ithome.com/1/021/303.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "奥尔特曼称PC装DRAM浪费内存引争议",
+          "tag": "产业观点",
+          "url": "https://www.ithome.com/1/021/302.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果承认iPhone Duo延迟，存储涨价成焦点",
+          "tag": "终端供应",
+          "url": "https://www.ithome.com/1/021/298.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星P9 512GB microSD Express卡降价34%",
+          "tag": "存储卡",
+          "url": "https://www.tomshardware.com/pc-components/microsd-cards/triple-your-nintendo-switch-2s-storage-for-just-usd99-save-usd50-on-this-ultra-fast-512gb-samsung-p9-microsd-card-for-a-limited-time-only",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5070 Ti游戏主机配32GB DDR5降价450美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-usd450-saving-on-this-4k-ready-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-abs-rig-from-newegg-ships-with-24-core-intel-cpu-and-a-2tb-ssd-for-usd2-549-99",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic称已非常接近RSI自我进化能力",
+          "tag": "AI安全",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "纽约时报等起诉Brave非法抓取内容",
+          "tag": "版权诉讼",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI合并ChatGPT聊天与工作标签页",
+          "tag": "产品整合",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI重写大模型法则强调忠于人类",
+          "tag": "模型治理",
+          "url": "https://www.qbitai.com/2026/11/507225.html",
+          "source": "量子位"
+        },
+        {
+          "title": "GPT-6.2 Astra灰测与Claude新版本同日曝光",
+          "tag": "模型迭代",
+          "url": "https://www.qbitai.com/2026/11/507082.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenAI或把数据中心改称AI算力园区",
+          "tag": "算力基建",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "选民教育Agent接入税务数据引隐私争议",
+          "tag": "隐私合规",
+          "url": "https://serendb.com/caroline-hughes",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Repobs推出Agent工作树本地管理面板",
+          "tag": "开发工具",
+          "url": "https://chengxuan-li.github.io/repobs/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "DeepSeek超级Agent架构16分钟可视化拆解",
+          "tag": "架构解析",
+          "url": "https://www.youtube.com/watch?v=_zHhUSIAdP4",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Vool推本地优先且可离线验证的Agent",
+          "tag": "可信Agent",
+          "url": "https://github.com/Parad0x-Labs/vool",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Feltkit主打Agent原生且无厂商锁定",
+          "tag": "基础设施",
+          "url": "https://www.getfeltkit.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Hanging Context让Agent为Agent生产新闻",
+          "tag": "内容生态",
+          "url": "https://hangingcontext.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Momentic获YC孵化推应用测试Agent",
+          "tag": "测试Agent",
+          "url": "https://momentic.ai/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Agent Drift小游戏科普Agent行为漂移",
+          "tag": "行为漂移",
+          "url": "https://drift.seethis.dev/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Murmur开源跨用户Agent通信方案",
+          "tag": "Agent互联",
+          "url": "https://github.com/EledoneAi/murmur",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Deedglass曝光Agent误报数据库变更行数",
+          "tag": "变更审计",
+          "url": "https://github.com/deedglass/deedglass",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AI编程Agent需超越提示词工程",
+          "tag": "编程Agent",
+          "url": "https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "A2Flow开源Agent即工作流引擎",
+          "tag": "开源",
+          "url": "https://kaitoy.github.io/a2flow/",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Meta 联手傅利叶开发人形机器人 Max",
+          "tag": "人形机器人",
+          "url": "https://www.ithome.com/1/021/339.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宇树将重点攻克机器人大脑技术",
+          "tag": "具身智能",
+          "url": "https://www.ithome.com/1/021/325.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "力鸿二号拟 2027 年验证亚轨道回收",
+          "tag": "商业航天",
+          "url": "https://www.ithome.com/1/021/319.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果下架 19 款暗藏深度伪造 App",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/021/309.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "宇树机器人登泰山大赛斩获 1 金 2 银",
+          "tag": "赛事",
+          "url": "https://www.ithome.com/1/021/302.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "国内首套超深竖井智能焊接装备投用",
+          "tag": "工业机器人",
+          "url": "https://www.ithome.com/1/021/292.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达 Brev 平台曝安全事件泄露 SSH 密钥",
+          "tag": "云安全",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RISC-V CPU 被编译进大模型权重并跑 DOOM",
+          "tag": "前沿实验",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-engineer-successfully-compiles-a-32-bit-risc-v-cpu-in-qwen-3-5-4b-llm-inserted-directly-into-its-weights-built-in-cpu-can-run-processor-arithmetic-operations-code-and-of-course-doom",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5070 Ti 游戏整机降价 450 美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-usd450-saving-on-this-4k-ready-gaming-pc-with-an-rtx-5070-ti-and-32gb-ddr5-right-now-abs-rig-from-newegg-ships-with-24-core-intel-cpu-and-a-2tb-ssd-for-usd2-549-99",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "2026中国广播电视精品创作大会微短剧论坛举行",
+          "tag": "行业论坛",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259609",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "第二届澳门国际动画电影节大赛公示中",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=45&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "织金洞AIGC视频创意挑战赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=44&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "喜之郎首届AIGC创想大赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=43&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "2026徐闻菠萝AIGC大赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=42&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "首届浙西大学生AIGC视频创意大赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=41&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "AI功夫短片全球征集赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=40&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "金号相伴AI视频创作大赛社会组已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=39&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "金号相伴AI视频创作大赛学院组已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=38&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "岳阳楼AIGC短视频创作大赛已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=37&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "台州首届AIGC创意大赛视频赛道已收官",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=36&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "台州AIGC创意大赛绘画赛道已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=35&type=picture",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "国风AIGC故事短剧创作大赛已收官",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=34&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "国风AIGC短剧大赛设学院组吸纳高校",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=33&type=video",
+          "source": "AITOP100·大赛"
+        },
+        {
+          "title": "亦庄视听AI创作大赛2024年11月已结束",
+          "tag": "赛事",
+          "url": "https://www.aitop100.cn/aicreation/index.html?id=32&type=video",
+          "source": "AITOP100·大赛"
+        }
+      ]
     }
   }
 }
