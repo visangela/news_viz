@@ -1,5 +1,6 @@
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
 
@@ -109,24 +110,44 @@ def _is_valid_title(title: str, hints: dict) -> bool:
 def fetch_html_listing(feed_cfg: dict, since_dt: datetime, history: dict) -> list:
     url = feed_cfg["url"]
     hints = feed_cfg.get("hints", {})
-    headers = {"User-Agent": hints.get("user_agent", DEFAULT_UA)}
 
-    try:
-        resp = requests.get(url, headers=headers, timeout=HTML_FETCH_TIMEOUT)
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"[WARN] HTML fetch failed: {feed_cfg['name']} {url} ({e})")
-        return []
+    headers = {
+        "User-Agent": hints.get("user_agent", DEFAULT_UA),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Referer": url,
+    }
 
-    if not resp.encoding or resp.encoding.lower() in ("iso-8859-1", "ascii"):
-        # resp.encoding = resp.apparent_encoding or "utf-8"
-        ct = resp.headers.get("Content-Type", "")
-        if "charset=" in ct:
-            resp.encoding = ct.split("charset=")[-1].split(";")[0].strip()
-        else:
-            resp.encoding = "utf-8"
+    session = requests.Session()
+    session.headers.update(headers)
+
+    resp = None
+    for attempt in range(2):
+        try:
+            resp = session.get(url, timeout=HTML_FETCH_TIMEOUT)
+            resp.raise_for_status()
+            break
+        except Exception as e:
+            print(f"[WARN] HTML fetch attempt {attempt + 1} failed: {feed_cfg['name']} {url} ({e})")
+            if attempt == 1:
+                return []
+            time.sleep(2)
+
+    ct = resp.headers.get("Content-Type", "")
+    if "charset=" in ct:
+        resp.encoding = ct.split("charset=")[-1].split(";")[0].strip()
+    else:
+        resp.encoding = "utf-8"
 
     soup = BeautifulSoup(resp.text, "html.parser")
+    all_anchors = soup.select("a")
+    print(
+        f"[INFO] {feed_cfg['name']}: status={resp.status_code}, "
+        f"html_len={len(resp.text)}, <a>={len(all_anchors)}"
+    )
 
     selector = hints.get("selector", "a")
     href_must = hints.get("href_must_contain", [])
@@ -173,6 +194,10 @@ def fetch_html_listing(feed_cfg: dict, since_dt: datetime, history: dict) -> lis
         })
         if len(items) >= max_items:
             break
+
+    if not items:
+        sample = [(a.get("href") or "")[:60] for a in all_anchors[:8]]
+        print(f"[WARN] {feed_cfg['name']}: 0 items matched. Sample hrefs: {sample}")
 
     print(f"[INFO] HTML listing {feed_cfg['name']}: parsed {len(items)} candidate links")
     return items

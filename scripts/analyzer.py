@@ -12,7 +12,6 @@ client = OpenAI(
 
 MODEL = "deepseek-chat"
 
-# 与 data/sources.json 保持一致；增删板块时需同步更新
 BOARD_NAMES = {
     "chip": "芯片与半导体",
     "memory": "存储",
@@ -37,7 +36,6 @@ def _safe_json_loads(content: str) -> dict:
 
     text = content.strip()
 
-    # 去掉 markdown 代码块围栏
     if text.startswith("```"):
         lines = text.split("\n")
         if lines and lines[0].startswith("```"):
@@ -46,7 +44,6 @@ def _safe_json_loads(content: str) -> dict:
             lines = lines[:-1]
         text = "\n".join(lines).strip()
 
-    # 提取最外层 { ... }
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end != -1 and end > start:
@@ -86,9 +83,9 @@ def _call_llm_json(prompt: str, max_tokens: int = 3000, retries: int = 2) -> dic
     raise last_err
 
 
-# ---------------- 结构化资讯 ----------------
+# ---------------- 结构化资讯（按板块分批） ----------------
 
-NEWS_STRUCT_PROMPT = """今天是 {today}。以下是今天各板块抓取到的原始资讯（JSON）：
+NEWS_STRUCT_PROMPT = """今天是 {today}。以下是「{board_name}」板块今天抓取到的原始资讯（JSON）：
 
 {news_json}
 
@@ -96,33 +93,87 @@ NEWS_STRUCT_PROMPT = """今天是 {today}。以下是今天各板块抓取到的
 - 保留原文 URL 和 source
 - title 精简到 12-25 字，突出最关键的产业信息
 - summary 80-150 字，说明"发生了什么"和"为什么重要"
-- tag 3-6 字，概括这条资讯的产业维度（如"散热材料""财报""开源""平台治理"）
-- 如果一条资讯涉及“创作大赛”“创投季”“激励计划”“扶持计划”“征集”，tag 优先使用“赛事”或“扶持”，不要用泛化的“动态”。
+- tag 3-6 字，概括这条资讯的产业维度（如"散热材料""财报""开源""平台治理""赛事""扶持"）
+- 如果资讯涉及"创作大赛""创投季""激励计划""扶持计划""征集"，tag 优先使用"赛事"或"扶持"
 
 严格输出如下 JSON（不要任何其他字段）：
 {{
   "news": {{
-    "{first_board}": [
+    "{board_id}": [
       {{"title": "...", "summary": "...", "tag": "...", "url": "...", "source": "..."}}
     ]
   }}
 }}
 
-注意：只对实际传入的板块输出；如果某个板块今日无资讯，则输出空数组。
+如果输入资讯为空，输出 {{"news": {{"{board_id}": []}}}}。
 字符串值内部不要使用未转义的双引号，不要使用真实换行符。"""
+
+NEWS_BATCH_SIZE = 10
+
+
+def _fallback_news_items(board_id: str, raw_items: list) -> list:
+    """LLM 失败时的兜底：直接用原始 title / summary，不生成新内容。"""
+    result = []
+    for it in raw_items:
+        title = (it.get("title") or "").strip()
+        if not title:
+            continue
+        summary = (it.get("summary") or "").strip()
+        if not summary:
+            summary = title
+        result.append({
+            "title": title[:60],
+            "summary": summary[:300],
+            "tag": "动态",
+            "url": it.get("url", ""),
+            "source": it.get("source", ""),
+            "published": it.get("published", ""),
+        })
+    return result
 
 
 def analyze_news(raw_news: dict, today_str: str) -> dict:
-    news_json = json.dumps(raw_news, ensure_ascii=False, indent=2)
-    prompt = NEWS_STRUCT_PROMPT.format(
-        today=today_str,
-        news_json=news_json,
-        first_board=BOARD_ORDER[0],
-    )
-    return _call_llm_json(prompt, max_tokens=5000)
+    all_news = {}
+
+    for board_id in BOARD_ORDER:
+        items = raw_news.get(board_id, []) or []
+        board_name = BOARD_NAMES.get(board_id, board_id)
+
+        if not items:
+            all_news[board_id] = []
+            continue
+
+        print(f"[INFO] Structuring news for {board_id}: {len(items)} items")
+        board_result = []
+
+        for i in range(0, len(items), NEWS_BATCH_SIZE):
+            batch = items[i:i + NEWS_BATCH_SIZE]
+            prompt = NEWS_STRUCT_PROMPT.format(
+                today=today_str,
+                board_name=board_name,
+                board_id=board_id,
+                news_json=json.dumps(batch, ensure_ascii=False, indent=2),
+            )
+            try:
+                result = _call_llm_json(prompt, max_tokens=3000, retries=1)
+                batch_struct = result.get("news", {}).get(board_id, []) or []
+                # 回填 published（模型不会输出这个字段）
+                url_to_pub = {it.get("url"): it.get("published", "") for it in batch}
+                for s in batch_struct:
+                    s["published"] = url_to_pub.get(s.get("url", ""), "")
+                board_result.extend(batch_struct)
+                print(f"[INFO]   batch {i // NEWS_BATCH_SIZE + 1}: +{len(batch_struct)} items")
+            except Exception as e:
+                print(f"[ERROR] Board {board_id} batch {i // NEWS_BATCH_SIZE + 1} failed: {e}")
+                print(f"[INFO]   falling back to raw items for this batch")
+                board_result.extend(_fallback_news_items(board_id, batch))
+
+        all_news[board_id] = board_result
+
+    return {"news": all_news}
 
 
-# ---------------- 单板块分析 ----------------
+# ---------------- 单板块分析（不变） ----------------
 
 BOARD_ANALYSIS_PROMPT = """今天是 {today}。你是 AI 产业分析师。以下是「{board_name}」板块今日的结构化资讯：
 
@@ -168,7 +219,7 @@ def _analyze_single_board(board_id, news_items, history_summary, today_str):
     return _call_llm_json(prompt, max_tokens=2500)
 
 
-# ---------------- 全局总结 ----------------
+# ---------------- 全局总结（不变） ----------------
 
 GLOBAL_SUMMARY_PROMPT = """今天是 {today}。你是 AI 产业分析师。以下是今日六大板块的新闻标题与板块状态：
 
@@ -206,12 +257,9 @@ def _analyze_global(structured_news, board_analysis_map, today_str):
     return _call_llm_json(prompt, max_tokens=4000)
 
 
-# ---------------- 对外入口 ----------------
-
 def analyze_boards(structured_news: dict, history: list, today_str: str) -> dict:
     history_summary = json.dumps(history[-7:], ensure_ascii=False, indent=2)
 
-    # 逐板块分析：空板块不调 API，直接 fallback
     board_analysis_map = {}
     for board_id in BOARD_ORDER:
         items = structured_news.get("news", {}).get(board_id, []) or []
@@ -228,7 +276,6 @@ def analyze_boards(structured_news: dict, history: list, today_str: str) -> dict
                 "outlook": ["暂无展望。"],
             }
 
-    # 全局总结
     print("[INFO] Generating global summary...")
     try:
         global_result = _analyze_global(structured_news, board_analysis_map, today_str)
