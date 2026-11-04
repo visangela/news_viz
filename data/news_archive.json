@@ -1173,6 +1173,288 @@
           "source": "量子位"
         }
       ]
+    },
+    "2026-11-05": {
+      "chip": [
+        {
+          "title": "旺宏退出任天堂ROM转产AI数据中心闪存",
+          "tag": "存储芯片",
+          "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "罗技G Pro X3 Superstrike鼠标评测",
+          "tag": "外设芯片",
+          "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g-pro-x3-superstrike-review",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达发布621.14驱动优化DLSS 5",
+          "tag": "GPU生态",
+          "url": "https://www.ithome.com/1/022/438.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "高通拿下史上最大5G交易联合SpaceX建网",
+          "tag": "5G基带",
+          "url": "https://www.ithome.com/1/022/434.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源驱动用NPU渲染Win11桌面原型",
+          "tag": "NPU应用",
+          "url": "https://www.ithome.com/1/022/430.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "影之刃零首个补丁优化流畅度与着色器",
+          "tag": "游戏图形",
+          "url": "https://www.ithome.com/1/022/429.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达对华70亿美元GPU订单仅能交付1%",
+          "tag": "AI算力",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "三星Galaxy T1运动耳机获FCC认证",
+          "tag": "蓝牙SoC",
+          "url": "https://www.ithome.com/1/022/417.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "捷途自由者7上市标配8155车载芯片",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/022/408.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星Buds 3/4 Pro将获助听器功能",
+          "tag": "可穿戴芯片",
+          "url": "https://www.ithome.com/1/022/371.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "旺宏退出任天堂ROM转产AI存储芯片",
+          "tag": "产能转移",
+          "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "十铨CEO警告内存危机明年加剧",
+          "tag": "供需失衡",
+          "url": "https://www.tomshardware.com/pc-components/dram/team-group-ceo-warns-memory-crisis-could-reach-point-where-even-money-cant-buy-goods-will-get-worse-next-year-with-no-downward-trend-in-price-whatsoever",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "美光公布DRAM与NAND技术路线图",
+          "tag": "技术路线",
+          "url": "https://www.tomshardware.com/pc-components/dram/micron-details-ambitious-dram-and-nand-roadmap-3d-nand-high-na-euv-new-materials-and-custom-silicon-makes-a-comeback",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "小米智能摄像机4 Pro降至242元",
+          "tag": "智能硬件",
+          "url": "https://www.ithome.com/1/022/409.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "酷派阔直板手机延期发货致歉",
+          "tag": "终端供应链",
+          "url": "https://www.ithome.com/1/022/386.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "奥尔特曼回应内存言论称遭断章取义",
+          "tag": "行业争议",
+          "url": "https://www.ithome.com/1/022/385.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "CyberPowerPC游戏主机降价300美元",
+          "tag": "终端促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd300-on-this-1440p-gaming-pc-with-a-9800x3d-and-rtx-5070-right-now-pre-built-cyberpowerpc-machine-ships-with-32gb-ddr5-and-a-2tb-ssd-for-just-usd2-199-99",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "长鑫科技拟最高50亿回购创科创板纪录",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/022/378.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI提前布局2028美国大选议程",
+          "tag": "政策博弈",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "招商局发布驭物具身推理模型，仅激活3B参数",
+          "tag": "具身智能",
+          "url": "https://www.qbitai.com/2026/11/507586.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Anthropic研发FlashProve验证模型身份",
+          "tag": "模型溯源",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Amigent让50KB/s老式Amiga运行AI智能体",
+          "tag": "边缘智能",
+          "url": "https://github.com/akustikrausch/amigent",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "OpenRing开源自托管语音AI智能体平台",
+          "tag": "开源",
+          "url": "https://github.com/elifalanrocha/openring",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "编码智能体框架测评：深度思考胜过框架优化",
+          "tag": "基准评测",
+          "url": "https://surgehq.ai/blog/benchmarking-coding-agent-harnesses",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Svoxx上线AI智能体平台国际版",
+          "tag": "平台",
+          "url": "https://agent.svoxx.com/int/en",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Ripple-65B预览：美国开放权重智能体编码SOTA",
+          "tag": "开放权重",
+          "url": "https://www.ricursive.com/ripple",
+          "source": "Hacker News"
+        },
+        {
+          "title": "benchfmt.rs把Go基准测试工作流引入Rust",
+          "tag": "开发工具",
+          "url": "https://www.bwplotka.dev/2026/rust-microbenchmarks-benchstat/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "埃森哲承包商私接Claude智能体至五角大楼系统",
+          "tag": "安全治理",
+          "url": "https://www.ibtimes.co.uk/claude-code-agent-pentagon-niprnet-access-allegations-1829425",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Uncle Bob发布编码智能体技能配置ub-mode",
+          "tag": "开发工具",
+          "url": "https://github.com/unclebob/ub-mode",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Memex开源让个人上下文跨智能体复用",
+          "tag": "记忆上下文",
+          "url": "https://predsymod.github.io/memex/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "圣塔菲研究所谈基于智能体建模的世界嵌套",
+          "tag": "多智能体",
+          "url": "https://santafe.edu/features/agent-based-modeling-worlds-within-worlds",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "HN 热议多模型 Agent 编排工具选型",
+          "tag": "Agent编排",
+          "url": "https://news.ycombinator.com/item?id=50369140",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "CXAgent 发布 .NET 终端多 Agent 编码工作台",
+          "tag": "编码Agent",
+          "url": "https://nickprotop.github.io/cxagent/",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Thermal Grizzly推PTM Pro导热垫",
+          "tag": "散热材料",
+          "url": "https://www.tomshardware.com/pc-components/thermal-paste/thermal-grizzly-launches-phasesheet-ptm-pro-with-improved-thermal-conductivity-new-thermal-pad-promises-easier-installation-and-better-cooling-performance",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达621.14驱动优化DLSS 5游戏",
+          "tag": "图形驱动",
+          "url": "https://www.ithome.com/1/022/438.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源驱动用NPU渲染Win11桌面",
+          "tag": "开源",
+          "url": "https://www.ithome.com/1/022/430.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "影之刃零首个补丁优化流畅度",
+          "tag": "游戏硬件",
+          "url": "https://www.ithome.com/1/022/429.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "中兴手机公众号迁移至中兴终端",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/022/428.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "魔芯发布昇腾原生4D世界模型",
+          "tag": "世界模型",
+          "url": "https://www.ithome.com/1/022/424.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达对华GPU订单仅能交付1%",
+          "tag": "算力供给",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "开源项目用NPU替代GPU渲染桌面",
+          "tag": "开源",
+          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/open-source-project-renders-your-windows-11-desktop-using-the-npu-rather-than-the-gpu-npu-driver-can-only-run-at-2-3-hz-targets-30-hz-performance",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "9800X3D加RTX 5070整机降价300美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd300-on-this-1440p-gaming-pc-with-a-9800x3d-and-rtx-5070-right-now-pre-built-cyberpowerpc-machine-ships-with-32gb-ddr5-and-a-2tb-ssd-for-just-usd2-199-99",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "现代展示自动加氢机器人与燃料电池",
+          "tag": "氢能硬件",
+          "url": "https://www.ithome.com/1/022/381.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD预计Q4史上首次营收超越英特尔",
+          "tag": "财报",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "谷歌发布Gemini 4 Carbon模型",
+          "tag": "大模型",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
+          "source": "Tom's Hardware"
+        }
+      ]
     }
   }
 }
