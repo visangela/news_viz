@@ -1455,6 +1455,330 @@
           "source": "Tom's Hardware"
         }
       ]
+    },
+    "2026-11-06": {
+      "chip": [
+        {
+          "title": "三星头戴耳机通过FCC认证，对标AirPods Max",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/023/033.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "中国空间站铷原子云达9.7皮开尔文新纪录",
+          "tag": "量子科技",
+          "url": "https://www.ithome.com/1/023/032.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "印度拟两年内自研GPU并商用RISC-V处理器",
+          "tag": "产业政策",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "传月之暗面拟租欧洲数据中心获取英伟达芯片",
+          "tag": "算力出海",
+          "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果M6款iMac与MacBook Pro开售",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/023/022.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iPad mini 8开售，搭载A20 Pro芯片",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/023/021.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果首款触屏MacBook Pro开售，可选M5 Pro/Max",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/023/020.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "荣耀700系列曝光：双8芯片加1.72英寸背屏",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/023/019.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星One UI 9更新致部分Galaxy网络故障",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/023/018.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达纪念CUDA显卡8800 GTX诞生20周年",
+          "tag": "GPU生态",
+          "url": "https://www.ithome.com/1/023/017.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔Nova Lake曝90°C以上锁频5.1GHz",
+          "tag": "散热材料",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果首款触控屏MacBook Pro搭载双层串联OLED",
+          "tag": "显示面板",
+          "url": "https://www.ithome.com/1/023/006.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "Epic本周免费送《浮游世界》生存游戏",
+          "tag": "游戏平台",
+          "url": "https://www.ithome.com/1/023/023.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果M6芯片iMac与MacBook Pro开售",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/022.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果首款触屏MacBook Pro开售22999元起",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/020.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果触屏MacBook Pro开箱：双层OLED屏",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/006.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Dropbox拟收购Tigris Data拓展AI存储",
+          "tag": "云存储",
+          "url": "https://www.ithome.com/1/023/004.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为擎云HM650鸿蒙台式机面向政企",
+          "tag": "国产平台",
+          "url": "https://www.ithome.com/1/023/001.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Switch 2存储扩展microSD Express促销",
+          "tag": "存储卡",
+          "url": "https://www.tomshardware.com/pc-components/microsd-cards/boost-your-nintendo-switch-2s-storage-for-zelda-ocarina-of-time-with-these-microsd-express-deals-starting-at-usd48-make-room-for-hyrule-with-these-high-speed-cards-that-double-or-triple-your-game-storage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "摩根大通：DRAM与NAND供需紧张至2028年",
+          "tag": "行业景气",
+          "url": "https://www.ithome.com/1/022/991.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "摩托罗拉Signature 27发布配2亿长焦",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/022/988.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "任天堂称Switch 2暂无进一步涨价计划",
+          "tag": "内存短缺",
+          "url": "https://www.ithome.com/1/022/985.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI发布网络安全专用模型回应监管审查",
+          "tag": "安全模型",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI总裁称公司最快2027年具备IPO条件",
+          "tag": "资本动向",
+          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Claude上线个人理财功能接入银行账户",
+          "tag": "应用落地",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Astra被指改写Qwen权重遭spaCy作者质疑",
+          "tag": "模型争议",
+          "url": "https://www.qbitai.com/2026/11/507782.html",
+          "source": "量子位"
+        },
+        {
+          "title": "GPT-Image-2.6全量上线支持GIF与SVG直出",
+          "tag": "多模态",
+          "url": "https://www.qbitai.com/2026/11/507707.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenAI投入120万美元在Linux内核挖出948个漏洞",
+          "tag": "AI安全",
+          "url": "https://www.qbitai.com/2026/11/507697.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "eBPF实现AI Agent全系统性能剖析监控",
+          "tag": "可观测性",
+          "url": "https://eunomia.dev/agentsight/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Positron通过MCP支持接入自有Agent",
+          "tag": "开发工具",
+          "url": "https://opensource.posit.co/blog/2026-11-04_positron-mcp/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "KeepPlain插件留存编码Agent会话轨迹",
+          "tag": "编码Agent",
+          "url": "https://github.com/keepplain/keepplain-plugin",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Prax Labs推出Agent可调用的钱包筛查MCP",
+          "tag": "MCP生态",
+          "url": "https://prax-labs.com/wallet-screening",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Zerg Client发布自驱终端窗格的编码Agent框架",
+          "tag": "编码Agent",
+          "url": "https://zergai.com/ztc",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "业界讨论失控Agent披露礼仪规范",
+          "tag": "平台治理",
+          "url": "https://www.itbrew.com/stories/what-does-good-rogue-agent-disclosure-etiquette-look-like",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Thinker以上下文裁剪与知识缓存延长Agent额度",
+          "tag": "成本优化",
+          "url": "https://thinker.sh/how-it-works",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Umbel通过tmux远程控制Agent命令行",
+          "tag": "多Agent",
+          "url": "https://github.com/jahala/umbel",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "匈牙利公开共产时代档案涉及六万线人",
+          "tag": "无关资讯",
+          "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+          "source": "Hacker News"
+        },
+        {
+          "title": "GDPx Agent基准公布12模型每分成本",
+          "tag": "基准评测",
+          "url": "https://theainewsreport.com/2026-11-05-semianalysis-gdpx-agent-benchmark-cost-per-point-explained.html",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源工具5秒复现三类AI Agent审批失败",
+          "tag": "开源工具",
+          "url": "https://github.com/salahmakboul/call4agents",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Tinyfish披露滥用Agent集群批量抓取数据",
+          "tag": "平台治理",
+          "url": "https://www.tinyfish.ai/blog/inside-tinyset",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "印度拟两年内自研GPU并商业化RISC-V处理器",
+          "tag": "芯片自主",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "传月之暗面拟租欧洲数据中心获取英伟达芯片",
+          "tag": "算力租赁",
+          "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果M6款iMac与MacBook Pro开售",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/023/022.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果首款触屏MacBook Pro开售22999元起",
+          "tag": "高端笔电",
+          "url": "https://www.ithome.com/1/023/020.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达纪念首款CUDA显卡诞生20周年",
+          "tag": "CUDA生态",
+          "url": "https://www.ithome.com/1/023/017.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Anthropic首签新闻内容授权协议合作美联社",
+          "tag": "内容授权",
+          "url": "https://www.ithome.com/1/023/015.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "爆料称Intel Nova Lake超90度限频5.1GHz",
+          "tag": "散热材料",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果触屏MacBook Pro开箱：双层串联OLED",
+          "tag": "OLED显示",
+          "url": "https://www.ithome.com/1/023/006.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Linux新补丁拟为T2芯片Intel Mac支持隔空投送",
+          "tag": "开源驱动",
+          "url": "https://www.ithome.com/1/023/000.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美议员在中期选举后呼吁禁止超级智能",
+          "tag": "平台治理",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/congresswoman-calls-for-artificial-superintelligence-ban-after-democrats-seismic-midterm-sweep-demands-regulation-of-out-of-control-industry-and-pause-on-advanced-ai",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "科沃斯擦窗机器人W2S PLUS国补价1553元",
+          "tag": "清洁硬件",
+          "url": "https://www.ithome.com/1/022/987.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iOS 27.3代码证实HomeView将接入第三方AI",
+          "tag": "智能家居",
+          "url": "https://www.ithome.com/1/022/984.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }

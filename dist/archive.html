@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>历史归档 · AI 产业情报局</title>
+<title>历史归档 · AI产业情报局</title>
 <script>
   (function(){
     try {
@@ -34,62 +34,16 @@
   --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
   --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
 }
-
 [data-theme="dark"]{
-  /* === GitHub Soft Dark === */
-  /* 纸面：蓝调深灰，GitHub Dark Dimmed canvas */
-  --paper:#22272e;
-  --paper-2:#2d333b;
-
-  /* 文字：三级明度，全部蓝调灰 */
-  --ink:#cdd9e5;
-  --ink-soft:#adbac7;
-  --muted:#768390;
-  --faint:#636e7b;
-
-  /* 分隔线 */
-  --line:#373e47;
-  --line-strong:#444c56;
-
-  /* 强调色：GitHub danger */
-  --red:#e5534b;
-  --red-deep:#f47c74;
-  --red-glow:rgba(229,83,75,.15);
-
-  /* 今日高亮：比 paper 亮一档，几乎察觉不到 */
-  --new-bg:#262c34;
-
-  /* 导航 */
-  --nav-bg:rgba(34,39,46,.94);
-  --nav-shadow:0 2px 16px rgba(1,4,9,.45);
-
-  /* 选中 */
+  --paper:#22272e;--paper-2:#2d333b;
+  --ink:#cdd9e5;--ink-soft:#adbac7;--muted:#768390;--faint:#636e7b;
+  --line:#373e47;--line-strong:#444c56;
+  --red:#e5534b;--red-deep:#f47c74;--red-glow:rgba(229,83,75,.15);
+  --nav-bg:rgba(34,39,46,.94);--nav-shadow:0 2px 16px rgba(1,4,9,.45);
   --selection:rgba(229,83,75,.22);
-
-  /* Toggle */
-  --toggle-bg:#2d333b;
-  --toggle-border:#444c56;
-
-  /* 归档页 hover */
+  --toggle-bg:#2d333b;--toggle-border:#444c56;
   --entry-hover:rgba(229,83,75,.05);
 }
-
-/* 深色下：让日期和 NEW 徽章承担今日标记职责，去掉色块 */
-[data-theme="dark"] .news.is-new{
-  background:transparent;
-  margin:0;
-  padding:20px 0;
-  border-top-color:var(--line);
-  border-radius:0;
-}
-[data-theme="dark"] .news.is-new:first-of-type{padding-top:0;}
-
-/* 深色下：正文强调高亮压到几乎不可见，避免打断阅读 */
-[data-theme="dark"] .analysis strong,
-[data-theme="dark"] .lede strong{
-  background:linear-gradient(180deg,transparent 64%,rgba(229,83,75,.08) 64%);
-}
-
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{
@@ -280,6 +234,78 @@ section{scroll-margin-top:70px;}
   border-bottom:1px solid var(--line);
 }
 
+/* ============ PAGINATION ============ */
+.pagination{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px 12px;
+  padding:16px 0 6px;
+}
+.pg-left{
+  font-size:11px;
+  letter-spacing:.04em;
+  color:var(--faint);
+  font-variant-numeric:tabular-nums;
+}
+.pg-left b{color:var(--c);font-weight:700;}
+.pg-right{
+  display:flex;
+  align-items:center;
+  gap:4px;
+  margin-left:auto;
+  flex-wrap:wrap;
+}
+.pg-btn{
+  font-family:var(--sans);
+  font-size:12.5px;
+  letter-spacing:.02em;
+  padding:6px 12px;
+  border:1px solid var(--line-strong);
+  background:transparent;
+  color:var(--ink-soft);
+  border-radius:2px;
+  cursor:pointer;
+  transition:background-color .18s, border-color .18s, color .18s;
+  font-variant-numeric:tabular-nums;
+}
+.pg-btn:hover:not(:disabled){
+  border-color:var(--c);
+  color:var(--ink);
+  background:var(--paper-2);
+}
+.pg-btn:disabled{
+  opacity:.32;
+  cursor:not-allowed;
+}
+.pg-nums{
+  display:inline-flex;
+  gap:3px;
+  margin:0 4px;
+}
+.pg-num{
+  min-width:32px;
+  padding:6px 8px;
+  text-align:center;
+}
+.pg-num.pg-active{
+  background:var(--c);
+  border-color:var(--c);
+  color:var(--paper);
+  font-weight:600;
+}
+.pg-num.pg-active:hover{
+  background:var(--c);
+  color:var(--paper);
+}
+.pg-ellipsis{
+  padding:6px 3px;
+  color:var(--faint);
+  font-size:12px;
+  user-select:none;
+}
+
 /* ============ FOOTER ============ */
 footer{
   max-width:1220px;margin:0 auto;padding:26px 36px 56px;
@@ -336,6 +362,9 @@ footer{
     align-self:center;
     font-size:14px;
   }
+  .pagination{flex-direction:column;align-items:flex-start;gap:8px;}
+  .pg-right{margin-left:0;width:100%;justify-content:flex-start;}
+  .pg-info{font-size:10.5px;}
   footer{padding:22px 18px 46px;font-size:10px;}
 }
 </style>
@@ -349,8 +378,8 @@ footer{
   </div>
   <h1>历史资讯归档<span>PAST BRIEFS · QUICK RECAP</span></h1>
   <div class="masthead-bottom">
-    <span class="stats">共 <b>231</b> 条历史资讯 · 覆盖 <b>2026-10-31 至 2026-11-05</b></span>
-    <span class="date">2026 年 11 月 5 日　星期四</span>
+    <span class="stats">共 <b>283</b> 条历史资讯 · 覆盖 <b>2026-10-31 至 2026-11-06</b></span>
+    <span class="date">2026 年 11 月 6 日　星期五</span>
   </div>
 </header>
 
@@ -384,9 +413,93 @@ footer{
     <div class="archive-board-head">
       <span class="archive-board-num">01</span>
       <span class="archive-board-name">芯片与半导体</span>
-      <span class="archive-board-count"><b>45</b> 条</span>
+      <span class="archive-board-count"><b>57</b> 条</span>
     </div>
     <div class="archive-list">
+      
+      <a class="entry" href="https://www.ithome.com/1/023/033.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">消费电子</span>
+        <span class="entry-title">三星头戴耳机通过FCC认证，对标AirPods Max</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/032.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">量子科技</span>
+        <span class="entry-title">中国空间站铷原子云达9.7皮开尔文新纪录</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">产业政策</span>
+        <span class="entry-title">印度拟两年内自研GPU并商用RISC-V处理器</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">算力出海</span>
+        <span class="entry-title">传月之暗面拟租欧洲数据中心获取英伟达芯片</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/022.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端芯片</span>
+        <span class="entry-title">苹果M6款iMac与MacBook Pro开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/021.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端芯片</span>
+        <span class="entry-title">iPad mini 8开售，搭载A20 Pro芯片</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/020.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端芯片</span>
+        <span class="entry-title">苹果首款触屏MacBook Pro开售，可选M5 Pro/Max</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/019.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">手机芯片</span>
+        <span class="entry-title">荣耀700系列曝光：双8芯片加1.72英寸背屏</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/018.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">平台治理</span>
+        <span class="entry-title">三星One UI 9更新致部分Galaxy网络故障</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/017.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">GPU生态</span>
+        <span class="entry-title">英伟达纪念CUDA显卡8800 GTX诞生20周年</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">散热材料</span>
+        <span class="entry-title">英特尔Nova Lake曝90°C以上锁频5.1GHz</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/006.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">显示面板</span>
+        <span class="entry-title">苹果首款触控屏MacBook Pro搭载双层串联OLED</span>
+        <span class="entry-arrow">↗</span>
+      </a>
       
       <a class="entry" href="https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
         <span class="entry-date">11.05<span class="yr">2026</span></span>
@@ -710,9 +823,79 @@ footer{
     <div class="archive-board-head">
       <span class="archive-board-num">02</span>
       <span class="archive-board-name">存储</span>
-      <span class="archive-board-count"><b>43</b> 条</span>
+      <span class="archive-board-count"><b>53</b> 条</span>
     </div>
     <div class="archive-list">
+      
+      <a class="entry" href="https://www.ithome.com/1/023/023.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">游戏平台</span>
+        <span class="entry-title">Epic本周免费送《浮游世界》生存游戏</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/022.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端存储</span>
+        <span class="entry-title">苹果M6芯片iMac与MacBook Pro开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/020.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端存储</span>
+        <span class="entry-title">苹果首款触屏MacBook Pro开售22999元起</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/006.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端存储</span>
+        <span class="entry-title">苹果触屏MacBook Pro开箱：双层OLED屏</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/004.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">云存储</span>
+        <span class="entry-title">Dropbox拟收购Tigris Data拓展AI存储</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/001.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">国产平台</span>
+        <span class="entry-title">华为擎云HM650鸿蒙台式机面向政企</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/pc-components/microsd-cards/boost-your-nintendo-switch-2s-storage-for-zelda-ocarina-of-time-with-these-microsd-express-deals-starting-at-usd48-make-room-for-hyrule-with-these-high-speed-cards-that-double-or-triple-your-game-storage" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">存储卡</span>
+        <span class="entry-title">Switch 2存储扩展microSD Express促销</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/022/991.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">行业景气</span>
+        <span class="entry-title">摩根大通：DRAM与NAND供需紧张至2028年</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/022/988.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">终端存储</span>
+        <span class="entry-title">摩托罗拉Signature 27发布配2亿长焦</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/022/985.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">内存短缺</span>
+        <span class="entry-title">任天堂称Switch 2暂无进一步涨价计划</span>
+        <span class="entry-arrow">↗</span>
+      </a>
       
       <a class="entry" href="https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
         <span class="entry-date">11.05<span class="yr">2026</span></span>
@@ -1022,9 +1205,51 @@ footer{
     <div class="archive-board-head">
       <span class="archive-board-num">03</span>
       <span class="archive-board-name">AI 大模型</span>
-      <span class="archive-board-count"><b>11</b> 条</span>
+      <span class="archive-board-count"><b>17</b> 条</span>
     </div>
     <div class="archive-list">
+      
+      <a class="entry" href="https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：TechCrunch AI）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">安全模型</span>
+        <span class="entry-title">OpenAI发布网络安全专用模型回应监管审查</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：TechCrunch AI）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">资本动向</span>
+        <span class="entry-title">OpenAI总裁称公司最快2027年具备IPO条件</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：TechCrunch AI）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">应用落地</span>
+        <span class="entry-title">Claude上线个人理财功能接入银行账户</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.qbitai.com/2026/11/507782.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">模型争议</span>
+        <span class="entry-title">Astra被指改写Qwen权重遭spaCy作者质疑</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.qbitai.com/2026/11/507707.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">多模态</span>
+        <span class="entry-title">GPT-Image-2.6全量上线支持GIF与SVG直出</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.qbitai.com/2026/11/507697.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：量子位）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">AI安全</span>
+        <span class="entry-title">OpenAI投入120万美元在Linux内核挖出948个漏洞</span>
+        <span class="entry-arrow">↗</span>
+      </a>
       
       <a class="entry" href="https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：TechCrunch AI）">
         <span class="entry-date">11.05<span class="yr">2026</span></span>
@@ -1110,9 +1335,93 @@ footer{
     <div class="archive-board-head">
       <span class="archive-board-num">04</span>
       <span class="archive-board-name">AI 应用与 Agent</span>
-      <span class="archive-board-count"><b>62</b> 条</span>
+      <span class="archive-board-count"><b>74</b> 条</span>
     </div>
     <div class="archive-list">
+      
+      <a class="entry" href="https://eunomia.dev/agentsight/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">可观测性</span>
+        <span class="entry-title">eBPF实现AI Agent全系统性能剖析监控</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://opensource.posit.co/blog/2026-11-04_positron-mcp/" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">开发工具</span>
+        <span class="entry-title">Positron通过MCP支持接入自有Agent</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://github.com/keepplain/keepplain-plugin" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">编码Agent</span>
+        <span class="entry-title">KeepPlain插件留存编码Agent会话轨迹</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://prax-labs.com/wallet-screening" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">MCP生态</span>
+        <span class="entry-title">Prax Labs推出Agent可调用的钱包筛查MCP</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://zergai.com/ztc" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">编码Agent</span>
+        <span class="entry-title">Zerg Client发布自驱终端窗格的编码Agent框架</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.itbrew.com/stories/what-does-good-rogue-agent-disclosure-etiquette-look-like" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">平台治理</span>
+        <span class="entry-title">业界讨论失控Agent披露礼仪规范</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://thinker.sh/how-it-works" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">成本优化</span>
+        <span class="entry-title">Thinker以上下文裁剪与知识缓存延长Agent额度</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://github.com/jahala/umbel" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">多Agent</span>
+        <span class="entry-title">Umbel通过tmux远程控制Agent命令行</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">无关资讯</span>
+        <span class="entry-title">匈牙利公开共产时代档案涉及六万线人</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://theainewsreport.com/2026-11-05-semianalysis-gdpx-agent-benchmark-cost-per-point-explained.html" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">基准评测</span>
+        <span class="entry-title">GDPx Agent基准公布12模型每分成本</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://github.com/salahmakboul/call4agents" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">开源工具</span>
+        <span class="entry-title">开源工具5秒复现三类AI Agent审批失败</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tinyfish.ai/blog/inside-tinyset" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">平台治理</span>
+        <span class="entry-title">Tinyfish披露滥用Agent集群批量抓取数据</span>
+        <span class="entry-arrow">↗</span>
+      </a>
       
       <a class="entry" href="https://github.com/akustikrausch/amigent" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Hacker News Agent）">
         <span class="entry-date">11.05<span class="yr">2026</span></span>
@@ -1555,9 +1864,93 @@ footer{
     <div class="archive-board-head">
       <span class="archive-board-num">05</span>
       <span class="archive-board-name">AI 硬件</span>
-      <span class="archive-board-count"><b>47</b> 条</span>
+      <span class="archive-board-count"><b>59</b> 条</span>
     </div>
     <div class="archive-list">
+      
+      <a class="entry" href="https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">芯片自主</span>
+        <span class="entry-title">印度拟两年内自研GPU并商业化RISC-V处理器</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">算力租赁</span>
+        <span class="entry-title">传月之暗面拟租欧洲数据中心获取英伟达芯片</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/022.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">端侧AI</span>
+        <span class="entry-title">苹果M6款iMac与MacBook Pro开售</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/020.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">高端笔电</span>
+        <span class="entry-title">苹果首款触屏MacBook Pro开售22999元起</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/017.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">CUDA生态</span>
+        <span class="entry-title">英伟达纪念首款CUDA显卡诞生20周年</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/015.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">内容授权</span>
+        <span class="entry-title">Anthropic首签新闻内容授权协议合作美联社</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">散热材料</span>
+        <span class="entry-title">爆料称Intel Nova Lake超90度限频5.1GHz</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/006.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">OLED显示</span>
+        <span class="entry-title">苹果触屏MacBook Pro开箱：双层串联OLED</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/023/000.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">开源驱动</span>
+        <span class="entry-title">Linux新补丁拟为T2芯片Intel Mac支持隔空投送</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/congresswoman-calls-for-artificial-superintelligence-ban-after-democrats-seismic-midterm-sweep-demands-regulation-of-out-of-control-industry-and-pause-on-advanced-ai" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">平台治理</span>
+        <span class="entry-title">美议员在中期选举后呼吁禁止超级智能</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/022/987.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">清洁硬件</span>
+        <span class="entry-title">科沃斯擦窗机器人W2S PLUS国补价1553元</span>
+        <span class="entry-arrow">↗</span>
+      </a>
+      
+      <a class="entry" href="https://www.ithome.com/1/022/984.htm" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：IT之家）">
+        <span class="entry-date">11.06<span class="yr">2026</span></span>
+        <span class="entry-tag">智能家居</span>
+        <span class="entry-title">iOS 27.3代码证实HomeView将接入第三方AI</span>
+        <span class="entry-arrow">↗</span>
+      </a>
       
       <a class="entry" href="https://www.tomshardware.com/pc-components/thermal-paste/thermal-grizzly-launches-phasesheet-ptm-pro-with-improved-thermal-conductivity-new-thermal-pad-promises-easier-installation-and-better-cooling-performance" target="_blank" rel="noopener noreferrer" title="点击打开原文（来源：Tom's Hardware）">
         <span class="entry-date">11.05<span class="yr">2026</span></span>
@@ -2068,7 +2461,7 @@ footer{
 
 <footer>
   <div>AI产业情报局 · 历史资讯归档</div>
-  <div>数据截至 2026-11-05 · 内容由 DeepSeek 自动生成，仅供参考，不构成投资建议</div>
+  <div>数据截至 2026-11-06 · 内容由 DeepSeek 自动生成，仅供参考，不构成投资建议</div>
 </footer>
 
 <script>
@@ -2174,6 +2567,98 @@ document.documentElement.classList.add('js');
       var id = location.hash.slice(1);
       if(document.getElementById(id)){ setTimeout(function(){ smoothTo(id); }, 80); }
     }
+  });
+})();
+
+/* ============ 归档分页 ============ */
+(function(){
+  var PAGE_SIZE = 20;
+
+  document.querySelectorAll('.archive-board').forEach(function(board){
+    var list = board.querySelector('.archive-list');
+    if(!list) return;
+
+    var entries = Array.prototype.slice.call(list.querySelectorAll('.entry'));
+    if(entries.length <= PAGE_SIZE) return;
+
+    var totalPages = Math.ceil(entries.length / PAGE_SIZE);
+    var currentPage = 1;
+
+    entries.forEach(function(e){ e.style.display = 'none'; });
+
+    var pag = document.createElement('div');
+    pag.className = 'pagination';
+    list.parentNode.insertBefore(pag, list.nextSibling);
+
+    function renderPage(page){
+      currentPage = page;
+      var start = (page - 1) * PAGE_SIZE;
+      var end = start + PAGE_SIZE;
+      entries.forEach(function(e, i){
+        e.style.display = (i >= start && i < end) ? '' : 'none';
+      });
+
+      var html = '';
+      html += '<span class="pg-left">第 <b>' + page + '</b> / ' + totalPages + ' 页 · 本页 ' + Math.min(PAGE_SIZE, entries.length - start) + ' 条 · 共 ' + entries.length + ' 条</span>';
+      html += '<div class="pg-right">';
+
+      if(page > 1){
+        html += '<button type="button" class="pg-btn pg-prev" data-page="' + (page - 1) + '">‹ 上一页</button>';
+      } else {
+        html += '<button type="button" class="pg-btn pg-prev" disabled>‹ 上一页</button>';
+      }
+
+      var pages = [];
+      if(totalPages <= 7){
+        for(var i = 1; i <= totalPages; i++) pages.push(i);
+      } else {
+        pages.push(1);
+        if(page > 3) pages.push('…');
+        var lo = Math.max(2, page - 1);
+        var hi = Math.min(totalPages - 1, page + 1);
+        for(var i = lo; i <= hi; i++) pages.push(i);
+        if(page < totalPages - 2) pages.push('…');
+        pages.push(totalPages);
+      }
+
+      html += '<span class="pg-nums">';
+      pages.forEach(function(p){
+        if(p === '…'){
+          html += '<span class="pg-ellipsis">…</span>';
+        } else if(p === page){
+          html += '<button type="button" class="pg-btn pg-num pg-active" data-page="' + p + '">' + p + '</button>';
+        } else {
+          html += '<button type="button" class="pg-btn pg-num" data-page="' + p + '">' + p + '</button>';
+        }
+      });
+      html += '</span>';
+
+      if(page < totalPages){
+        html += '<button type="button" class="pg-btn pg-next" data-page="' + (page + 1) + '">下一页 ›</button>';
+      } else {
+        html += '<button type="button" class="pg-btn pg-next" disabled>下一页 ›</button>';
+      }
+
+      html += '</div>';
+      pag.innerHTML = html;
+    }
+
+    pag.addEventListener('click', function(e){
+      var btn = e.target.closest('.pg-btn');
+      if(!btn || btn.disabled) return;
+      var p = parseInt(btn.getAttribute('data-page'), 10);
+      if(!p || p === currentPage) return;
+      renderPage(p);
+      var header = board.querySelector('.archive-board-head');
+      if(header){
+        var nav = document.getElementById('mainNav');
+        var navH = nav ? nav.offsetHeight : 0;
+        var top = header.getBoundingClientRect().top + window.pageYOffset - navH - 12;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+
+    renderPage(1);
   });
 })();
 </script>
