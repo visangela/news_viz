@@ -1779,6 +1779,290 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-07": {
+      "chip": [
+        {
+          "title": "费城半导体指数单日反弹6.5%，AI硬件股全线回升",
+          "tag": "市场行情",
+          "url": "https://www.ithome.com/1/023/564.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达收紧东南亚GPU追踪，应对对华走私审查",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "加州货运窃案：1140万美元英伟达GPU被劫",
+          "tag": "供应链安全",
+          "url": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达拟改造130座老旧电信楼为小型数据中心",
+          "tag": "数据中心",
+          "url": "https://www.ithome.com/1/023/543.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "韩版Galaxy S27 Pro与Ultra或改用骁龙8 Elite Gen 6",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/023/541.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达拟将130余座电信旧楼改造为小型数据中心",
+          "tag": "数据中心",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OPPO明年策略聚焦阔形态手机与云台相机",
+          "tag": "终端形态",
+          "url": "https://www.ithome.com/1/023/538.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔Nova Lake将换LGA 1954新平台与Z990芯片组",
+          "tag": "PC平台",
+          "url": "https://www.tomshardware.com/pc-components/chipsets/intels-next-gen-nova-lake-needs-new-motherboards-what-we-expect-from-nova-point-and-z990-z970-and-b960-chipsets",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果14英寸MacBook Pro M6评测：性能稳健升级",
+          "tag": "自研芯片",
+          "url": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-14-inch-m6-review",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "SK海力士设美国AI投资子公司 最高投百亿美元",
+          "tag": "AI投资",
+          "url": "https://www.ithome.com/1/023/584.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美股AI硬件股集体反弹 费半指数涨6.5%",
+          "tag": "市场行情",
+          "url": "https://www.ithome.com/1/023/564.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "HP暗影精灵Max 16游戏本降价600美元",
+          "tag": "消费终端",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/score-a-huge-usd600-saving-on-an-rtx-5070-ti-gaming-laptop-from-hp-now-under-usd2-100-hyperx-omen-max-16-machine-is-fully-customizable-base-model-ships-with-16gb-ddr5-and-a-512gb-ssd",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Nagare Labs推Z2RAM 兼顾SRAM速度与DRAM密度",
+          "tag": "新型存储",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Ramp数据示AI支出停滞，Anthropic临近IPO",
+          "tag": "支出趋势",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "DeepSeek带火稀疏计算，国产芯片公司融资近10亿",
+          "tag": "国产芯片",
+          "url": "https://www.qbitai.com/2026/11/508155.html",
+          "source": "量子位"
+        },
+        {
+          "title": "腾讯Hy4调用激增，WorkBuddy十倍扩容",
+          "tag": "智能体",
+          "url": "https://www.qbitai.com/2026/11/507967.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Anthropic发布Agent记忆组件研究框架",
+          "tag": "Agent记忆",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "SketchAgentBench推出3D空间推理评测",
+          "tag": "评测基准",
+          "url": "https://sketchagent.dev/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "开源Less Is More UI Agent技能包",
+          "tag": "开源工具",
+          "url": "https://github.com/Mendiak/less-is-more-ui",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent从图纸推断乐高机构并生成动画",
+          "tag": "多模态应用",
+          "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Claude Code新增Mattermost私信技能脚本",
+          "tag": "企业集成",
+          "url": "https://github.com/abdallah/mattermost-dm",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Aspen推出面向Agent流量的自托管Git服务",
+          "tag": "基础设施",
+          "url": "https://github.com/reason-machines/aspen",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Intent推出面向开发者的大规模Agent协同",
+          "tag": "多Agent协同",
+          "url": "https://intentapp.dev/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Cua Driver Bench评测Agent不干扰用户用机",
+          "tag": "评测基准",
+          "url": "https://huggingface.co/spaces/earakely-scale/CuaDriverBench-AgentEnv",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AI Product Team开源64个岗位Agent工作流",
+          "tag": "多Agent协同",
+          "url": "https://github.com/3orionkings/ai-product-team",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Framer发布Harness 2支持流式执行Agent代码",
+          "tag": "Agent运行时",
+          "url": "https://www.framer.com/blog/harness-2/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Local Code 成 macOS 商店唯一本地编码 Agent",
+          "tag": "本地Agent",
+          "url": "https://getlocalcode.app/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "663条HN评论揭示编码Agent真实配置偏好",
+          "tag": "编码Agent",
+          "url": "https://theainewsreport.com/2026-11-06-hn-agentic-setups-counted.html",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "白宫IP被曝可租用，住宅代理暴露内网风险",
+          "tag": "网络安全",
+          "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+          "source": "The Verge"
+        },
+        {
+          "title": "美股AI硬件股全线反弹，费半指数涨6.5%",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/023/564.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达收紧东南亚GPU追踪，防走私入华",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "加州货运劫案：1140万美元英伟达GPU被盗",
+          "tag": "供应链安全",
+          "url": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "星闪具身智能蓝皮书上线，华为中兴参编",
+          "tag": "无线标准",
+          "url": "https://www.ithome.com/1/023/546.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达拟改造130座电信旧楼为小型数据中心",
+          "tag": "数据中心",
+          "url": "https://www.ithome.com/1/023/543.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达洽Brightspeed，旧电信楼可产1GW算力",
+          "tag": "算力基建",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OPPO明年聚焦阔形态手机，云台相机将至",
+          "tag": "智能终端",
+          "url": "https://www.ithome.com/1/023/538.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特斯拉公布AI加速器路线图，推SI品牌",
+          "tag": "自研芯片",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔Nova Lake换新主板，Z990芯片组曝光",
+          "tag": "芯片平台",
+          "url": "https://www.tomshardware.com/pc-components/chipsets/intels-next-gen-nova-lake-needs-new-motherboards-what-we-expect-from-nova-point-and-z990-z970-and-b960-chipsets",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "吉利星愿STAR限定系列上市，配EVA机器人",
+          "tag": "智能座舱",
+          "url": "https://www.ithome.com/1/023/526.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "惠普RTX 5070 Ti游戏本降价600美元",
+          "tag": "游戏硬件",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/score-a-huge-usd600-saving-on-this-rtx-5070-ti-gaming-laptop-from-hp-now-under-usd2-100-hyperx-omen-max-16-machine-is-fully-customizable-base-model-ships-with-16gb-ddr5-and-a-512gb-ssd",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "微短剧行业一周资讯速览：平台与内容动态密集",
+          "tag": "行业动态",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259805",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "TVB联手腾讯视频布局横屏短剧新赛道",
+          "tag": "平台合作",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259813",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "AI短剧切入双11营销，赛博修仙带货家电",
+          "tag": "商业变现",
+          "url": "https://www.qbitai.com/2026/11/508118.html",
+          "source": "量子位"
+        },
+        {
+          "title": "即梦上线短剧工作室，AI短剧门槛再降",
+          "tag": "创作工具",
+          "url": "https://www.qbitai.com/2026/11/507972.html",
+          "source": "量子位"
+        },
+        {
+          "title": "腾讯Hy4调用激增十倍扩容，Agent能力开源第一",
+          "tag": "基础设施",
+          "url": "https://www.qbitai.com/2026/11/507967.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
