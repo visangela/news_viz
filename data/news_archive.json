@@ -2063,6 +2063,294 @@
           "source": "量子位"
         }
       ]
+    },
+    "2026-11-08": {
+      "chip": [
+        {
+          "title": "酷派阔直板手机开售，搭载联发科G99",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/023/829.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称中国两三年补齐算力缺口",
+          "tag": "算力芯片",
+          "url": "https://www.ithome.com/1/023/822.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美情报称黄仁勋遭中国间谍蜜罐行动",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达出资数十亿美元助日月光扩CoWoS",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/023/814.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋因间谍传闻被传唤至美国国会",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "台积电否认应英伟达要求研发3D DRAM",
+          "tag": "存储芯片",
+          "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "漫步者PW108蓝牙音响上架售699元",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/023/804.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "漫步者W900NB典藏版采用6nm六核芯片",
+          "tag": "端侧NPU",
+          "url": "https://www.ithome.com/1/023/799.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "红旗H9预售，采用800V碳化硅平台",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/023/796.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "山灵发布M10播放器，搭载6nm高通八核",
+          "tag": "音频芯片",
+          "url": "https://www.ithome.com/1/023/793.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为星迹定位落地百度地图鸿蒙室内导航",
+          "tag": "定位芯片",
+          "url": "https://www.ithome.com/1/023/790.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为畅享100系列首销21.5万台，Pro Max占六成",
+          "tag": "麒麟芯片",
+          "url": "https://www.ithome.com/1/023/780.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "酷派COOL X Wide开售，搭载联发科G99与UFS 2.2",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/829.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GitHub新Git存储架构Rubicon支持5000智能体并发",
+          "tag": "存储架构",
+          "url": "https://www.ithome.com/1/023/823.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "TeamGroup GA Pro 2TB PCIe 5.0 SSD评测表现不佳",
+          "tag": "SSD评测",
+          "url": "https://www.tomshardware.com/pc-components/ssds/teamgroup-ga-pro-2tb-ssd-review",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达出资数十亿美元助日月光扩产CoWoS封装",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/023/814.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "七彩虹E14轻薄本上架，16GB+1TB到手3654元",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/807.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电否认应英伟达要求研发3D DRAM",
+          "tag": "DRAM技术",
+          "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "国内单体最大功率飞轮储能项目并网投运",
+          "tag": "储能",
+          "url": "https://www.ithome.com/1/023/800.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "山灵发布15单元耳机Dynasty与M10播放器",
+          "tag": "音频终端",
+          "url": "https://www.ithome.com/1/023/793.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果HALO系统调用千问模型在宇树G1验证",
+          "tag": "端侧算力",
+          "url": "https://www.ithome.com/1/023/767.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "硅谷华人团队抢先发布下一代Agent Harness",
+          "tag": "智能体",
+          "url": "https://www.qbitai.com/2026/11/508264.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenAI再融110亿美元估值达1.25万亿",
+          "tag": "融资",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Day AI推GTM上下文图谱与Agent控制面",
+          "tag": "Agent平台",
+          "url": "https://day.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源Agent Manager支持多编码Agent并行调度",
+          "tag": "开发工具",
+          "url": "https://github.com/wainmann/agent-manager",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Chatty开源自主聊天Agent支持工具调用",
+          "tag": "开源",
+          "url": "https://github.com/PersonaliAI/chatty",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "本地AI Agent项目Infinix弃坑寻求开发者接手",
+          "tag": "开源",
+          "url": "https://github.com/Moonyeep/Infinix",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者用Firecracker复现并实测Agent沙箱",
+          "tag": "安全隔离",
+          "url": "https://antonau.tech/posts/2026/11/agents-microvm-firecracker/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent记忆投毒问题引发溯源与修复讨论",
+          "tag": "安全治理",
+          "url": "https://medium.com/@MirArshadTalpur/agent-memory-poisoning-how-to-find-a-bad-memory-trace-it-and-undo-the-damage-7e9974c2583b",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Twombly推Agent协作设计画布支持团队反馈",
+          "tag": "协作工具",
+          "url": "https://twombly.app/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "VPS监控产品采用仅出站Agent架构",
+          "tag": "运维监控",
+          "url": "https://vpsmon.cloud/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Offstage Cloud提供Agent可控的临时macOS沙箱",
+          "tag": "云沙箱",
+          "url": "https://offstage.cloud/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "首款端侧执行iOS个人Agent上架App Store",
+          "tag": "端侧Agent",
+          "url": "https://apps.apple.com/us/app/result-your-personal-agent/id6825805595",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Rungrid推远程多设备Agent并行执行平台",
+          "tag": "Agent基建",
+          "url": "https://rungrid.space",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源项目用15个后端任务评测编码Agent技能",
+          "tag": "评测基准",
+          "url": "https://github.com/globalmpc/backendskills",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "美批H200对华出口名单现空壳公司引审查质疑",
+          "tag": "出口管制",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+          "source": "The Verge"
+        },
+        {
+          "title": "网友将鸿蒙HarmonyOS 6刷入苹果MacBook Pro",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/023/828.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美情报称黄仁勋疑遭中国间谍美人计",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达出资数十亿美元助日月光扩CoWoS产能",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/023/814.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋因中国间谍传闻被正式传唤至国会",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "七彩虹E14轻薄本上架 国补到手3654元",
+          "tag": "PC整机",
+          "url": "https://www.ithome.com/1/023/807.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电否认应英伟达要求研发3D DRAM",
+          "tag": "存储芯片",
+          "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "漫步者W900NB典藏版耳机上架 限量3000套",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/023/799.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果HALO系统调用千问模型 宇树G1验证成功率91%",
+          "tag": "具身智能",
+          "url": "https://www.ithome.com/1/023/767.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "2026十大科普热词发布 AI相关占七席",
+          "tag": "产业趋势",
+          "url": "https://www.ithome.com/1/023/766.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "DeepSeek网页与API服务中断45分钟后恢复",
+          "tag": "服务稳定性",
+          "url": "https://www.ithome.com/1/023/758.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
