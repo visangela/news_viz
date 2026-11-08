@@ -2351,6 +2351,312 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-09": {
+      "chip": [
+        {
+          "title": "Diamond Foundry造出首片200mm单晶金刚石晶圆",
+          "tag": "散热材料",
+          "url": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "当贝H5二代电视盒子上架，升级全志H626",
+          "tag": "多媒体芯片",
+          "url": "https://www.ithome.com/1/024/009.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达8800 GTX发布20周年，推Steam互动Demo纪念",
+          "tag": "GPU",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-celebrates-with-steam-game-homage-interactive-demos-eye-watering-minimum-requirements-include-rtx-4070-32gb-ram-and-30gb-storage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "两家获准采购H200的中企被曝办公地空置",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "华硕灵耀16 Air骁龙版上架，12499元",
+          "tag": "AI PC",
+          "url": "https://www.ithome.com/1/023/982.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Mac mini M6国补后4799元，再破五千",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/023/979.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "摩托罗拉Razr Flex 27阔折叠将推国行版",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/023/978.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "酷派COOL X Wide开售，搭联发科G99",
+          "tag": "入门芯片",
+          "url": "https://www.ithome.com/1/023/969.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为Mate 70 Air补贴后2748元，搭麒麟9020B",
+          "tag": "国产芯片",
+          "url": "https://www.ithome.com/1/023/932.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星电子现金资产超200万亿韩元，韩国首家",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/023/926.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "上海微电子新一代前道光刻机平台亮相进博会",
+          "tag": "光刻装备",
+          "url": "https://www.ithome.com/1/023/924.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "当贝H5二代电视盒升级全志H626，469元",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/024/009.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "上海交大AI原生实验室登《自然》，服务DNA存储",
+          "tag": "DNA存储",
+          "url": "https://www.ithome.com/1/024/001.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AI推高DRAM价格，64GB内存PC占比骤降18%",
+          "tag": "DRAM价格",
+          "url": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "玩家用二代傲腾内存纯CPU跑2.8万亿参数模型",
+          "tag": "傲腾内存",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabber-uses-second-gen-optane-memory-sticks-to-run-a-2-8-trillion-parameter-ai-model-on-cpu-alone-warns-that-optanes-extreme-heat-can-burn-out-nearby-memory-dram-used-blower-fans-to-prevent-melting-ram",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "华硕灵耀16 Air骁龙版上架，最高48GB LPDDR5x",
+          "tag": "LPDDR5x",
+          "url": "https://www.ithome.com/1/023/982.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "被砍诺基亚G20 5G曝光，展锐T7520配4GB内存",
+          "tag": "手机存储",
+          "url": "https://www.ithome.com/1/023/980.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Mac mini M6国补后4799元，AI性能提升4倍",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/023/979.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "摩托罗拉Razr Flex 27阔折叠将推国行版",
+          "tag": "手机存储",
+          "url": "https://www.ithome.com/1/023/978.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "酷派COOL X Wide开售，最高12GB+256GB存储",
+          "tag": "手机存储",
+          "url": "https://www.ithome.com/1/023/969.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星现金资产超200万亿韩元，看好半导体高景气",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/023/926.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "上海微电子新一代前道光刻机平台亮相",
+          "tag": "光刻装备",
+          "url": "https://www.ithome.com/1/023/924.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "RTX 5060游戏主机降价至899美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/pc-components/this-rtx-5060-gaming-pc-costs-less-than-the-steam-machine-grab-the-ibuypower-slate-prebuilt-pc-with-massive-usd500-discount",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "AI写代码压垮GitHub，OpenAI收购替代品",
+          "tag": "开发工具",
+          "url": "https://www.qbitai.com/2026/11/508449.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenAI新融资仅110亿美元，不及原计划一半",
+          "tag": "融资",
+          "url": "https://www.qbitai.com/2026/11/508344.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "开发者自建本地编码Agent实践",
+          "tag": "本地Agent",
+          "url": "https://hdembinski.github.io/posts/coding_agent.html",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "高盛撤下银行家与交易员的Claude Code",
+          "tag": "金融合规",
+          "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "source": "Hacker News"
+        },
+        {
+          "title": "类邮箱界面管理Agent工作流产品亮相",
+          "tag": "人机协作",
+          "url": "https://plannotator.ai/inbox/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "常驻在线Agent的架构设计方法",
+          "tag": "架构设计",
+          "url": "https://rubriclabs.com/blog/always-on-agents",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "6.4MB便携编码Agent psi发布",
+          "tag": "轻量Agent",
+          "url": "https://psicode.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者让Agent接管花园与数据湖",
+          "tag": "具身控制",
+          "url": "https://jatorre.github.io/garden/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Lovable复盘十万PR后删掉大部分Agent代码",
+          "tag": "工程复盘",
+          "url": "https://lovable.dev/blog/how-we-built-lovable-and-why-we-keep-rebuilding-it",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者清空全部Agent技能配置",
+          "tag": "能力反思",
+          "url": "https://philippdubach.com/posts/i-just-deleted-all-my-agent-skills/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "agent.ceo展示Agent自主修Bug闭环",
+          "tag": "自主运维",
+          "url": "https://onomos.ai/articles/how-agent-ceo-fixes-its-own-bugs",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "自监管Agent组织一天修复四个Bug",
+          "tag": "多Agent",
+          "url": "https://agent.ceo/blog/2026-06-10-self-policing-agent-org-four-bugs-one-day",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Hacker News 讨论 AI Agent 为何难解 CTF 赛题",
+          "tag": "Agent能力",
+          "url": "https://h4c.team/en/posts/97",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "RepoMagpie 让编码 Agent 记住试过的仓库",
+          "tag": "开源工具",
+          "url": "https://github.com/Varshavia/RepoMagpie",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "英伟达董事会调查黄仁勋与涉华间谍关系",
+          "tag": "平台治理",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "source": "The Verge"
+        },
+        {
+          "title": "亚马逊组建新团队研发家用机器人",
+          "tag": "机器人",
+          "url": "https://www.ithome.com/1/024/012.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Linux 7.5移除最后一批Intel MMX优化",
+          "tag": "开源",
+          "url": "https://www.tomshardware.com/software/linux/the-end-of-an-era-as-linux-7-5-purges-the-last-30-year-old-intel-mmx-optimizations-from-pentium-age-open-source-os-retires-ancient-1997-pentium-instructions-to-streamline-code",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达纪念8800 GTX发布20周年推Steam demo",
+          "tag": "GPU",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-celebrates-with-steam-game-homage-interactive-demos-eye-watering-minimum-requirements-include-rtx-4070-32gb-ram-and-30gb-storage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "开源GPU任务管理器可查显存占用",
+          "tag": "开源",
+          "url": "https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "奔驰展示车窗智能显示与全息显示技术",
+          "tag": "智能座舱",
+          "url": "https://www.ithome.com/1/024/002.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "两家获准采购H200的中企办公地疑为空壳",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "友望U280扫拖机器人降至1069元新低",
+          "tag": "机器人",
+          "url": "https://www.ithome.com/1/023/995.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华硕灵耀16 Air骁龙版上架售12499元",
+          "tag": "AI PC",
+          "url": "https://www.ithome.com/1/023/982.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "艾湃电竞推WS2600C工作站机箱售1199元",
+          "tag": "散热材料",
+          "url": "https://www.ithome.com/1/023/954.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苏姿丰定调AMD为数据中心优先公司",
+          "tag": "数据中心",
+          "url": "https://www.ithome.com/1/023/934.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "RTX 5060整机降价至899美元",
+          "tag": "游戏PC",
+          "url": "https://www.tomshardware.com/pc-components/this-rtx-5060-gaming-pc-costs-less-than-the-steam-machine-grab-the-ibuypower-slate-prebuilt-pc-with-massive-usd500-discount",
+          "source": "Tom's Hardware"
+        }
+      ]
     }
   }
 }
