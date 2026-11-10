@@ -2657,6 +2657,338 @@
           "source": "Tom's Hardware"
         }
       ]
+    },
+    "2026-11-10": {
+      "chip": [
+        {
+          "title": "英伟达遭集体诉讼，黄仁勋承认婚外情",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达确认黄仁勋留任CEO，特朗普表态支持",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/024/579.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达限制海外云厂商对华AI GPU租赁",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋因涉中国间谍传闻被国会传唤",
+          "tag": "地缘政治",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-jensen-huang-summoned-to-congressional-committee-over-affair-with-alleged-chinese-spy-says-recent-reports-raise-concerns-over-security-protocols-and-ties-to-chinese-intelligence",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "DEEPX用黄油演示AI芯片低40度散热",
+          "tag": "散热材料",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/deepx-ai-chip-runs-so-cool-that-a-butter-heatsink-doesnt-melt-the-dx-m1-processor-impresses-in-a-bizarre-new-dairy-based-benchmark",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋被曝提前一年聘请危机公关公司",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/024/565.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美团开源1.6万亿参数LongCat-2.5模型",
+          "tag": "开源",
+          "url": "https://www.ithome.com/1/024/556.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "RTX PRO 6000限500W仍现线缆熔化",
+          "tag": "供电安全",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-pro-6000-users-cables-almost-melted-even-when-limited-to-500w-12v-2x6-cables-appear-to-still-cause-problems-show-clear-signs-of-melting",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "HKC三星QD-OLED显示器降至2685元",
+          "tag": "显示面板",
+          "url": "https://www.ithome.com/1/024/541.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "律师用八块二手V100搭建私有AI服务器",
+          "tag": "算力部署",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-builds-private-ai-server-with-eight-used-nvidia-v100-gpus-up-to-215-tokens-per-second-to-keep-legal-files-offline-costing-about-usd2-400-per-four-gpu-board",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "魏牌二代蓝山预售，搭载高通8797与Thor-U双芯",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/024/537.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为推全中国产桌面PC，搭载麒麟X90十核CPU",
+          "tag": "国产替代",
+          "url": "https://www.tomshardware.com/tech-industry/huawei-develops-entirely-chinese-homegrown-desktop-pc-system-features-10-core-20-thread-kirin-x90-consumer-cpu-and-huaweis-own-harmonyos-operating-system-but-western-supply-chain-lingers",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "苹果发布iOS 18.7.12修复6个安全漏洞",
+          "tag": "系统安全",
+          "url": "https://www.ithome.com/1/024/588.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "安克eufy推自动追踪灯安防摄像头",
+          "tag": "智能安防",
+          "url": "https://www.ithome.com/1/024/581.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "折叠屏面板2026年出货逆势增超23%",
+          "tag": "面板市场",
+          "url": "https://www.ithome.com/1/024/568.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "FEVM展示2cm超薄0.4L迷你主机",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/024/563.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "小米智能摄像机3国补后降至123元",
+          "tag": "智能家居",
+          "url": "https://www.ithome.com/1/024/554.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iOS 27.3代码曝光Siri个人记忆系统",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/024/547.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "存储短缺迫使手机厂商回收旧内存重焊",
+          "tag": "存储短缺",
+          "url": "https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "中国建成800MW AI数据中心园区",
+          "tag": "数据中心",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/china-builds-massive-800-megawatt-ai-data-center-campus-to-rival-us-stargate-project-galaxy-campus-delivers-first-120-megawatts-in-a-year-at-one-fifth-the-cost",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD驱动Bug持续写盘磨损SSD",
+          "tag": "存储可靠性",
+          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-adrenalin-bug-could-be-writing-data-continuously-wearing-out-ssds-radeon-owner-claims-external-events-utility-used-up-1-percent-of-ssd-health-every-month-for-over-a-year",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5070整机配32GB DDR5降价300美元",
+          "tag": "整机市场",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd300-on-this-rtx-5070-gaming-pc-with-32gb-ddr5-now-under-usd2-000-pre-built-abs-rig-from-newegg-is-4k-ready-with-an-intel-cpu-and-a-1tb-ssd",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "黄仁勋接连退出ElevenLabs与Anthropic活动",
+          "tag": "企业动向",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic发布Mythos与Fable新模型",
+          "tag": "模型发布",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic斥资34亿美元采购天然气涡轮机",
+          "tag": "算力能源",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "AI冲击计算机学位引教授用Claude代劳争议",
+          "tag": "教育冲击",
+          "url": "https://www.qbitai.com/2026/11/508706.html",
+          "source": "量子位"
+        },
+        {
+          "title": "腾讯混元Hy4跻身最强开源模型行列",
+          "tag": "开源模型",
+          "url": "https://www.qbitai.com/2026/11/507843.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "JoesProxy 推出免费 AI Agent 网络工作台",
+          "tag": "Agent基建",
+          "url": "https://www.joesproxy.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "YC 系创业者推 Agent 人工审批与问责层",
+          "tag": "平台治理",
+          "url": "https://news.ycombinator.com/item?id=50432964",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent-email-guard 拦截 Agent 群发邮件",
+          "tag": "安全护栏",
+          "url": "https://github.com/agentisend/agent-email-guard",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Expo 团队开源 Rust Agent 原生应用框架",
+          "tag": "开发框架",
+          "url": "https://twitter.com/ccheever/status/2119764253242695754",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源评测对比各 Agent Harness 成本效率",
+          "tag": "评测基准",
+          "url": "https://github.com/garrytan/g-harness-evals",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Claude 发布多 Agent 团队安全扩展方案",
+          "tag": "多Agent",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Glizzshots 让 Agent 自动生成产品截图",
+          "tag": "内容生成",
+          "url": "https://www.glizzshots.xyz/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源方案解决多 Agent 集群静默状态丢失",
+          "tag": "多Agent",
+          "url": "https://github.com/rohith0707/agent-occ-lock/discussions/2",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Jane Street 开源 Agent Skills 技能库",
+          "tag": "开源",
+          "url": "https://github.com/janestreet/agent_skills",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Meta 发布最小最高效模型 Muse Ember",
+          "tag": "模型发布",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "source": "Hacker News"
+        },
+        {
+          "title": "智能体升级Sonnet 5.5后出现回归故障",
+          "tag": "模型评测",
+          "url": "https://www.evalshift.dev/blog/llm-regression-testing-model-upgrade",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "本地优先文档服务器让编码智能体按批注改稿",
+          "tag": "智能体工具",
+          "url": "https://smarchone.github.io/docs/",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "苹果推50美元AI使用包 Logic Pro首发",
+          "tag": "AI商业化",
+          "url": "https://www.ithome.com/1/024/590.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达CEO绯闻引发证券欺诈集体诉讼",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果iPadOS 26.7.3正式版推送",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/024/587.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果watchOS 27.2.1正式版发布",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/024/586.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果visionOS 27.2.1正式版发布",
+          "tag": "空间计算",
+          "url": "https://www.ithome.com/1/024/585.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果iOS/iPadOS 27.2.1正式版发布",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/024/583.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "中国能从黄仁勋事件中获得什么",
+          "tag": "地缘政治",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+          "source": "The Verge"
+        },
+        {
+          "title": "特朗普回应黄仁勋绯闻知情情况",
+          "tag": "地缘政治",
+          "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+          "source": "The Verge"
+        },
+        {
+          "title": "macOS 27.2.1修复eMudhra证书漏洞",
+          "tag": "安全漏洞",
+          "url": "https://www.ithome.com/1/024/575.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果将在土耳其建先进制造培训中心",
+          "tag": "扶持",
+          "url": "https://www.ithome.com/1/024/574.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达CEO黄仁勋卷入间谍丑闻调查",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "source": "The Verge"
+        },
+        {
+          "title": "苹果推50美元AI用量包扩展功能额度",
+          "tag": "AI订阅",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "source": "The Verge"
+        }
+      ],
+      "drama": [
+        {
+          "title": "腾讯混元Hy4开源，多模态Agent交付力提升",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/507843.html",
+          "source": "量子位"
+        },
+        {
+          "title": "鲸锐AI创作大赛走进清华，征集AI故事创作者",
+          "tag": "赛事",
+          "url": "https://www.qbitai.com/2026/11/508566.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
