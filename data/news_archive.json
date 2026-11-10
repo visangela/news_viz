@@ -2989,6 +2989,326 @@
           "source": "量子位"
         }
       ]
+    },
+    "2026-11-11": {
+      "chip": [
+        {
+          "title": "AMD高管驳斥英伟达Arm智能体CPU说法",
+          "tag": "架构竞争",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-vp-and-chief-zen-architect-rebuke-claims-that-nvidia-and-arm-made-cpus-for-agentic-ai-we-didnt-magically-know-four-years-ago-that-agentic-was-going-to-be-a-thing",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD发布霄龙嵌入式9006系列SP7处理器",
+          "tag": "嵌入式芯片",
+          "url": "https://www.ithome.com/1/025/195.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "传Alice Huang助英伟达对华出口75亿美元GPU",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果明年上半年iPad Air换用OLED面板",
+          "tag": "显示面板",
+          "url": "https://www.ithome.com/1/025/179.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iPhone 17国补后5068元促销",
+          "tag": "终端促销",
+          "url": "https://www.ithome.com/1/025/155.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Mac Studio M5 Ultra与DGX Spark本地AI推理对比",
+          "tag": "AI推理",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马斯克Terafab目标2032年后月产百万晶圆",
+          "tag": "晶圆制造",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "阿里拟分拆平头哥赴港独立上市",
+          "tag": "资本运作",
+          "url": "https://www.ithome.com/1/025/147.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "升腾联合华为首发麒麟X90鸿蒙双旗舰",
+          "tag": "信创生态",
+          "url": "https://www.ithome.com/1/025/146.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "希捷推FireCuda Forge混合存储设备",
+          "tag": "存储设备",
+          "url": "https://www.ithome.com/1/025/145.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "当贝X9 Ultra投影仪国补后6542元",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/025/143.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特朗普称FBI调查黄仁勋婚外情",
+          "tag": "地缘政治",
+          "url": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "AMD发布霄龙嵌入式9006系列SP7处理器",
+          "tag": "嵌入式芯片",
+          "url": "https://www.ithome.com/1/025/195.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "国产8K太空电影获金鸡奖，攻克空间站存储难题",
+          "tag": "影像存储",
+          "url": "https://www.ithome.com/1/025/172.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克Terafab规划月产百万片晶圆",
+          "tag": "晶圆产能",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "希捷推FireCuda Forge混合存储，699美元起",
+          "tag": "混合存储",
+          "url": "https://www.ithome.com/1/025/145.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Anthropic IPO定价70-78美元，估值剑指1.4万亿",
+          "tag": "IPO融资",
+          "url": "https://www.ithome.com/1/025/139.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GTA 6预载在即，PS5扩容SSD最低174美元",
+          "tag": "消费存储",
+          "url": "https://www.tomshardware.com/video-games/playstation/upgrade-your-ps5s-storage-for-gta-6s-digital-pre-load-with-these-ssd-storage-options-from-usd174-ultra-fast-drives-slot-into-the-m-2-expansion-slot-to-ready-your-console-for-gtas-huge-212gb-installation",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "希捷FireCuda Forge上手：需自备NVMe SSD",
+          "tag": "混合存储",
+          "url": "https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI收购Sonder创始人创办的旅游初创Odessia",
+          "tag": "并购",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "纽约AI安全法生效，OpenAI与Anthropic面临合规监管",
+          "tag": "平台治理",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic七位联合创始人IPO各套现约2.5亿美元",
+          "tag": "IPO",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "PSI用未发布Anthropic模型破解量子计算难题并商业化",
+          "tag": "科学发现",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI推出企业主页，ChatGPT加速向搜索入口演进",
+          "tag": "商业化",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic推出Claude Meetings，会议实时生成计划与任务",
+          "tag": "办公协作",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic设定IPO发行价70至78美元，估值达1.4万亿美元",
+          "tag": "IPO",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic据报推进IPO，本周确定估值区间",
+          "tag": "IPO",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Meta开源面向Agent的可定制设计系统Astryx",
+          "tag": "开源",
+          "url": "https://github.com/meta/astryx",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AI Agent谎报代码已验证引发可信度质疑",
+          "tag": "可信治理",
+          "url": "https://brian.biz/blog/ai-agents-verify/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "微软提出Agent体验Ax概念抢定义权",
+          "tag": "平台治理",
+          "url": "https://developer.microsoft.com/blog/what-is-agent-experience-ax/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "谷歌研究称技术债会分散编码Agent注意力",
+          "tag": "技术债",
+          "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Z.ai GLM-5.3编码Agent真实项目实测",
+          "tag": "编码Agent",
+          "url": "https://flaviocopes.com/zcode/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Doc2Harness基准测试AI构建Agent框架能力",
+          "tag": "评测基准",
+          "url": "https://arxiv.org/abs/2610.20344",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Mintlify开源任意站点Agent流量测量工具",
+          "tag": "流量计量",
+          "url": "https://github.com/mintlify/agent-traffic",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "业界探讨AI Agent治理难题与合规路径",
+          "tag": "平台治理",
+          "url": "https://www.sinapsdata.com.br/en",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Relay开源多Agent流水线做前端工程",
+          "tag": "多Agent",
+          "url": "https://github.com/rgadda/frontend-eng-team",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Chrome团队推规范引导编码Agent用现代Web",
+          "tag": "编码Agent",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "source": "Hacker News"
+        },
+        {
+          "title": "只读Postgres角色难阻AI代理越权",
+          "tag": "数据安全",
+          "url": "https://vericto.com/blog-post-postgres-read-only-role-ai-agents",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Ramble推出Apple Watch直连代理应用",
+          "tag": "可穿戴入口",
+          "url": "https://ramble.watch",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "黄仁勋对华出口争议牵出7.5亿美元GPU走私案",
+          "tag": "出口管制",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "source": "The Verge"
+        },
+        {
+          "title": "AMD高管驳斥英伟达Arm智能体CPU说法",
+          "tag": "服务器CPU",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-vp-and-chief-zen-architect-rebuke-claims-that-nvidia-and-arm-made-cpus-for-agentic-ai-we-didnt-magically-know-four-years-ago-that-agentic-was-going-to-be-a-thing",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD发布霄龙嵌入式9006系列SP7处理器",
+          "tag": "嵌入式芯片",
+          "url": "https://www.ithome.com/1/025/195.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD Zen 6 EPYC Venice深度评测曝光",
+          "tag": "架构评测",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-zen-6-epyc-venice-deep-dive-and-benchmarking-dual-epyc-9996-with-1-024-threads-delivers-up-to-93-percent-performance-gain-gen-on-gen-9686f-outclasses-nvidias-vera",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "西门子CEO称AI变革周期仅七八年",
+          "tag": "工业AI",
+          "url": "https://www.ithome.com/1/025/170.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iQOO Z11 Turbo国补后降至2055元",
+          "tag": "消费终端",
+          "url": "https://www.ithome.com/1/025/162.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Mac Studio M5 Ultra本地推理对标DGX Spark",
+          "tag": "本地推理",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Figure AI招夜班管理员看护人形机器人",
+          "tag": "人形机器人",
+          "url": "https://www.ithome.com/1/025/140.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Anthropic IPO定价剑指1.4万亿美元估值",
+          "tag": "IPO融资",
+          "url": "https://www.ithome.com/1/025/139.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "新蛋9800X3D内存套装降价70美元",
+          "tag": "内存价格",
+          "url": "https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd371-in-this-newegg-ram-bundle-with-the-9800x3d-usd70-less-than-buying-it-separately-usd138-saving-on-parts-for-a-4k-gaming-pc-including-a-gigabyte-x870-motherboard-and-free-atx-case",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "9800X3D跌至399美元历史新低",
+          "tag": "CPU降价",
+          "url": "https://www.tomshardware.com/pc-components/cpus/grab-amds-fastest-mainstream-gaming-cpu-for-a-record-low-usd399-99-right-now-powerhouse-ryzen-7-9800x3d-chip-is-a-must-buy-upgrade-for-any-am5-gaming-pc-build",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "广电总局启动AI微短剧新一轮全链路整治",
+          "tag": "平台治理",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259895",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
