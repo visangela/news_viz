@@ -3309,6 +3309,290 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-12": {
+      "chip": [
+        {
+          "title": "AMD推MEXT方案，服务器DRAM需求最高降75%",
+          "tag": "内存方案",
+          "url": "https://www.ithome.com/1/025/836.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "传英伟达准备罢免黄仁勋，股价盘后大跌",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/025/829.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋再被指与直接下属有婚外情并涉掩盖",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SpaceX被曝自研Kessel机架系统，搭载72颗Rubin GPU",
+          "tag": "算力基建",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "GTA6预载文件现FSR 4.1线索，首发支持未定",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/025/821.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "沐曦优必选合资公司曦选创智完成5亿天使轮",
+          "tag": "具身芯片",
+          "url": "https://www.ithome.com/1/025/807.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "任天堂DMCA下架144个Switch破解固件工具",
+          "tag": "平台治理",
+          "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-unleashes-dmca-takedown-wave-against-open-source-switch-modchip-firmware-144-tools-disabled-picofly-sx-core-and-hwfly-among-casualties-following-criminal-trial-victory",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Cognichip称AI辅助可将芯片设计周期缩至数天",
+          "tag": "EDA工具",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/cognichip-reveals-how-its-new-ai-assisted-program-can-slash-chip-design-times-from-months-to-days-automating-labor-intensive-tasks-cuts-design-time-down-chief-product-officer-explains",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "一加Turbo 6国补后1695元，搭骁龙8s/7s Gen4",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/025/796.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美国国会或就安全议题传唤黄仁勋作证",
+          "tag": "出口监管",
+          "url": "https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "IBM发布Nighthawk r3量子处理器，2027年冲刺千比特",
+          "tag": "量子计算",
+          "url": "https://www.ithome.com/1/025/787.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "存储原厂四季度企业级颗粒酝酿涨价，消费级未跟涨",
+          "tag": "存储涨价",
+          "url": "https://www.ithome.com/1/025/786.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "AMD推MEXT方案，服务器DRAM需求最高降75%",
+          "tag": "内存优化",
+          "url": "https://www.ithome.com/1/025/836.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "存储原厂四季度企业级颗粒价格微涨",
+          "tag": "价格走势",
+          "url": "https://www.ithome.com/1/025/786.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Linux内存管理审查者因AI垃圾补丁辞职",
+          "tag": "开源治理",
+          "url": "https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD称MEXT已支撑超百台服务器半内存运行",
+          "tag": "内存优化",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "新蛋套装32GB DDR5折合351美元促销",
+          "tag": "消费内存",
+          "url": "https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd351-with-this-newegg-bundle-with-the-9800x3d-usd87-less-than-the-next-cheapest-memory-gaming-pc-build-kit-includes-enthusiast-asus-x870e-motherboard-and-free-aio-liquid-cooler-with-usd128-99-in-total-savings",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI季度营收首破百亿美元 环比增近五成",
+          "tag": "财报",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "智谱MiniMax等大模型厂商天猫双11打五折",
+          "tag": "价格战",
+          "url": "https://www.qbitai.com/2026/11/509085.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Chrome发布Modern Web Guidance 1.0补编码代理网页知识",
+          "tag": "开发工具",
+          "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者开源Google Ads投放代理技能与Claude插件",
+          "tag": "广告营销",
+          "url": "https://github.com/adeptads/agent-skills",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "技术博客论证代理记忆机制的必要性",
+          "tag": "代理记忆",
+          "url": "https://nishantjosh.dev/blogs/think-of-an-apple/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "微软开源SkillOpt实现零推理开销自进化技能",
+          "tag": "开源",
+          "url": "https://github.com/microsoft/skillopt",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Presence推出全双工视频代理现场演示产品",
+          "tag": "视频代理",
+          "url": "https://presence.bohita.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "美联航禁止AI代理代客预订机票",
+          "tag": "平台治理",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "开发者打造Apple II平台AI编码环境",
+          "tag": "开发工具",
+          "url": "https://www.vintagecomputing.com/index.php/archives/3746/apple-ii-agent-an-ai-coding-environment-for-the-apple-ii",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "EtherPK为同步笔记加上版本历史保障代理安全",
+          "tag": "代理安全",
+          "url": "https://blog.etherpk.com/version-history-for-your-synced-notes-additional-safety-for-working-alongside-ai-agents",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源项目推出代理名称服务ANS",
+          "tag": "代理协议",
+          "url": "https://github.com/agentnameservice/ans",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "研究提出代理驱动可验证LLM推理基础设施",
+          "tag": "可信推理",
+          "url": "https://haoailab.com/blogs/verifiable-llm-infra/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者独立自建AI Agent及其云端运行环境",
+          "tag": "Agent基建",
+          "url": "https://ianberdin.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源CLI让编码Agent可自主录制屏幕",
+          "tag": "Agent工具链",
+          "url": "https://github.com/notoriousbfg/reel-cli",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "AMD推MEXT方案，服务器DRAM需求最高降75%",
+          "tag": "内存优化",
+          "url": "https://www.ithome.com/1/025/836.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "传英伟达董事会准备解雇黄仁勋",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "source": "The Verge"
+        },
+        {
+          "title": "黄仁勋再被指与直接下属有婚外情",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD Venice-X最高5.3GHz，3D V-Cache回归数据中心",
+          "tag": "服务器CPU",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SpaceX被曝自研Kessel机架，搭载72颗Rubin GPU",
+          "tag": "算力基建",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "GTA6预载文件现AMD FSR 4.1线索",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/025/821.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华擎发布新固件修复RX 7900显卡变砖问题",
+          "tag": "显卡固件",
+          "url": "https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Grok被指生成儿童色情图，xAI遭集体诉讼",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/025/809.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "沐曦优必选合资公司曦选创智融资5亿元",
+          "tag": "具身芯片",
+          "url": "https://www.ithome.com/1/025/807.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "小米11月17日巴黎发布会，穿戴与米家新品同台",
+          "tag": "智能生态",
+          "url": "https://www.ithome.com/1/025/804.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美国国会拟就安全协议传唤黄仁勋",
+          "tag": "监管风险",
+          "url": "https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Cyanogen联合创始人推Kora系统，AI模型跨CPU/GPU/NPU调度",
+          "tag": "端侧AI",
+          "url": "https://www.tomshardware.com/software/linux/cyanogen-co-founder-unveils-kora-a-linux-os-that-splits-ai-models-across-the-cpu-gpu-and-npu-snapdragon-x2-elite-and-hexagon-npu-get-full-support-first",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "10月AI剧百强榜：《持械入宋》7部霸榜红果",
+          "tag": "榜单",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259944",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "10月海外短剧收入创新高，DramaBox吃下四成增量",
+          "tag": "出海",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/259947",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
