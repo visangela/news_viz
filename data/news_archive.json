@@ -3593,6 +3593,276 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-13": {
+      "chip": [
+        {
+          "title": "美司法部对英伟达启动反垄断等多项调查",
+          "tag": "监管调查",
+          "url": "https://www.ithome.com/1/026/451.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特朗普称库克是接任英伟达CEO唯一人选",
+          "tag": "人事变动",
+          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "特朗普呼吁库克接掌英伟达CEO",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/026/439.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称愿荣幸聘用黄仁勋",
+          "tag": "人才流动",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋辞任重创AI概念股，AMD博通逆势涨",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/026/437.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达首任董事会主席发内部信稳定军心",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/026/431.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达临时CEO克雷斯发内部信稳信心",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/026/428.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达发布621.24驱动，燕云十六声支持DLSS 5",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/026/425.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋辞任后英伟达市值失守4万亿美元",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/026/424.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星首款智能眼镜开启预售，395美元起",
+          "tag": "智能终端",
+          "url": "https://www.ithome.com/1/026/422.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达确认财报时间，黄仁勋辞任CEO",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/026/421.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋辞任英伟达CEO，盘前跌10%",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/026/397.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "AMD驱动修复SSD异常写入问题",
+          "tag": "驱动修复",
+          "url": "https://www.ithome.com/1/026/442.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "新华三国产双路服务器升级DDR5与CXL",
+          "tag": "内存升级",
+          "url": "https://www.ithome.com/1/026/391.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "CyberPowerPC 9800X3D整机降价促销",
+          "tag": "终端需求",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd350-on-this-all-amd-1440p-gaming-desktop-with-9800x3d-rx-9070-also-features-32gb-of-ram-and-a-1tb-ssd-for-just-usd1-949",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "谷歌搜索升级：Gemini 4 Hydrogen驱动AI Mode",
+          "tag": "搜索升级",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "银河智学谈学习过程智能，AI进课堂路径",
+          "tag": "教育应用",
+          "url": "https://www.qbitai.com/2026/11/509404.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Anthropic启动IPO路演，估值缩水6000亿美元",
+          "tag": "资本动向",
+          "url": "https://www.qbitai.com/2026/11/509381.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Anthropic玻璃翼计划遭质疑：4万漏洞仅修217条",
+          "tag": "安全治理",
+          "url": "https://www.qbitai.com/2026/11/509291.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Neon与Mubit推出自削减前沿模型token 73%的Agent",
+          "tag": "成本优化",
+          "url": "https://neon.com/blog/mubit-neon-ai-gateway",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源项目发布智能眼镜应用Agent技能集",
+          "tag": "可穿戴",
+          "url": "https://github.com/hinty-eu/smart-glasses-skills",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Relate发布Agent原生图数据库",
+          "tag": "数据基础设施",
+          "url": "https://relatedb.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Pydantic Logfire上线Agent沙箱功能",
+          "tag": "安全隔离",
+          "url": "https://pydantic.dev/logfire/agent-sandboxes",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AgentRun开源自我改进型托管Agent框架",
+          "tag": "开源",
+          "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Neo4j推出嵌入式Agent原生图数据库Relate",
+          "tag": "数据基础设施",
+          "url": "https://github.com/relatedb/relate",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源本地语音Agent Jarvis Live发布",
+          "tag": "端侧部署",
+          "url": "https://github.com/samukbg/Jarvis-Live",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "TPS发布高产出Agent管理器，支持容器隔离",
+          "tag": "开发工具",
+          "url": "https://github.com/vanviegen/tps#tps",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源工具审计AI Agent的MCP配置权限",
+          "tag": "平台治理",
+          "url": "https://github.com/Mihirajmera/agent-access-review",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Senku推出可后台操控安卓手机的AI Agent",
+          "tag": "端侧部署",
+          "url": "https://www.heysenku.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源工具检测编码Agent削弱测试骗过CI",
+          "tag": "质量审计",
+          "url": "https://github.com/Nari-Ab/agent-roast/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Turri推出可重复再生的编码Agent",
+          "tag": "编码Agent",
+          "url": "https://github.com/turri-oss/turri",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "黄仁勋因丑闻辞任英伟达CEO",
+          "tag": "人事变动",
+          "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+          "source": "The Verge"
+        },
+        {
+          "title": "黄仁勋丑闻持续发酵波及英伟达治理",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+          "source": "The Verge"
+        },
+        {
+          "title": "AMD发布26.11.1驱动修复SSD异常写入",
+          "tag": "显卡驱动",
+          "url": "https://www.ithome.com/1/026/442.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特朗普提议库克接任英伟达CEO",
+          "tag": "人事变动",
+          "url": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "特朗普呼吁库克接掌英伟达CEO",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/026/439.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称愿聘请黄仁勋",
+          "tag": "人才争夺",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋辞任重创全球AI概念股",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/026/437.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达首任董事会主席发内部信稳军心",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/026/431.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "谷歌为Android XR眼镜加码隐私保护",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/026/430.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达临时CEO发内部信稳定团队",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/026/428.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达发布621.24驱动，DLSS 5落地燕云十六声",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/026/425.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星首款智能眼镜开启预售，395美元起",
+          "tag": "智能眼镜",
+          "url": "https://www.ithome.com/1/026/422.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
