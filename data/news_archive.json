@@ -3863,6 +3863,272 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-14": {
+      "chip": [
+        {
+          "title": "英伟达董事会接触Arm CEO接任人选",
+          "tag": "人事变动",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "未发布酷睿Ultra 7 260K现身整机",
+          "tag": "CPU产品",
+          "url": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马新两国收紧英伟达AI芯片调查",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "华为平板推送星闪电竞专链功能",
+          "tag": "无线连接",
+          "url": "https://www.ithome.com/1/026/995.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "麒麟9050灵犀CPU规格公开",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/026/993.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋辞任英伟达CEO冲击Anthropic IPO",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/026/965.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果市值超英伟达1.3万亿美元",
+          "tag": "市值动态",
+          "url": "https://www.ithome.com/1/026/964.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "新紫光与北汽共建汽车芯片创新中心",
+          "tag": "汽车芯片",
+          "url": "https://www.ithome.com/1/026/954.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电设5亿美元创投基金",
+          "tag": "扶持",
+          "url": "https://www.ithome.com/1/026/953.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "报道称黄仁勋辞职会议情绪崩溃",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋辞任英伟达CEO，马斯克发文致敬",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/026/944.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "京东物流推出半导体成品晶圆全自动物流方案",
+          "tag": "智能物流",
+          "url": "https://www.ithome.com/1/026/936.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "华为麒麟9050公开灵犀CPU与内存压缩加速",
+          "tag": "芯片架构",
+          "url": "https://www.ithome.com/1/026/993.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "京东推半导体首个智能物流方案，晶圆全流程无人化",
+          "tag": "智能物流",
+          "url": "https://www.ithome.com/1/026/936.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软25周年纪念版XBOX Series X上市，配1TB存储",
+          "tag": "游戏主机",
+          "url": "https://www.ithome.com/1/026/932.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "ChatGPT钱包上线，AI代理可代用户下单结账",
+          "tag": "AI代理",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "无界前沿开源Fx-Bio-1031，盲测超GPT-6-Astra",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/509663.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "YC系财富管理Agent公司招募核心工程师",
+          "tag": "创投招聘",
+          "url": "https://atg.science/careers",
+          "source": "Hacker News"
+        },
+        {
+          "title": "多Agent协作开发范式进入实践讨论",
+          "tag": "多Agent",
+          "url": "https://tombedor.dev/multi-agent-orchestration/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Mellonbot推出服务器故障根因定位Agent",
+          "tag": "运维Agent",
+          "url": "https://www.mellonbot.app",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者实测Agent生成PR单均成本2.42美元",
+          "tag": "成本测算",
+          "url": "https://github.com/sebwilgosz/agent-executor",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Allspice构建硬件设计前沿Agent",
+          "tag": "硬件设计",
+          "url": "https://allspice.io/post/how-allspice-built-a-frontier-hardware-design-agent",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "谷歌发布Agent异常检测第三方基准成绩",
+          "tag": "评测基准",
+          "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源个人AI Agent Dodaiso对标Jarvis",
+          "tag": "开源",
+          "url": "https://github.com/Dodaios/Dodaios",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Replit Agent扩展至代企业采购与获客",
+          "tag": "商业执行",
+          "url": "https://replit.com/blog/replit-agent-ads-commerce",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent-plan工具自动提交Agent规划文档",
+          "tag": "工程工具",
+          "url": "https://github.com/ghmeier/agent-plan",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者分享用Agent集群构建产品实践",
+          "tag": "Agent集群",
+          "url": "https://www.stet.sh/blog/running-an-agent-fleet",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Browser Hands让Claude操控Chrome兼容多Agent",
+          "tag": "开源工具",
+          "url": "https://github.com/214140846/browser-hands",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Harness Tuner推出Agent工具评测调优闭环",
+          "tag": "开发工具链",
+          "url": "https://github.com/Kiln-AI/harness-tuner",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "英伟达董事会接触Arm CEO接替黄仁勋",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达芯片扩张被指加剧环境负担",
+          "tag": "能耗环保",
+          "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+          "source": "The Verge"
+        },
+        {
+          "title": "未发布英特尔酷睿Ultra 7 260K现身整机",
+          "tag": "PC芯片",
+          "url": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马新两国升级英伟达AI芯片走私调查",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "华为麒麟9050灵犀CPU规格公开",
+          "tag": "国产芯片",
+          "url": "https://www.ithome.com/1/026/993.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软大规模服务故障恢复取得进展",
+          "tag": "云服务",
+          "url": "https://www.ithome.com/1/026/992.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "韩国拟购无线电探测设备防AI作弊",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/026/958.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋辞职会上状态崩溃报道引热议",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "京东推半导体首个智能物流方案",
+          "tag": "智能制造",
+          "url": "https://www.ithome.com/1/026/936.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "沃尔玛RTX 5070 Ti整机降价730美元",
+          "tag": "渠道促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "两大眼镜品牌下月发售Android XR智能眼镜",
+          "tag": "智能眼镜",
+          "url": "https://www.ithome.com/1/026/931.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "分析师称约150万块英伟达AI GPU走私入华",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "微短剧周报：11月首周行业动态速览",
+          "tag": "行业周报",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260046",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
