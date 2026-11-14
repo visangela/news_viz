@@ -4129,6 +4129,306 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-15": {
+      "chip": [
+        {
+          "title": "美财长质疑英伟达是否知情向空壳公司售GPU",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马斯克力挺黄仁勋称其离任将失关键合作",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/027/247.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马来西亚拟用数据中心功耗追踪GPU走私",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "研究称DeepSeek等中国模型用受限Blackwell训练",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "新项目探索将macOS移植至骁龙与x86平台",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/027/244.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达诞生地丹尼餐厅撤下纪念铭牌后又复挂",
+          "tag": "公司动态",
+          "url": "https://www.ithome.com/1/027/233.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华大九天联合大湾区基金整合数字前端EDA",
+          "tag": "EDA",
+          "url": "https://www.ithome.com/1/027/230.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "律师用八卡V100服务器跑DeepSeek近NVFP4精度",
+          "tag": "推理部署",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达副总裁否认签署黄仁勋复职公开信",
+          "tag": "人事变动",
+          "url": "https://www.ithome.com/1/027/228.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果重申长期投入visionOS但硬件节奏放缓",
+          "tag": "XR平台",
+          "url": "https://www.ithome.com/1/027/223.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达创始纪念牌因黄仁勋丑闻被撤",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达否认放弃 GeForce 游戏显卡业务",
+          "tag": "显卡业务",
+          "url": "https://www.ithome.com/1/027/212.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "三星1TB 990固态跌至每GB 19美分",
+          "tag": "存储价格",
+          "url": "https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD MEXT技术将DRAM需求减半",
+          "tag": "内存技术",
+          "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "战争机器实测SSD流式加载省内存",
+          "tag": "存储应用",
+          "url": "https://www.tomshardware.com/pc-components/ssds/we-tested-the-ram-saving-storage-tech-in-gears-of-war-e-day-up-to-3-7-gb-s-of-ssd-streaming-speed-saves-several-gigabytes-of-system-ram-usage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "游戏整机捆绑32GB DDR5与1TB SSD降价",
+          "tag": "整机渠道",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/amds-fastest-gaming-cpu-and-the-radeon-rx-9070-just-hit-a-massive-usd550-discount-32gb-ddr5-ram-and-1tb-ssd-round-off-usd1-749-99-gaming-rig",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔官网确认酷睿Ultra 7 260K规格",
+          "tag": "处理器平台",
+          "url": "https://www.ithome.com/1/027/245.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软宕机后LibreOffice单日捐款破千笔",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/027/225.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Cursor披露恶意扩展事件波及5000用户",
+          "tag": "数据安全",
+          "url": "https://www.ithome.com/1/027/215.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋离任之际英伟达否认放弃显卡",
+          "tag": "显存供应",
+          "url": "https://www.ithome.com/1/027/212.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Cloudflare开源AI智能体浏览器Kitesurf",
+          "tag": "开源",
+          "url": "https://www.ithome.com/1/027/197.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "山灵SM 3.3数播一体机开售23980元",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/027/183.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "AI项目墓地盘点：Siri与OpenAI超级应用受挫",
+          "tag": "产业复盘",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "DeepSeek开放全家桶API，App功能可自由组合",
+          "tag": "开放平台",
+          "url": "https://www.qbitai.com/2026/11/510003.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "多仓库Agent配置方案视频引关注",
+          "tag": "Agent工程",
+          "url": "https://www.youtube.com/watch?v=hWe-j78vNpc",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "生产级Agent技术栈数据库上线",
+          "tag": "基础设施",
+          "url": "https://whatwerun.dev",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "多Agent组织模拟运营一家公司",
+          "tag": "多Agent",
+          "url": "https://perfloop.ai/blog/my-agent-org-speedran-a-company",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Coppice推出本地多Agent编码桌面应用",
+          "tag": "开源工具",
+          "url": "https://github.com/fertile-org/coppice",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "CodeRelay支持Agent间跨人委派任务",
+          "tag": "协作Agent",
+          "url": "https://github.com/AymanAhsan/CodeRelay",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "ZizkaDB与Redu Cloud共建Agent原生基础设施",
+          "tag": "基础设施",
+          "url": "https://medium.com/@MirArshadTalpur/zizkadb-redu-cloud-bringing-operational-intelligence-and-agent-native-infrastructure-together-69490d8f1e26",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者提出信任Agent前先做沙箱破坏测试",
+          "tag": "安全治理",
+          "url": "https://kunalkushwaha.github.io/2026/11/06/before-i-trust-an-agent/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Traits让Agent学习个人编码风格",
+          "tag": "个性化",
+          "url": "https://traits.sh/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "探讨Agent对话体验的关键设计",
+          "tag": "产品体验",
+          "url": "https://ouijit.com/writing/agent-chat-feel/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "构建人在环路的Slackbot Agent实践",
+          "tag": "人在环路",
+          "url": "https://mays.co/human-in-the-loop-slackbot-agent",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agweb开源：为Agent打造不干扰用户的浏览器",
+          "tag": "开源工具",
+          "url": "https://github.com/paul-nameless/agweb",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Existence-trace更新：日志Agent须论证新规则范围",
+          "tag": "平台治理",
+          "url": "https://github.com/MaxonT/existence-trace/releases/tag/v0.4.6",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Mac Studio对决DGX Spark与AMD MEXT削减DRAM需求",
+          "tag": "本地AI",
+          "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "美财长质疑英伟达向空壳公司售受限GPU",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马来西亚拟用数据中心功耗追踪GPU走私",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD 9800X3D与RX 9070套装降价550美元",
+          "tag": "消费硬件",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/amds-fastest-gaming-cpu-and-the-radeon-rx-9070-just-hit-a-massive-usd550-discount-32gb-ddr5-ram-and-1tb-ssd-round-off-usd1-749-99-gaming-rig",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔官网确认酷睿Ultra 7 260K规格",
+          "tag": "CPU",
+          "url": "https://www.ithome.com/1/027/245.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "研究称DeepSeek等中国模型用受限Blackwell训练",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "新项目探索将macOS搬上骁龙与x86平台",
+          "tag": "操作系统",
+          "url": "https://www.ithome.com/1/027/244.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "八卡V100服务器将DeepSeek精度提升至NVFP4",
+          "tag": "私有部署",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Meta因擅自读取意大利用户相册被罚8.05亿欧元",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/027/227.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果重申长期投入visionOS与空间计算",
+          "tag": "空间计算",
+          "url": "https://www.ithome.com/1/027/223.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达诞生丹尼 booth 纪念牌因黄仁勋丑闻被撤",
+          "tag": "公司声誉",
+          "url": "https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋与表演型创始人CEO时代的退潮",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+          "source": "The Verge"
+        }
+      ]
     }
   }
 }
