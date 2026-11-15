@@ -4429,6 +4429,280 @@
           "source": "The Verge"
         }
       ]
+    },
+    "2026-11-16": {
+      "chip": [
+        {
+          "title": "英伟达工程师因黄仁勋离职透明度不足辞职",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5090回归新蛋21款在售但溢价仍达三倍",
+          "tag": "GPU供应",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "TCL华星展示蓝色磷光OLED覆盖三大形态",
+          "tag": "OLED材料",
+          "url": "https://www.ithome.com/1/027/456.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达董事在黄仁勋丑闻前套现近10亿美元",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "三大DRAM厂撤诉动议被驳回反垄断案推进",
+          "tag": "反垄断",
+          "url": "https://www.ithome.com/1/027/442.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "疑似RTX 4090 Ti非公版工程样品现身闲鱼",
+          "tag": "GPU产品",
+          "url": "https://www.ithome.com/1/027/441.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星部分区域Galaxy A18改用联发科G99+",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/027/439.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克签署请愿要求恢复黄仁勋英伟达CEO职务",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "初代XBOX上市25周年回顾定制芯片历史",
+          "tag": "游戏硬件",
+          "url": "https://www.ithome.com/1/027/435.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋卸任后英伟达新CEO面临重建信任难题",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/027/433.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "初代Xbox发布25周年：奔腾III加Nvidia GPU",
+          "tag": "产业回顾",
+          "url": "https://www.tomshardware.com/video-games/xbox/the-original-xbox-was-released-25-years-ago-today-microsofts-pentium-iii-and-nvidia-gpu-powered-console-did-surprisingly-well-in-a-ps2-dominated-era",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "国产全集成模拟计算芯片流片，矩阵求解破百纳秒",
+          "tag": "模拟计算",
+          "url": "https://www.ithome.com/1/027/430.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "零刻四盘位NAS开售，1TB固态11499元起",
+          "tag": "存储硬件",
+          "url": "https://www.ithome.com/1/027/461.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美法院驳回三星美光海力士DRAM撤诉动议",
+          "tag": "反垄断",
+          "url": "https://www.ithome.com/1/027/442.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "DRAM涨价500%后集体诉讼获法院放行",
+          "tag": "反垄断",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "三星部分区域Galaxy A18改用联发科G99+",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/027/439.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "初代XBOX迎25周年，内置8GB硬盘成先例",
+          "tag": "存储历史",
+          "url": "https://www.ithome.com/1/027/435.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "酷派COOL X Wide降价至699元起",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/027/417.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "当贝H5二代电视盒子469元发售",
+          "tag": "消费存储",
+          "url": "https://www.ithome.com/1/027/404.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "游族网络子公司获14.28亿元闪存颗粒订单",
+          "tag": "闪存采购",
+          "url": "https://www.ithome.com/1/027/399.htm",
+          "source": "IT之家"
+        }
+      ],
+      "agent": [
+        {
+          "title": "智能体倾向选择更易被攻击的工具",
+          "tag": "安全风险",
+          "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Widefleet推出Agent应用托管云平台",
+          "tag": "应用托管",
+          "url": "https://widefleet.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "本地化AI视频Agent瞄准批量内容生产",
+          "tag": "视频生成",
+          "url": "https://www.wiyomi.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "32款编码Agent应用横向评测发布",
+          "tag": "产品评测",
+          "url": "https://codebrief.com/2026/11/32-coding-agent-apps-reviewed/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源事件驱动Agent Pizza取消主循环",
+          "tag": "开源架构",
+          "url": "https://pizza.hertzbeat.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "FlashVMM用18毫秒启动微虚拟机隔离Agent",
+          "tag": "沙箱隔离",
+          "url": "https://flashvmm.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "本地优先桌面Agent绕开Electron栈",
+          "tag": "桌面Agent",
+          "url": "https://github.com/Scronkfinkle/byob",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agline让Agent通过MCP主动呼叫用户",
+          "tag": "MCP协议",
+          "url": "https://agline.in/mcp",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源清单统计Agent编排器已达636个",
+          "tag": "开源生态",
+          "url": "https://github.com/erson/awesome-agent-orchestrators/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Sandlock用非特权Linux原语约束Agent代码",
+          "tag": "沙箱隔离",
+          "url": "https://arxiv.org/abs/2605.26298",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "借数据库查询规划器优化多索引RAG智能体",
+          "tag": "RAG优化",
+          "url": "https://medium.com/@sankeerthan.kasilingam/i-borrowed-the-query-planner-from-databases-to-fix-a-multi-index-rag-agent-110350f14a5d",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent Substrate开源智能体核心系统",
+          "tag": "开源",
+          "url": "https://github.com/agent-substrate/substrate",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "黄仁勋或谋求回归英伟达CEO",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "source": "The Verge"
+        },
+        {
+          "title": "美议员推动收紧AI芯片出口管制",
+          "tag": "出口管制",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "source": "The Verge"
+        },
+        {
+          "title": "英伟达工程师因黄仁勋离职不透明辞职",
+          "tag": "人才流动",
+          "url": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5090回流新蛋仍溢价三倍",
+          "tag": "显卡供应",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "微星推PRO CORELIQUID R13 360液冷",
+          "tag": "散热材料",
+          "url": "https://www.ithome.com/1/027/460.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达董事丑闻前套现近10亿美元",
+          "tag": "内部交易",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "韩国AI作弊案后全面排查资格考试",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/027/453.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔自2025年来首夺CPU整体份额",
+          "tag": "市场份额",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋动荡十日与英伟达领导危机",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+          "source": "The Verge"
+        },
+        {
+          "title": "疑似RTX 4090 Ti非公工程样品曝光",
+          "tag": "显卡产品",
+          "url": "https://www.ithome.com/1/027/441.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克联署请愿要求黄仁勋重返英伟达任CEO",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "初代XBOX迎25周年，定制PC硬件路线奠定微软根基",
+          "tag": "游戏硬件",
+          "url": "https://www.ithome.com/1/027/435.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
