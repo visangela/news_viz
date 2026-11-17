@@ -4987,6 +4987,284 @@
           "source": "量子位"
         }
       ]
+    },
+    "2026-11-18": {
+      "chip": [
+        {
+          "title": "黄仁勋辞职后仍可提名两名英伟达董事",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/028/587.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软MAI Image 2.7登顶图像编辑榜",
+          "tag": "AI模型",
+          "url": "https://www.ithome.com/1/028/582.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达董事会明确拒绝黄仁勋回归CEO",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/028/580.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达Q3营收1158亿美元同比增103%",
+          "tag": "财报",
+          "url": "https://www.ithome.com/1/028/575.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达员工警告人才流失风险",
+          "tag": "人才流动",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达Vera CPU软件优化提升39%性能",
+          "tag": "CPU架构",
+          "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "大疆多款产品因芯片存储涨价上调售价",
+          "tag": "成本传导",
+          "url": "https://www.ithome.com/1/028/567.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋表态愿重返英伟达任CEO",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/028/566.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋称愿荣幸回归英伟达CEO职位",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋将于12月1日出席国会听证",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达董事会新设国家安全与出口管制委员会",
+          "tag": "出口管制",
+          "url": "https://www.ithome.com/1/028/545.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋辞任英伟达CEO 台北101亮灯声援",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/taipei-101-lit-up-in-support-of-jensen-huang-skyscraper-adorned-with-messages-of-support-following-resignation-as-nvidia-ceo",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "存储成本上涨 大疆多款产品全线涨价",
+          "tag": "存储涨价",
+          "url": "https://www.ithome.com/1/028/567.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "内存涨价致8GB回归 微软优化Win11应对",
+          "tag": "内存价格",
+          "url": "https://www.ithome.com/1/028/539.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "群联发布15.36TB企业级PCIe 5.0 SSD",
+          "tag": "企业级SSD",
+          "url": "https://www.tomshardware.com/pc-components/ssds/phison-pascari-x201p-15-36tb-ssd-review",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Tom's Hardware公开企业级SSD测试体系",
+          "tag": "评测标准",
+          "url": "https://www.tomshardware.com/pc-components/ssds/how-we-test-enterprise-ssds-our-new-test-suite-pushes-enterprise-and-data-center-ssds-to-their-limits",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic IPO后亚马逊谷歌合计持股近三成",
+          "tag": "股权结构",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "谷歌扩大Gemini Tasks权限可代打电话下单",
+          "tag": "智能体",
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "谷歌Gemini聊天记录保留期延长至两个月",
+          "tag": "数据合规",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Proton推出隐私优先桌面版Lumo助手",
+          "tag": "隐私计算",
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Sinaps推出多智能体物理研究实验室",
+          "tag": "科研Agent",
+          "url": "https://studio.sinapsdata.com.br/?view=create-agents",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "TDD与AI Agent结合：先写测试再让Agent实现",
+          "tag": "开发范式",
+          "url": "https://realpython.com/tdd-ai-agents/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "微软agent-framework两个版本被植入窃密代码",
+          "tag": "供应链安全",
+          "url": "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "R3工具支持本地审查AI Agent产物",
+          "tag": "Agent治理",
+          "url": "https://r3.hyperlogue.tech/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "ArxCloud推出MCP Agent网关与数据保护",
+          "tag": "企业安全",
+          "url": "https://news.ycombinator.com/item?id=50538724",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "男子与其AI Muse Agent起诉Meta",
+          "tag": "法律争议",
+          "url": "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "后台Agent自动修复依赖更新的破坏性变更",
+          "tag": "自动化运维",
+          "url": "https://www.arnaudrenaud.com/articles/fix-deps-breaking-changes-with-background-agent/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "PyPI项目AI Agent框架使用情况统计",
+          "tag": "生态格局",
+          "url": "https://py-code.org/blog/ai-agent-frameworks-pypi/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "小模型Agent记忆机制对照实验提升24分",
+          "tag": "记忆机制",
+          "url": "https://github.com/krapcys1-maker/adaptive-agent-memory-research/blob/main/data/lab/autolab-alfworld-ladder-r4-v4/README.md",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "免费AI Agent实验室支持双智能体辩论",
+          "tag": "多智能体",
+          "url": "https://studio.sinapsdata.com.br",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AdaL Agent推出带版本控制的视频Agent",
+          "tag": "视频Agent",
+          "url": "https://adalagent.ai",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "YC项目StarSling做Agent仓库自优化CI",
+          "tag": "开发工具",
+          "url": "https://starsling.dev",
+          "source": "Hacker News"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Steam突发大规模服务故障 多项功能受影响",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/028/592.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达董事会称无意让黄仁勋复任CEO",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+          "source": "The Verge"
+        },
+        {
+          "title": "英伟达Q3业绩达标 管理层变动成焦点",
+          "tag": "财报",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+          "source": "The Verge"
+        },
+        {
+          "title": "英伟达员工警告不复任黄仁勋将致人才流失",
+          "tag": "人才流动",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达Vera CPU软件优化可提升39%性能",
+          "tag": "芯片架构",
+          "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋称若有幸愿重返英伟达任CEO",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "小米18 Pro国际版发布 起售价1399欧元",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/028/564.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋将就涉华间谍绯闻赴国会作证",
+          "tag": "地缘合规",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "通用汽车拟2028年北美工厂自动化提升20%",
+          "tag": "工业自动化",
+          "url": "https://www.ithome.com/1/028/561.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台北101点亮声援黄仁勋，英伟达CEO因丑闻辞职",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/taipei-101-lit-up-in-support-of-jensen-huang-skyscraper-adorned-with-messages-of-support-following-resignation-as-nvidia-ceo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD在SC26抨击英伟达FP64模拟，力推MI430X原生双精度",
+          "tag": "HPC加速器",
+          "url": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "红果短剧自建OTT端，进军电视大屏",
+          "tag": "渠道拓展",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260181",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
