@@ -4703,6 +4703,290 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-17": {
+      "chip": [
+        {
+          "title": "国行iPad与Mac正式上线Apple智能",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/028/039.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔350W新卡金融算力超英伟达5.9倍",
+          "tag": "数据中心GPU",
+          "url": "https://www.ithome.com/1/027/972.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋回归未进董事会议程 18万人联署",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/028/032.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美推全栈AI出口 首批33个联盟获指定",
+          "tag": "出口管制",
+          "url": "https://www.ithome.com/1/028/022.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特朗普表态支持库克执掌英伟达",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/028/019.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达发布Rubin HPC GPU 2028年上市",
+          "tag": "高性能计算",
+          "url": "https://www.ithome.com/1/027/998.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达Rubin HPC GPU创CUDA核心纪录",
+          "tag": "高性能计算",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "特朗普呼吁黄仁勋复职 董事会拒绝",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "徐直军回顾华为5G与昇腾芯片孵化",
+          "tag": "自主芯片",
+          "url": "https://www.ithome.com/1/028/005.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iPad mini搭载A20 Pro芯片国补后降至4499元",
+          "tag": "终端芯片",
+          "url": "https://www.ithome.com/1/027/966.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "小鹏IRON人形机器人明年二季度对外商用",
+          "tag": "具身智能",
+          "url": "https://www.ithome.com/1/027/964.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "英特尔350W新卡金融算力超英伟达5.9倍",
+          "tag": "算力芯片",
+          "url": "https://www.ithome.com/1/027/972.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为Mate 90系列首批适配小艺AI快捷栏",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/028/007.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "铭凡迷你主机评测：内存存储涨价削弱入门性价比",
+          "tag": "存储涨价",
+          "url": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-elite-mini-m2-air-304-review",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "加州总检察长起诉OpenAI rogue智能体事件",
+          "tag": "平台治理",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Altman称英伟达无黄仁勋行业仍安好",
+          "tag": "算力供应",
+          "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI引入外部研究员调查模型颠覆行为",
+          "tag": "AI安全",
+          "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "OpenAI发布图像分类器与警告打击CSAM",
+          "tag": "内容治理",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "阿里发布Qwen4-Max智能体与编程能力进阶",
+          "tag": "模型发布",
+          "url": "https://www.qbitai.com/2026/11/510486.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "开源待办应用为每个任务配专属AI Agent",
+          "tag": "开源",
+          "url": "https://github.com/debarshibasak/listodo",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Win11被曝采集开发者所用编码Agent数据",
+          "tag": "平台治理",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "LM Studio推出Agent远程控制功能",
+          "tag": "本地推理",
+          "url": "https://lmstudio.ai/blog/agent-remote-control",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "加州就失控Agent入侵事件起诉OpenAI",
+          "tag": "监管诉讼",
+          "url": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源AI SRE Agent主打快速事故止损",
+          "tag": "开源",
+          "url": "https://github.com/openstatusHQ/stromboli",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开源会议Agent兼容多平台与任意模型",
+          "tag": "开源",
+          "url": "https://github.com/wanderingstan/vibeconf-app/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "论文提出面向Agent负载的自适应推理服务",
+          "tag": "推理基建",
+          "url": "https://arxiv.org/abs/2611.12304",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agents&Hub搭建多人协作Agent使用层",
+          "tag": "协作层",
+          "url": "https://www.agentsand.app",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Sierra发布个人Agent协议1.0",
+          "tag": "协议标准",
+          "url": "https://sierra.ai/blog/releasing-poppy",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Meta推出个人AI Agent产品Muse Charm",
+          "tag": "大厂产品",
+          "url": "https://www.meta.com/muse-charm/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "View 让编码 Agent 直接构建原生 Mac 应用",
+          "tag": "Agent开发",
+          "url": "https://useview.app/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Vstack 为工程负责人提供 Agent 技能与写作检查器",
+          "tag": "开源",
+          "url": "https://github.com/ivikash/vstack",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "国行iPad与Mac新增Apple智能，接入千问大模型",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/028/039.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔350W新卡D270金融算力超英伟达5.9倍",
+          "tag": "数据中心GPU",
+          "url": "https://www.ithome.com/1/027/972.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD FSR 4.1与帧生成首次落地Vulkan游戏",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/028/034.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果Siri AI引入每日限额，iCloud+可提升额度",
+          "tag": "AI订阅",
+          "url": "https://www.ithome.com/1/028/033.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "谷歌AdMob推AI工具，瞄准开发者变现环节",
+          "tag": "开发者工具",
+          "url": "https://www.ithome.com/1/028/029.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "科技领袖质疑黄仁勋离职背后存在阴谋",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+          "source": "The Verge"
+        },
+        {
+          "title": "AMD高管称AI不会取代HPC高精度计算",
+          "tag": "高性能计算",
+          "url": "https://www.tomshardware.com/tech-industry/supercomputers/researchers-recognize-that-ai-will-never-replace-hpc-says-amd-executive-high-precision-workloads-will-exist-for-a-very-long-time-even-as-ai-usage-expands",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AMD拿下新TOP500超算榜单超四成新增系统",
+          "tag": "超算份额",
+          "url": "https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "苹果watchOS 27.3开发者预览版Beta 2发布",
+          "tag": "可穿戴",
+          "url": "https://www.ithome.com/1/028/016.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达发布Rubin HPC GPU，CUDA核心数创纪录",
+          "tag": "HPC芯片",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "特朗普呼吁黄仁勋复任英伟达CEO 董事会拒绝",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔收购Classiq 推动量子计算商业化",
+          "tag": "量子计算",
+          "url": "https://www.tomshardware.com/tech-industry/quantum-computing/intel-bets-on-classiq-acquisition-to-turn-quantum-efforts-into-commercially-viable-business-deal-positions-company-as-leading-vendor-of-qubit-chips-acquisition-to-close-by-the-first-half-of-2027",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "可灵AI预告新一代图片模型Image 4.0即将上线",
+          "tag": "模型迭代",
+          "url": "https://www.aitop100.cn/infomation/details/34987.html",
+          "source": "AITOP100·资讯"
+        },
+        {
+          "title": "SuperLink2026十二月北京启幕聚焦创投对接",
+          "tag": "创投",
+          "url": "https://www.qbitai.com/2026/11/510493.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
