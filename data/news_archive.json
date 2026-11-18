@@ -5265,6 +5265,336 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-19": {
+      "chip": [
+        {
+          "title": "OpenAI用AI优化芯片设计，AMD GPU PPA提升14%",
+          "tag": "AI芯片设计",
+          "url": "https://www.ithome.com/1/029/135.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达告别黄仁勋时代，12月加薪并遴选新CEO",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/029/134.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达驱动被曝每小时狂写SSD达30GB",
+          "tag": "驱动缺陷",
+          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达承诺12月前加薪配股稳定军心",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-promises-employee-pay-raises-equity-before-december-to-quell-unrest-in-wake-of-jensen-huang-scandal-at-first-all-hands-meeting-since-ceos-departure-staff-offered-perks-told-were-going-to-be-fine",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "腾讯称更多企业转向国产芯片，助推本土供应链",
+          "tag": "国产替代",
+          "url": "https://www.ithome.com/1/029/124.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软成英特尔EMIB首个云客户，锁定Diamond Rapids",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/029/122.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GTA6主机实测：XSX稳30帧，XSS掉帧明显",
+          "tag": "游戏性能",
+          "url": "https://www.ithome.com/1/029/118.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称SpaceX未计入任何OpenAI收入",
+          "tag": "算力需求",
+          "url": "https://www.ithome.com/1/029/116.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达回应Vera CPU设计争议，称非预判智能体",
+          "tag": "CPU架构",
+          "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "微星RTX Spark迷你主机上市，33999元起",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/029/111.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "腾讯WorkBuddy年化收入超5亿美元",
+          "tag": "AI商业化",
+          "url": "https://www.ithome.com/1/029/110.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋陷丑闻英伟达面临变局",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "AMD 26.11.2 驱动新增 ROCm 10.2 支持",
+          "tag": "驱动更新",
+          "url": "https://www.ithome.com/1/029/131.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD Linux 26.17 驱动支持高带宽 HDMI 与 GDDR7",
+          "tag": "驱动更新",
+          "url": "https://www.ithome.com/1/029/130.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达驱动 Bug 每小时写入 SSD 达 30GB",
+          "tag": "存储耐久",
+          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "微软成英特尔 EMIB 首个 Azure 自研芯片客户",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/029/122.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微星 RTX Spark 迷你主机上市 33999 元起",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/029/111.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "铭凡 T5 Max-388 紧凑台式机 9699 元上市",
+          "tag": "AI PC",
+          "url": "https://www.ithome.com/1/029/093.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星计划 CES 2027 发布两款人形机器人",
+          "tag": "机器人",
+          "url": "https://www.ithome.com/1/029/087.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD MI450X 加速器显存降至 288GB HBM4",
+          "tag": "HBM4",
+          "url": "https://www.ithome.com/1/029/084.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美高中因误报停用 AI 武器探测系统",
+          "tag": "边缘AI",
+          "url": "https://www.ithome.com/1/029/078.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "安谋科技发布星辰 100e AIoT 原型平台",
+          "tag": "AIoT",
+          "url": "https://www.ithome.com/1/029/071.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "消费级NAND现货价跌20%，SSD与终端或降价",
+          "tag": "NAND价格",
+          "url": "https://www.tomshardware.com/pc-components/ssds/ssds-laptops-and-phones-may-get-cheaper-as-consumer-nand-spot-pricing-drops-20-percent-bank-of-america-expects-contract-price-drops-report-cites-oversupply-in-consumer-market-amid-declining-demand-and-growing-chinese-competition",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic IPO定价每股83美元超区间",
+          "tag": "IPO定价",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Snapchat开放AI助手开发AR滤镜",
+          "tag": "AI编程",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Altman称AI行业难想象没有黄仁勋",
+          "tag": "人事变动",
+          "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Gemini新模型Neon即将发布",
+          "tag": "模型发布",
+          "url": "https://www.qbitai.com/2026/11/510922.html",
+          "source": "量子位"
+        },
+        {
+          "title": "GPT-6.2发布延期 OpenAI承压",
+          "tag": "发布延期",
+          "url": "https://www.qbitai.com/2026/11/510914.html",
+          "source": "量子位"
+        },
+        {
+          "title": "GPT-6.2双模型Astra与Sol齐发",
+          "tag": "模型发布",
+          "url": "https://www.qbitai.com/2026/11/510707.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "149M小模型本地处理七成手机Agent步骤",
+          "tag": "端侧Agent",
+          "url": "https://github.com/chayworks/milo-pointer",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Nihil推出AI Agent设计PCB的硬件IDE",
+          "tag": "硬件Agent",
+          "url": "https://nihil.sh/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "RailCall发布本地优先Agent运行时与签名回执",
+          "tag": "Agent治理",
+          "url": "https://railcall.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "KradleBench用Minecraft评测多Agent协作",
+          "tag": "Agent评测",
+          "url": "https://www.kradle.ai?1",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "微软官方Python Agent框架被劫持投毒",
+          "tag": "供应链安全",
+          "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Bespoke Labs发布多Agent协调基准",
+          "tag": "Agent评测",
+          "url": "https://benchmarks.bespokelabs.ai/multi-agent-coordination-bench/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Fable 5.2视频解析DeepSeek超级Agent架构",
+          "tag": "架构解析",
+          "url": "https://www.youtube.com/watch?v=-b7g5XIgEn0",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Qwen3.8-27B适配pi Agent后基准提升",
+          "tag": "开源模型",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Imbue复盘开源编码Agent的苦涩教训",
+          "tag": "编码Agent",
+          "url": "https://ideas.imbue.com/p/the-long-way-to-sculptor",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Ollama并行Agent请求拖慢会话性能",
+          "tag": "本地推理",
+          "url": "https://tensward.com/blog/ollama-agent-cache",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "KradleBench发布Minecraft多智能体AI评测基准",
+          "tag": "评测基准",
+          "url": "http://www.kradle.ai",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Spooky Particles将Vercel部署失败推送给编码Agent",
+          "tag": "开发工具",
+          "url": "https://spookyparticles.com",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "AMD新驱动新增ROCm 10.2支持并适配多款游戏",
+          "tag": "驱动更新",
+          "url": "https://www.ithome.com/1/029/131.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD发布Linux版Radeon 26.17驱动",
+          "tag": "驱动更新",
+          "url": "https://www.ithome.com/1/029/130.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD称最爱玩家遭社区笔记反击",
+          "tag": "品牌舆情",
+          "url": "https://www.tomshardware.com/pc-components/amds-twitter-brag-that-it-loves-gamers-met-with-savage-community-note-post-met-with-backlash-over-the-companys-pivot-to-ai",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达驱动被曝每小时写SSD达30GB",
+          "tag": "驱动缺陷",
+          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达利润规模可视化：每秒净赚8300美元",
+          "tag": "财报",
+          "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+          "source": "The Verge"
+        },
+        {
+          "title": "英伟达承诺12月前加薪配股稳定军心",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-promises-employee-pay-raises-equity-before-december-to-quell-unrest-in-wake-of-jensen-huang-scandal-at-first-all-hands-meeting-since-ceos-departure-staff-offered-perks-told-were-going-to-be-fine",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "微软成英特尔EMIB首个云芯片客户",
+          "tag": "先进封装",
+          "url": "https://www.ithome.com/1/029/122.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GTA VI主机规格曝光：Series S仅720p升频",
+          "tag": "游戏渲染",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/gta-vi-runs-at-1440p-on-ps5-and-xbox-series-x-but-just-720p-with-upscaling-on-series-s-rockstar-details-upscaling-technologies-for-launch",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达否认Vera CPU预判智能体时代",
+          "tag": "CPU架构",
+          "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "微星RTX Spark迷你主机EdgeMesa N AI+上市",
+          "tag": "AI终端",
+          "url": "https://www.ithome.com/1/029/111.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋丑闻时间线曝光，英伟达权力危机浮现",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "铭凡5L整机T5 Max-388上市，搭锐龙AI Max+",
+          "tag": "端侧算力",
+          "url": "https://www.ithome.com/1/029/093.htm",
+          "source": "IT之家"
+        }
+      ]
     }
   }
 }
