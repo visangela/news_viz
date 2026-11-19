@@ -5595,6 +5595,314 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-20": {
+      "chip": [
+        {
+          "title": "微软英伟达推云PC低延迟图形传输",
+          "tag": "云计算",
+          "url": "https://www.ithome.com/1/029/747.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "谷歌Gemini可直接操控Mac桌面应用",
+          "tag": "AI代理",
+          "url": "https://www.ithome.com/1/029/749.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Q3欧洲手机出货同比降18%创13年新低",
+          "tag": "终端市场",
+          "url": "https://www.ithome.com/1/029/744.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "阿里2032年20GW数据中心目标或下调",
+          "tag": "算力基建",
+          "url": "https://www.ithome.com/1/029/702.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Uber前CEO声援黄仁勋引热议",
+          "tag": "企业动态",
+          "url": "https://www.ithome.com/1/029/691.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "超微遭股东诉讼涉违规对华销售",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-sued-by-shareholders-over-claims-nvidia-executives-wife-must-have-known-about-illicit-china-sales-former-chief-growth-officer-cenly-chen-is-married-to-outgoing-nvidia-vp-jay-puri",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AI模型古籍识别千页成本降至0.1美元",
+          "tag": "AI推理",
+          "url": "https://www.ithome.com/1/029/688.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "阿里称2027至2028年国产算力最紧缺",
+          "tag": "国产算力",
+          "url": "https://www.ithome.com/1/029/682.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "问界新M8搭载华为增程五合一平台",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/029/678.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "千问已在平头哥芯片训练下一代模型",
+          "tag": "自研芯片",
+          "url": "https://www.ithome.com/1/029/676.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "iCAR V25上市，搭载高通骁龙8538芯片",
+          "tag": "车载芯片",
+          "url": "https://www.ithome.com/1/029/675.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "面壁MiniCPM全球下载量超7000万次",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/029/674.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "面壁智能MiniCPM下载量破7000万",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/029/674.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "SK海力士拒披露HBM4良率数据",
+          "tag": "HBM",
+          "url": "https://www.ithome.com/1/029/673.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "慧荣展示PCIe 6.0主控SM8466",
+          "tag": "SSD主控",
+          "url": "https://www.tomshardware.com/pc-components/ssds/silicon-motion-demos-sm8466-pcie-6-0-ssd-controller-expected-to-ship-by-2028-controller-boasts-improved-quality-of-service-samples-imminent",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "存储涨价推印度旗舰机涨超30%",
+          "tag": "存储涨价",
+          "url": "https://www.ithome.com/1/029/653.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Intel套装含32GB DDR5售240美元",
+          "tag": "渠道促销",
+          "url": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd240-with-this-blistering-intel-gaming-pc-bundle-the-270k-plus-cpu-also-comes-with-a-1tb-990-pro-ssd-z890-and-a-cooler-for-just-usd1-079",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "三星4TB 990 Pro降价36%至699美元",
+          "tag": "SSD价格",
+          "url": "https://www.tomshardware.com/pc-components/ssds/save-36-percent-on-this-4tb-samsung-990-pro-ssd-upgrade-for-your-gaming-pc-now-just-17-5-cents-per-gb-our-top-gen-4-drive-recommendation-is-now-usd100-cheaper-than-last-week",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "JEDEC预览DDR6：体积缩44%带宽翻倍",
+          "tag": "DDR6",
+          "url": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic上市或向慈善机构捐1560亿美元",
+          "tag": "公益慈善",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Gemini获Mac代理权限可代用户操作",
+          "tag": "智能体",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic登陆纳斯达克首日涨33%",
+          "tag": "IPO",
+          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic CEO上市首日重申控制AI发展节奏",
+          "tag": "AI安全",
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Anthropic上市检验AI循环融资模式",
+          "tag": "算力投资",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "FBI探员就Claude用户聊天记录上门质询",
+          "tag": "平台治理",
+          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Neoism发布新Agent开发框架",
+          "tag": "开源框架",
+          "url": "https://neoism.ai/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Rust实现无LLM确定性Agent记忆引擎",
+          "tag": "Agent基建",
+          "url": "https://github.com/samvallad33/vestige",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "苹果研发覆盖设备控制与编码的AI Agent",
+          "tag": "终端Agent",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "研究称编码Agent八成输出Token无效",
+          "tag": "成本效率",
+          "url": "https://arxiv.org/abs/2611.23375",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "新方案以Agent授权限制提示注入危害",
+          "tag": "Agent安全",
+          "url": "https://www.stackbuilders.com/insights/ai-agent-authorization-that-limits-the-damage-of-prompt-injection/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Muxlio开源持久化Agent工作流项目",
+          "tag": "工作流",
+          "url": "https://github.com/Muxlio/muxlio",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "MIT团队开源自适应Agent负载推理框架",
+          "tag": "推理基建",
+          "url": "https://github.com/mit-han-lab/EvolvingInfra",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "实测五项Agent任务闭源258美元开源11美元",
+          "tag": "成本对比",
+          "url": "https://bitdepth.dev/blog/five-routine-ai-jobs",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "ZFS文件系统被视为Agent负载理想存储",
+          "tag": "存储基建",
+          "url": "https://ingresslabs.net/blog/zfs-for-agent-workloads",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Meta智能体Muse混淆会话或泄露隐私",
+          "tag": "隐私安全",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Neo4j推出Relate为编码智能体补代码历史",
+          "tag": "开发工具",
+          "url": "https://neo4j.com/blog/developer/your-coding-agent-can-read-the-code-give-it-the-history-with-relate-by-neo4j/",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "英伟达财报后股价较峰值跌近四成",
+          "tag": "财报",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+          "source": "The Verge"
+        },
+        {
+          "title": "英特尔再裁IT部门数百人，累计减员2.78万",
+          "tag": "裁员重组",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "谷歌联手蓝色起源2029年发射TPU算力卫星",
+          "tag": "太空算力",
+          "url": "https://www.ithome.com/1/029/695.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美超微遭股东起诉，涉违规对华销售",
+          "tag": "合规风险",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-sued-by-shareholders-over-claims-nvidia-executives-wife-must-have-known-about-illicit-china-sales-former-chief-growth-officer-cenly-chen-is-married-to-outgoing-nvidia-vp-jay-puri",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AI古籍识别成本降至千页不足0.1美元",
+          "tag": "推理成本",
+          "url": "https://www.ithome.com/1/029/688.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开发者用AI氛围编程打造跨架构操作系统",
+          "tag": "AI编程",
+          "url": "https://www.tomshardware.com/software/windows/developer-vibe-codes-windows-11-alternative-operating-system-for-amd64-arm64-and-riscv64-hardware-libernt-is-a-free-64-bit-clone-promising-reliable-stable-and-efficient-performance",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔18A良率达70%，微软签约EMIB",
+          "tag": "先进制程",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "面壁MiniCPM全球下载量超7000万次",
+          "tag": "端侧模型",
+          "url": "https://www.ithome.com/1/029/674.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "GTA6成首款采用AMD FSR 4.1的主机游戏",
+          "tag": "图形技术",
+          "url": "https://www.ithome.com/1/029/669.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英特尔Diamond Rapids现身SC26合作伙伴展台",
+          "tag": "数据中心",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-diamond-rapids-shows-signs-of-life-in-sc26-demo-running-live-server-next-gen-xeon-7-cpu-breaks-cover-at-partner-booths-no-showcase-from-intel",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "三块退役V100千元级主机跑出100 token每秒",
+          "tag": "二手算力",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔CPU主板内存套装降价240美元促销",
+          "tag": "PC硬件",
+          "url": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd240-with-this-blistering-intel-gaming-pc-bundle-the-270k-plus-cpu-also-comes-with-a-1tb-990-pro-ssd-z890-and-a-cooler-for-just-usd1-079",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "老人、模型、短剧与红果争夺客厅入口",
+          "tag": "大屏场景",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260252",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
