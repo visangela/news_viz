@@ -6397,6 +6397,326 @@
           "source": "IT之家"
         }
       ]
+    },
+    "2026-11-23": {
+      "chip": [
+        {
+          "title": "Win7获非官方DX12与Vulkan 1.4支持",
+          "tag": "图形生态",
+          "url": "https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "美初创AI自研CPU架构能效超4.5倍",
+          "tag": "AI芯片设计",
+          "url": "https://www.ithome.com/1/030/717.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "甲骨文称已备足履行OpenAI合同资金",
+          "tag": "AI基建",
+          "url": "https://www.ithome.com/1/030/715.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AI服务器交付前涨价最高达45%",
+          "tag": "服务器涨价",
+          "url": "https://www.ithome.com/1/030/713.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电据报因美新规暂停对华出货",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SpaceX 430亿美元GPU贷款引抵押担忧",
+          "tag": "算力融资",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-them-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "谷歌削减2027年博通TPU 8i出货约百万颗",
+          "tag": "自研芯片",
+          "url": "https://www.ithome.com/1/030/698.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "小鹏G9L泰国印尼上市售超47万元",
+          "tag": "车规芯片",
+          "url": "https://www.ithome.com/1/030/687.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克预警AI行业明年或现资金短缺",
+          "tag": "算力投资",
+          "url": "https://www.ithome.com/1/030/628.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Neuralink展示脑机接口玩GTA 6成果",
+          "tag": "脑机接口",
+          "url": "https://www.ithome.com/1/030/625.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星Galaxy Watch改为隔年发布，明年断更",
+          "tag": "可穿戴",
+          "url": "https://www.ithome.com/1/030/619.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "美初创AI自研CPU能效达传统4.59倍",
+          "tag": "芯片架构",
+          "url": "https://www.ithome.com/1/030/717.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "研华Nova Lake H单板计算机曝光",
+          "tag": "边缘计算",
+          "url": "https://www.ithome.com/1/030/716.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AI服务器交付前涨价最高达45%",
+          "tag": "存储涨价",
+          "url": "https://www.ithome.com/1/030/713.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微型Transformer模型塞进软盘跑486",
+          "tag": "模型压缩",
+          "url": "https://www.ithome.com/1/030/699.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "谷歌削减2027年TPU 8i出货约百万颗",
+          "tag": "AI芯片",
+          "url": "https://www.ithome.com/1/030/698.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "绿联四盘位NAS黑五降价132美元",
+          "tag": "NAS存储",
+          "url": "https://www.tomshardware.com/pc-components/nas/ditch-cloud-subscriptions-with-a-usd132-discount-on-a-4-bay-ugreen-dxp4800-gt-nas-enclosure-in-amazon-black-friday-deal-offers-dual-10gbe-ports-and-supports-up-to-144tb-of-storage",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "V社暗示Steam Machine后续将涨价",
+          "tag": "存储涨价",
+          "url": "https://www.ithome.com/1/030/652.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克预警AI行业明年资金短缺",
+          "tag": "产业风险",
+          "url": "https://www.ithome.com/1/030/628.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星Galaxy Watch改为隔年发布",
+          "tag": "成本压力",
+          "url": "https://www.ithome.com/1/030/619.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Alienware RTX 5070整机黑五降至1899美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/alienware-aurora-pc-with-rtx-5070-32gb-of-ram-drops-to-usd1-899-in-amazon-black-friday-offer-core-ultra-7-equipped-pc-is-one-of-the-best-value-prebuilt-deals-weve-seen-so-far",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI首席科学家提出AI开发限速思路",
+          "tag": "平台治理",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "A社数学家借Claude再证千禧难题",
+          "tag": "AI4Science",
+          "url": "https://www.qbitai.com/2026/11/511870.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Karpo反超Gemini后再开源浏览器Agent",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/511791.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "黑客社区发起Agent集群挑战P vs NP难题",
+          "tag": "多智能体",
+          "url": "https://pequalnp.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "TheGitAI推出Linux桌面Agent可操控电脑",
+          "tag": "桌面Agent",
+          "url": "https://thegit.ai/tour",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "首个可运行时自改字节码的Java Agent框架",
+          "tag": "代码自修改",
+          "url": "https://asi.anahata.uno/ifptoasi/greenpaper.html",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "博客探讨如何校验Agent代码符合用户意图",
+          "tag": "代码验证",
+          "url": "https://leangineer.com/blog/checking-agent-code/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "社区热议如何确认AI Agent已完成任务",
+          "tag": "任务验收",
+          "url": "https://medium.com/@csdn/two-days-at-the-top-soduwork-hits-no-1-1f32a3f89d85",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "ZeroBurn称可削减编码Agent九成八token消耗",
+          "tag": "成本优化",
+          "url": "https://github.com/thoufeeque22/zeroburn",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者做游戏让玩家扮演LLM的子Agent",
+          "tag": "子Agent",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "Hacker News"
+        },
+        {
+          "title": "开发者分享本地Agent生产工作室搭建方案",
+          "tag": "本地部署",
+          "url": "https://owain.bearblog.dev/setting-up-a-local-ai-production-studio/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "银行开始收紧对AI Agent的接入限制",
+          "tag": "平台治理",
+          "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "HomeBrain推出数据不出设备的本地Agent盒子",
+          "tag": "隐私硬件",
+          "url": "https://www.homebrain.house",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent Doctor让业务专家免代码调优智能体",
+          "tag": "智能体工具",
+          "url": "https://theagentdoctor.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Double Agent刷新国际象棋63步全将军纪录",
+          "tag": "推理能力",
+          "url": "https://www.doubleai.com/research/maxwell-chess-record-63-checks",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Win7获非官方DX12与Vulkan 1.4支持",
+          "tag": "图形生态",
+          "url": "https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "联想Pro 9n评测：18核RTX Spark轻薄本",
+          "tag": "AI PC",
+          "url": "https://www.tomshardware.com/laptops/lenovo-pro-9n-review",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "甲骨文称已备足履行OpenAI合同资金",
+          "tag": "数据中心",
+          "url": "https://www.ithome.com/1/030/715.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AI服务器交付前涨价最高达45%",
+          "tag": "供应链涨价",
+          "url": "https://www.ithome.com/1/030/713.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "摩尔线程庐山GPU或配64GB显存",
+          "tag": "国产GPU",
+          "url": "https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SpaceX 430亿美元GPU贷款引抵押担忧",
+          "tag": "算力融资",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-them-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Q3中国智能眼镜均价降16.2%",
+          "tag": "智能眼镜",
+          "url": "https://www.ithome.com/1/030/683.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "联想Legion 5i OLED黑五降价650美元",
+          "tag": "终端促销",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/oled-gaming-laptop-with-rtx-5060-and-intel-core-ultra-7-cpu-price-crashes-by-usd650-in-black-friday-offer-lenovo-legion-5i-laptop-drops-to-usd1-349-with-free-games-at-b-and-h",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马斯克预警AI行业明年资金短缺",
+          "tag": "产业风险",
+          "url": "https://www.ithome.com/1/030/628.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "BADBOX僵尸网络日伪造400亿次竞价",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/030/624.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Hidisc 推轻量蓝牙音频眼镜 售 3980 日元",
+          "tag": "智能眼镜",
+          "url": "https://www.ithome.com/1/030/623.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Alienware Aurora 搭 RTX 5070 黑五降至 1899 美元",
+          "tag": "游戏整机",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/alienware-aurora-pc-with-rtx-5070-32gb-of-ram-drops-to-usd1-899-in-amazon-black-friday-offer-core-ultra-7-equipped-pc-is-one-of-the-best-value-prebuilt-deals-weve-seen-so-far",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "中国广电首届广电+AI大赛启动 以赛促建育才聚力",
+          "tag": "赛事",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260327",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "AI现场为乐队生成MV 黑客松式创作进入音乐演出场景",
+          "tag": "生成式视频",
+          "url": "https://www.qbitai.com/2026/11/511855.html",
+          "source": "量子位"
+        },
+        {
+          "title": "腾讯元宝联合KCL发布首个群聊Agent记忆基准",
+          "tag": "Agent记忆",
+          "url": "https://www.qbitai.com/2026/11/511841.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
