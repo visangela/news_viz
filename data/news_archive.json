@@ -6781,6 +6781,332 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-25": {
+      "chip": [
+        {
+          "title": "荣耀新机搭载骁龙6 Gen5芯片",
+          "tag": "手机芯片",
+          "url": "https://www.ithome.com/1/031/939.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为推进门锁与门厂出厂适配",
+          "tag": "鸿蒙生态",
+          "url": "https://www.ithome.com/1/031/937.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星HBM基础裸片产能告急",
+          "tag": "HBM",
+          "url": "https://www.ithome.com/1/031/935.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电亚利桑那厂区12月扩建",
+          "tag": "晶圆代工",
+          "url": "https://www.ithome.com/1/031/934.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋称英伟达无需继任计划",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/031/931.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "索泰发布Arrow Lake迷你主机",
+          "tag": "PC芯片",
+          "url": "https://www.ithome.com/1/031/930.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋复职否认特朗普介入",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/031/924.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "数毛社实测GTA6主机性能",
+          "tag": "GPU性能",
+          "url": "https://www.ithome.com/1/031/922.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称AI5优先给Optimus",
+          "tag": "AI芯片",
+          "url": "https://www.ithome.com/1/031/915.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋复职首会承诺调整管理",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/031/914.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋就违规辞职向员工道歉并接受心理治疗",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/031/913.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋承认多段婚外情 英伟达董事会恢复其职务",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/031/912.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "三星HBM基础裸片产能告急，2027年需求或翻倍",
+          "tag": "HBM产能",
+          "url": "https://www.ithome.com/1/031/935.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "索泰迷你主机搭载RTX Pro 4000与96GB内存",
+          "tag": "终端存储",
+          "url": "https://www.ithome.com/1/031/930.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "微软优化Win11内存占用，释放约900MB",
+          "tag": "系统优化",
+          "url": "https://www.ithome.com/1/031/918.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称AI5优先给Optimus，汽车维持AI4",
+          "tag": "AI芯片",
+          "url": "https://www.ithome.com/1/031/915.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "摩托罗拉Razr 2027曝光：4英寸外屏与5000mAh电池",
+          "tag": "移动存储",
+          "url": "https://www.ithome.com/1/031/910.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD新AGESA固件限制部分锐龙8000电压至1.4V",
+          "tag": "内存调校",
+          "url": "https://www.ithome.com/1/031/903.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "512GB MacBook Neo降至699美元，仅粉色含Touch ID",
+          "tag": "NAND价格",
+          "url": "https://www.tomshardware.com/laptops/macbooks/512gb-macbook-neo-drops-to-usd699-comes-with-touch-id-but-only-in-pink",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "最便宜的四款32GB DDR5内存套装盘点",
+          "tag": "内存价格",
+          "url": "https://www.tomshardware.com/pc-components/ram/these-are-the-four-cheapest-32gb-ddr5-memory-kits-weve-found-save-up-to-usd110-on-kits-available-from-patriot-team-group-and-v-color-up-to-ddr5-6400",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "2026年内存价格追踪：DDR5与DDR4各容量报价",
+          "tag": "价格追踪",
+          "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/ram-price-tracking-2026-lowest-price-on-ddr5-and-ddr4-memory-of-all-capacities",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黑五1TB与2TB SSD跌破每GB 0.15美元",
+          "tag": "SSD价格",
+          "url": "https://www.tomshardware.com/pc-components/the-ssd-crisis-is-being-defeated-with-black-friday-1tb-and-2tb-deals-at-less-than-usd0-15-per-gb-some-pcie-4-0-ssds-are-now-cheaper-than-when-we-reviewed-them",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "天钡推三M.2工作站迷你主机，支持OCuLink",
+          "tag": "存储接口",
+          "url": "https://www.ithome.com/1/031/884.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华为Mate X8首发四卡三待，支持双eSIM",
+          "tag": "eSIM存储",
+          "url": "https://www.ithome.com/1/031/883.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic上市后跌破发行价，AI初创估值承压",
+          "tag": "IPO估值",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Foreman 开源自托管 Agent 编排器",
+          "tag": "开源",
+          "url": "https://www.palkeo.com/en/blog/foreman.html",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AgentDE 推出 macOS 原生 Agent 开发应用",
+          "tag": "开发工具",
+          "url": "https://agentde.github.io/agentde/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Rhebok 发布面向编码 Agent 的本地 RAG",
+          "tag": "开源",
+          "url": "https://github.com/Stellenbosch-Technologies/rhebok",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "CheckMyApp 用 Agent 自动验证线上部署",
+          "tag": "自动化测试",
+          "url": "https://checkmyapp.dev",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Anthropic 发布 Siren 量化 Agent 沙箱逃逸",
+          "tag": "安全",
+          "url": "https://safeguards.anthropic.com/2026/siren/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Versine 融资后推 MCP 支付收发能力",
+          "tag": "Agent 支付",
+          "url": "https://news.ycombinator.com/item?id=50634426",
+          "source": "Hacker News"
+        },
+        {
+          "title": "GrowPython 用 Agent 承接外呼至约谈",
+          "tag": "营销 Agent",
+          "url": "https://growpython.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Mole 研究 Agent 将论断溯源至原文",
+          "tag": "事实核查",
+          "url": "https://mole.so/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Vybe 用 20 技能 Agent 流水线做竞品分析",
+          "tag": "多 Agent",
+          "url": "https://www.vybe.build/competitor-analysis",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent Gadgets 探讨 Agent 专用硬件形态",
+          "tag": "交互硬件",
+          "url": "https://benjamincongdon.me/blog/2026/11/23/Agent-Gadgets/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AI编码智能体缺上下文成落地瓶颈",
+          "tag": "上下文工程",
+          "url": "https://leaddev.com/ai/your-ai-coding-agent-lacks-context",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "macOS本地语音Agent用4B模型实现0.43秒响应",
+          "tag": "端侧Agent",
+          "url": "https://homie-mac.vercel.app/fast",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "索泰推酷睿Ultra 7配RTX Pro 4000迷你主机",
+          "tag": "迷你主机",
+          "url": "https://www.ithome.com/1/031/930.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "马斯克称AI5优先给Optimus机器人",
+          "tag": "车载芯片",
+          "url": "https://www.ithome.com/1/031/915.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD新固件限制部分锐龙8000核心电压",
+          "tag": "处理器固件",
+          "url": "https://www.ithome.com/1/031/903.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋否认特朗普助其重返英伟达",
+          "tag": "公司治理",
+          "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+          "source": "The Verge"
+        },
+        {
+          "title": "美国无证监听法案续期进入倒计时",
+          "tag": "数据合规",
+          "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
+          "source": "The Verge"
+        },
+        {
+          "title": "华硕RTX 5090游戏本降价350美元",
+          "tag": "游戏本",
+          "url": "https://www.tomshardware.com/pc-components/rtx-5090-equipped-asus-rog-strix-scar-16-laptop-is-usd350-off-snag-a-great-deal-on-a-ridiculously-powerful-2025-model-16-inch-gaming-laptop-with-32gb-of-ram-and-core-ultra-9-275hx-processor-for-only-usd4-149",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "酷冷Hyper 212 Halo散热器降至15美元",
+          "tag": "散热器",
+          "url": "https://www.tomshardware.com/pc-components/air-cooling/legendary-cooler-master-hyper-212-halo-cpu-air-cooler-drops-to-an-all-time-low-of-usd15-keep-your-amd-or-intel-processor-running-cool-on-the-cheap",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "2026黑五GPU促销汇总持续更新",
+          "tag": "显卡促销",
+          "url": "https://www.tomshardware.com/pc-components/gpus/best-gaming-graphics-card-gpu-deals-nvidia-amd-intel",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黄仁勋将就出口管制接受国会质询",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "技嘉RTX 5060 Ti 8GB降至479美元",
+          "tag": "显卡促销",
+          "url": "https://www.tomshardware.com/pc-components/gpus/this-usd479-rtx-5060-ti-8gb-gives-you-a-big-step-up-in-performance-for-an-rtx-5060-price-twin-fan-gigabyte-eagle-card-is-a-great-1080p-gaming-upgrade",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "天钡推WORK H255锐龙迷你工作站",
+          "tag": "迷你主机",
+          "url": "https://www.ithome.com/1/031/884.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋复任前承认更多婚外情",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-confessed-to-more-affairs-before-the-board-reinstated-him-as-nvidia-ceo-report-claims-contrite-chief-disclosed-at-least-two-additional-affairs-beyond-megaspeed-exec-and-nvidias-vp-of-health-care",
+          "source": "Tom\\u0027s Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "书旗中文网3亿元扶持原创漫剧跃升计划2.0",
+          "tag": "扶持",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260404",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "红果入局大屏，专网大屏运营差异显现",
+          "tag": "渠道分发",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260407",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "10月AI剧漫剧数据：仅0.95%破亿、1.8%回本",
+          "tag": "市场数据",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260388",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
