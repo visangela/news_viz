@@ -7107,6 +7107,356 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-26": {
+      "chip": [
+        {
+          "title": "标普将英伟达评级列入负面观察，90天内或下调",
+          "tag": "公司治理",
+          "url": "https://www.ithome.com/1/032/557.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "群联PCIe 6.0企业级SSD X3定档2027上半年量产",
+          "tag": "存储主控",
+          "url": "https://www.ithome.com/1/032/555.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "黄仁勋回归英伟达，期权交易员单笔回报1984%",
+          "tag": "资本市场",
+          "url": "https://www.ithome.com/1/032/554.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "古尔曼：MacBook Air 2027-2028年大改款，或上OLED",
+          "tag": "终端硬件",
+          "url": "https://www.ithome.com/1/032/552.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Neuralink获美国首个植入式脑机关键性临床试验批文",
+          "tag": "脑机接口",
+          "url": "https://www.ithome.com/1/032/551.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "数千枚英伟达B300涌入海外转售市场寻买家",
+          "tag": "算力供给",
+          "url": "https://www.ithome.com/1/032/547.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "特朗普称美政府入股英伟达犹未为晚",
+          "tag": "产业政策",
+          "url": "https://www.ithome.com/1/032/541.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "拉美Q3手机出货降24%，内存短缺推高价格",
+          "tag": "存储短缺",
+          "url": "https://www.ithome.com/1/032/539.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "华硕ProArt P14搭载RTX Spark上市一月降价200美元",
+          "tag": "终端硬件",
+          "url": "https://www.tomshardware.com/laptops/save-usd200-with-surprising-deals-on-new-nvidia-rtx-spark-powered-asus-proart-p14-laptops-both-24gb-and-32gb-configurations-are-already-on-sale",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "泄露曝光7款英特尔Nova Lake-S酷睿Ultra 4000",
+          "tag": "CPU架构",
+          "url": "https://www.tomshardware.com/pc-components/cpus/7-new-intel-nova-lake-s-core-ultra-4000-series-cpus-detailed-in-new-leak-lineup-includes-5-5ghz-ultra-9-4970k-bfc-ahead-of-the-expected-february-2027-release",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "理想汽车车型更新节奏改为两年一次",
+          "tag": "自研芯片",
+          "url": "https://www.ithome.com/1/032/523.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "M5芯片MacBook Air降价250美元促销",
+          "tag": "终端促销",
+          "url": "https://www.tomshardware.com/laptops/macbooks/save-up-to-usd300-on-the-2026-m5-macbook-air-right-now-deal-nets-you-current-gen-models-with-16gb-or-24gb-ram-and-up-to-1tb-storage",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "群联PCIe 6.0企业级SSD预计2027年上半年量产",
+          "tag": "企业级SSD",
+          "url": "https://www.ithome.com/1/032/555.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三部委发文：2030年建成新一代通信网并适时启动6G",
+          "tag": "政策规划",
+          "url": "https://www.ithome.com/1/032/553.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "韩国推出考场反作弊系统Detect AI，靠无线电波识别智能眼镜",
+          "tag": "AI安防",
+          "url": "https://www.ithome.com/1/032/542.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Valve推送SteamOS 0.5.11候选版，升级SteamVR",
+          "tag": "VR终端",
+          "url": "https://www.ithome.com/1/032/536.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "拉美Q3手机出货同比降24%，内存短缺成主因",
+          "tag": "终端市场",
+          "url": "https://www.ithome.com/1/032/539.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Crucial P510 2TB PCIe 5.0固态硬盘降价至294.99美元",
+          "tag": "消费级SSD",
+          "url": "https://www.tomshardware.com/pc-components/ssds/get-2tb-of-pcie-5-0-storage-for-less-than-usd300-in-stellar-crucial-p510-sale-drive-is-available-for-just-usd294-99-less-than-some-1tb-alternatives",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "2026年内存价格追踪：DDR5与DDR4各容量报价",
+          "tag": "价格行情",
+          "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-lowest-priced-ram-in-2026-price-tracking-on-ddr5-and-ddr4-memory-of-all-capacities",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "2026黑五硬盘促销盘点：HDD扩容优选",
+          "tag": "HDD促销",
+          "url": "https://www.tomshardware.com/pc-components/hdds/best-hard-drive-hdd-deals-2026",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "黑五实测：单条DDR5内存比套条更省钱",
+          "tag": "内存价格",
+          "url": "https://www.tomshardware.com/pc-components/ddr5/buying-single-sticks-of-ddr5-memory-can-save-you-more-than-buying-a-kit-16gb-kits-are-less-than-half-the-price-of-2-x-16gb-at-amazon-and-newegg",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SK海力士计划4至5年内量产100层3D DRAM",
+          "tag": "3D DRAM",
+          "url": "https://www.ithome.com/1/032/496.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "内存危机拖累全球手机销量连续三季下滑",
+          "tag": "终端需求",
+          "url": "https://www.ithome.com/1/032/490.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "中国存储 2026 现状：长鑫长存扩张 HBM 仍缺位",
+          "tag": "HBM",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-chinas-memory-industry-in-2026-cxmt-and-ymtc-are-booming-but-hbm-remains-a-headache",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "OpenAI合并Chat与Work，重度用户或更早触限",
+          "tag": "产品整合",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "Amodei否认向AI让渡人类控制权指控",
+          "tag": "AI安全",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "source": "TechCrunch AI"
+        },
+        {
+          "title": "中国团队Loop架构：9400万参数比肩50亿模型",
+          "tag": "模型架构",
+          "url": "https://www.qbitai.com/2026/11/512565.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Anthropic被曝还藏有两个最强模型未发布",
+          "tag": "模型发布",
+          "url": "https://www.qbitai.com/2026/11/512538.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Anthropic的Tibo被曝加盟OpenAI",
+          "tag": "人才流动",
+          "url": "https://www.qbitai.com/2026/11/512515.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "Uber月均Agent技能调用破百万次",
+          "tag": "平台工程",
+          "url": "https://www.uber.com/us/en/blog/optimizing-ubers-agent-skills/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "业界呼吁Agent安全不可妥协",
+          "tag": "安全治理",
+          "url": "https://quaspar.com/resources/agentic-ai-security",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "开发者称应让Agent自写推理内核替代MLX",
+          "tag": "本地推理",
+          "url": "https://news.ycombinator.com/item?id=50648334",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "观点：Agent不应接触用户凭证",
+          "tag": "身份授权",
+          "url": "https://polylane.com/blog/your-agent-should-never-see-your-credentials/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Windows XP上的AI Agent聊天工具开源",
+          "tag": "边缘部署",
+          "url": "https://github.com/randomNinja64/SimpleLLMChat",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Rust Agent搭配苹果芯片推理引擎开源",
+          "tag": "开源工具",
+          "url": "https://github.com/onatm/rustling",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "购物Agent可结账商店清单上线",
+          "tag": "电商渠道",
+          "url": "https://commerce.assistantanalysis.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "多Agent协作编程被称未来方向",
+          "tag": "开发范式",
+          "url": "https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "隐私优先编码Agent shh-code开源",
+          "tag": "隐私保护",
+          "url": "https://github.com/maksympetkus/shh-code",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Agent集群尝试破译伏尼契手稿",
+          "tag": "多Agent",
+          "url": "https://voynichswarm.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Sidedoor推出本地运行的人脉推荐求职Agent",
+          "tag": "求职Agent",
+          "url": "https://github.com/yoursidedoor/sidedoor",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Drums Labs实现139毫秒克隆Linux桌面供Agent训练",
+          "tag": "训练基建",
+          "url": "https://github.com/Drums-Labs/drumsd",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "群联PCIe 6.0企业级SSD X3定档2027上半年量产",
+          "tag": "存储主控",
+          "url": "https://www.ithome.com/1/032/555.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "数千枚英伟达B300涌入海外转售市场",
+          "tag": "算力供给",
+          "url": "https://www.ithome.com/1/032/547.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "高端PCB排单延至2028年，交期压力加剧",
+          "tag": "PCB材料",
+          "url": "https://www.ithome.com/1/032/545.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "OpenAI开测私有推理，瞄准零窥探AI",
+          "tag": "隐私计算",
+          "url": "https://www.ithome.com/1/032/543.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "韩国推出考场反作弊系统探测AI智能眼镜",
+          "tag": "智能眼镜",
+          "url": "https://www.ithome.com/1/032/542.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "沃尔玛RTX 5060整机促销价仅750美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-prebuilt-for-just-usd750-in-deal-that-seems-too-good-to-be-true-deep-usd650-discount-on-gaming-pc-offers-core-i5-14400f-16gb-ddr4-and-a-1tb-ssd",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5090整机黑五降价2600美元",
+          "tag": "高端整机",
+          "url": "https://www.tomshardware.com/pc-components/save-usd2600-on-the-cheapest-rtx-5090-prebuilt-pc-weve-found-so-far-in-the-black-friday-rush-corsair-vengeance-i7600-features-ultra-9-285k-cpu-64gb-ram-and-the-ultimate-gaming-gpu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "华硕ProArt P14笔记本上市一月即降200美元",
+          "tag": "AI PC",
+          "url": "https://www.tomshardware.com/laptops/save-usd200-with-surprising-deals-on-new-nvidia-rtx-spark-powered-asus-proart-p14-laptops-both-24gb-and-32gb-configurations-are-already-on-sale",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "诉讼称特朗普施压英特尔索取10%股权",
+          "tag": "产业政策",
+          "url": "https://www.tomshardware.com/tech-industry/policy/lawsuit-reveals-trumps-alleged-strong-arming-of-intel-troubled-chipmaker-allegedly-forced-to-give-white-house-10-percent-stake-for-release-of-chips-act-funds",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英特尔Nova Lake-S七款酷睿Ultra 4000曝光",
+          "tag": "桌面CPU",
+          "url": "https://www.tomshardware.com/pc-components/cpus/7-new-intel-nova-lake-s-core-ultra-4000-series-cpus-detailed-in-new-leak-lineup-includes-5-5ghz-ultra-9-4970k-bfc-ahead-of-the-expected-february-2027-release",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "蔚来秦力洪：价格战打不动，长期价值回归",
+          "tag": "产业趋势",
+          "url": "https://www.ithome.com/1/032/502.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美方称英伟达CEO涉华关系人脉更敏感",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/husband-of-jensen-huangs-mistress-has-much-more-significant-chinese-intelligence-connections-than-her-report-claims-us-officials-warn-he-was-asset-with-ministry-of-state-security-connections",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "红果从手机攻向影院电视,剑指长视频大屏端",
+          "tag": "渠道扩张",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260434",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "短剧成互联网大厂最热单品,巨头加速入场",
+          "tag": "平台竞争",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260451",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "B站Q3财报:短剧未啃动B站,日活1.24亿创新高",
+          "tag": "财报",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260457",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
