@@ -7457,6 +7457,236 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-27": {
+      "chip": [
+        {
+          "title": "拉加德称AI助欧洲抵御能源危机并吁公共资金兜底芯片厂",
+          "tag": "政策扶持",
+          "url": "https://www.ithome.com/1/033/159.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星One UI 9.5曝光SPAC框架对标苹果私有云",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/033/153.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星S27 Pro与Ultra零件曝光 预计2027年1月发布",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/033/150.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达621.40驱动修复SSD写入却引发黑屏闪烁",
+          "tag": "GPU驱动",
+          "url": "https://www.ithome.com/1/033/143.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源工具G-SYNC Tweaks解决OLED低帧亮度闪烁",
+          "tag": "显示技术",
+          "url": "https://www.ithome.com/1/033/140.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星S27 Pro与Ultra机模曝光 采用矩阵相机岛",
+          "tag": "消费电子",
+          "url": "https://www.ithome.com/1/033/136.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Denny's发声支持黄仁勋回归英伟达CEO",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "两家加州英伟达AI芯片客户实为中国企业所有",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "标普将英伟达列入可能降级观察名单",
+          "tag": "信用评级",
+          "url": "https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "电子厂商设内存作战室抢DRAM 史上最严重短缺",
+          "tag": "存储芯片",
+          "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达暂停对东南亚AI GPU发货",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马斯克求购存储芯片遭三星拒绝",
+          "tag": "存储芯片",
+          "url": "https://www.ithome.com/1/033/116.htm",
+          "source": "IT之家"
+        }
+      ],
+      "memory": [
+        {
+          "title": "分析师预测DRAM价格2028年腰斩 2027年涨幅收窄",
+          "tag": "价格预测",
+          "url": "https://www.ithome.com/1/033/154.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星SPAC框架曝光 手机端引入私有云AI架构",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/033/153.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "苹果黑五促销送最高300美元礼品卡",
+          "tag": "终端促销",
+          "url": "https://www.ithome.com/1/033/151.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达621.40驱动修SSD写入却引黑屏",
+          "tag": "驱动缺陷",
+          "url": "https://www.ithome.com/1/033/143.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "厂商设内存作战室抢DRAM 史上最缺货",
+          "tag": "供应链",
+          "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "闪迪2TB Gen5 SSD降价21% 每GB17.5美分",
+          "tag": "SSD降价",
+          "url": "https://www.tomshardware.com/pc-components/ssds/save-21-percent-on-this-ultra-fast-2tb-sandisk-optimus-gx-pro-8100-ssd-now-just-17-5-cents-per-gb-rebranded-sn8100-offers-gen-5-speeds-of-up-to-14-900-mb-s-at-a-record-low-price",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "马斯克求购存储芯片遭三星李在镕拒绝",
+          "tag": "采购博弈",
+          "url": "https://www.ithome.com/1/033/116.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "美Q3手机出货降9% 存储涨价挤压安卓",
+          "tag": "终端市场",
+          "url": "https://www.ithome.com/1/033/093.htm",
+          "source": "IT之家"
+        }
+      ],
+      "llm": [
+        {
+          "title": "Anthropic上市当日GTA6大卖，效率论遭质疑",
+          "tag": "产业观察",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "agent": [
+        {
+          "title": "AI Agent开始接管DeepMind部分算力调度",
+          "tag": "Agent落地",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "谷歌强制Agent走MCP服务器，Gmail接口受限",
+          "tag": "平台治理",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "source": "Hacker News"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "分析师预测DRAM价格2028年或腰斩",
+          "tag": "存储芯片",
+          "url": "https://www.ithome.com/1/033/154.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星SPAC框架对标苹果私有云计算",
+          "tag": "端侧AI",
+          "url": "https://www.ithome.com/1/033/153.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达621.40驱动修写入又现黑屏",
+          "tag": "显卡驱动",
+          "url": "https://www.ithome.com/1/033/143.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开源工具修复G-SYNC的OLED亮度闪烁",
+          "tag": "显示技术",
+          "url": "https://www.ithome.com/1/033/140.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Denny's发声支持黄仁勋回归英伟达",
+          "tag": "公司治理",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "两家加州英伟达芯片客户实为中资",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "标普将英伟达列入评级下调观察",
+          "tag": "信用评级",
+          "url": "https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达据称暂停对东南亚AI GPU出货",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "荷兰组织诉请禁售Meta智能眼镜",
+          "tag": "平台治理",
+          "url": "https://www.ithome.com/1/033/126.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "RTX 5060整机黑五价1141美元",
+          "tag": "消费硬件",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-gaming-pc-with-ddr5-for-just-usd1-141-intel-core-i5-14400f-build-is-one-of-the-most-solid-budget-options-weve-seen",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "英伟达GFN黑五促销 半年会员七折",
+          "tag": "云游戏",
+          "url": "https://www.ithome.com/1/033/102.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "开发者建经典GPU演示在线画廊",
+          "tag": "图形技术",
+          "url": "https://www.tomshardware.com/video-games/retro-gaming/solo-developer-vibe-codes-a-gallery-hosting-36-classic-gpu-demos-preservation-effort-includes-3dfx-voodoo-showcases-from-1997-nvidia-bubble-and-more",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "drama": [
+        {
+          "title": "红果热度榜真人短剧全面失守",
+          "tag": "平台榜单",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260482",
+          "source": "流媒体网·微短剧"
+        }
+      ]
     }
   }
 }
