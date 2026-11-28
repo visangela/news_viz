@@ -7687,6 +7687,338 @@
           "source": "流媒体网·微短剧"
         }
       ]
+    },
+    "2026-11-28": {
+      "chip": [
+        {
+          "title": "三星S26 Ultra亚马逊日本站价格异常成交",
+          "tag": "渠道价格",
+          "url": "https://www.ithome.com/1/033/788.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "社区项目让苹果M芯片Mac跑通GTA 6",
+          "tag": "图形生态",
+          "url": "https://www.ithome.com/1/033/778.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "MOD启用DLSS 5神经渲染画质提升但掉帧31%",
+          "tag": "AI渲染",
+          "url": "https://www.ithome.com/1/033/775.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "出口管制或致中国AI模型落后九个月",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Origin Code预告Vortex Evo DDR5内存",
+          "tag": "存储模组",
+          "url": "https://www.ithome.com/1/033/766.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "上海警方破获冒充英伟达入职诈骗案",
+          "tag": "品牌治理",
+          "url": "https://www.ithome.com/1/033/755.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "千里科技智驾聚焦两三家头部车企",
+          "tag": "智能驾驶",
+          "url": "https://www.ithome.com/1/033/753.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "闪极推出主动散热固态硬盘盒拓展坞",
+          "tag": "散热设计",
+          "url": "https://www.ithome.com/1/033/751.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "台积电AI设计套件引入智能体能力",
+          "tag": "EDA工具",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-gives-a-sneap-peak-at-ai-design-kit-agentic-ai-with-foundry-expertise",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "小米智能门锁5系列预售搭载AI指纹",
+          "tag": "智能家居",
+          "url": "https://www.ithome.com/1/033/740.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星开发出全球首款500层以上NAND闪存",
+          "tag": "存储芯片",
+          "url": "https://www.ithome.com/1/033/737.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "英伟达2.9亿美元和解加密挖矿GPU销售诉讼",
+          "tag": "法律诉讼",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "memory": [
+        {
+          "title": "OpenAI反诉苹果窃密并指控其胁迫供应商",
+          "tag": "法律诉讼",
+          "url": "https://www.ithome.com/1/033/780.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "社区移植让M芯片Mac跑通GTA 6",
+          "tag": "芯片生态",
+          "url": "https://www.ithome.com/1/033/778.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Linux内核NFS曝9.8分高危漏洞",
+          "tag": "存储安全",
+          "url": "https://www.ithome.com/1/033/772.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "SanDisk 2TB PCIe 5.0 SSD降至349美元",
+          "tag": "SSD价格",
+          "url": "https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Silicon Power 2TB SSD低至每GB 10美分",
+          "tag": "SSD价格",
+          "url": "https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Origin Code预告Vortex Evo DDR5内存",
+          "tag": "内存模组",
+          "url": "https://www.ithome.com/1/033/766.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "2026黑五SSD促销盘点",
+          "tag": "存储促销",
+          "url": "https://www.tomshardware.com/pc-components/ssds/best-ssd-deals-discounts-2026",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "多功能USB DVD坞站黑五降价20%",
+          "tag": "外设存储",
+          "url": "https://www.tomshardware.com/desktops/pc-building/the-swiss-army-knife-of-dvd-drives-is-back-on-sale-usb-docking-hybrid-also-available-with-a-built-in-m-2-ssd-slot-or-sata-hard-drive-dock-usd28-for-the-dvd-writer-and-hub-usd37-gets-an-added-sata-dock-or-pay-usd39-for-the-m-2-version",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "徕卡Q3 43 Monochrom定档12月3日",
+          "tag": "影像存储",
+          "url": "https://www.ithome.com/1/033/739.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "三星开发出全球首款500层以上NAND",
+          "tag": "NAND技术",
+          "url": "https://www.ithome.com/1/033/737.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "铠侠三代XL-Flash读取延迟达3微秒",
+          "tag": "存储芯片",
+          "url": "https://www.tomshardware.com/pc-components/ssds/kioxias-3rd-gen-xl-flash-hits-optane-class-3-microsecond-read-latency-with-70-percent-higher-density-samples-march-2027-ahead-of-18-million-iops-gp2-ssds",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "西数20TB外置硬盘降至年内最低价",
+          "tag": "存储价格",
+          "url": "https://www.tomshardware.com/pc-components/external-hdds/20tb-wd-elements-external-hdd-is-at-its-lowest-price-this-year-usd549-storage-drive-is-2-75-cents-per-gb",
+          "source": "Tom's Hardware"
+        }
+      ],
+      "llm": [
+        {
+          "title": "DeepSeek应用双端上线聊天账单，收费猜测升温",
+          "tag": "商业化",
+          "url": "https://www.qbitai.com/2026/11/513305.html",
+          "source": "量子位"
+        },
+        {
+          "title": "具身智能公司集体回应通用大模型跨维冲击",
+          "tag": "具身智能",
+          "url": "https://www.qbitai.com/2026/11/513125.html",
+          "source": "量子位"
+        }
+      ],
+      "agent": [
+        {
+          "title": "用户被AI Agent雇佣并收到2000笔5美元付款",
+          "tag": "Agent支付",
+          "url": "https://news.ycombinator.com/item?id=50672702",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Google Workspace对MCP接入收费，Agent税落地",
+          "tag": "平台治理",
+          "url": "https://martinalderson.com/posts/the-agent-tax-has-arrived/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "HumanLayer推出编码Agent紧凑可视化技能show-me",
+          "tag": "开发者工具",
+          "url": "https://www.humanlayer.com/blog/show-me-skill",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "SessionGraph将编码Agent会话可视化为交互图",
+          "tag": "会话管理",
+          "url": "https://sessiongraph.ai/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "AI交易Agent公开直播实盘，9场中8场盈利",
+          "tag": "金融Agent",
+          "url": "https://henryzhang.substack.com/p/8-green-sessions-out-of-9-all-traded",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "LlamaIndex开源Sentinel监控编码Agent破坏行为",
+          "tag": "Agent安全",
+          "url": "https://github.com/run-llama/sentinel",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "AWS安全Agent成功利用37个新CVE中的33个",
+          "tag": "安全Agent",
+          "url": "https://aws.amazon.com/blogs/security/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "ClawdTime用FaceTime让CUA Agent远程求助用户",
+          "tag": "人机交互",
+          "url": "https://www.clawdtime.com/",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Convex技能被指未经告知上传用户应用创意",
+          "tag": "数据隐私",
+          "url": "https://github.com/convex/convex-backend-skill/issues/64",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Clam让用户在Bash中用自然语言直接驱动Agent",
+          "tag": "终端Agent",
+          "url": "https://duy.run/clam",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "Shandu 4.0开源本地深度研究Agent可审计引用",
+          "tag": "开源Agent",
+          "url": "https://github.com/jolovicdev/shandu",
+          "source": "Hacker News Agent"
+        },
+        {
+          "title": "纽约时报关注AI Agent介入酸面团发酵实验",
+          "tag": "应用场景",
+          "url": "https://www.nytimes.com/2026/11/20/dining/leaven-lab-grown-sourdough-starter.html",
+          "source": "Hacker News Agent"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "Linux 7.5将合并支持AMD RDNA5架构",
+          "tag": "开源驱动",
+          "url": "https://www.ithome.com/1/033/787.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "非官方DLSS 5神经渲染画质惊艳但掉帧31%",
+          "tag": "神经渲染",
+          "url": "https://www.ithome.com/1/033/775.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "Linux内核NFS曝CVSS 9.8高危漏洞",
+          "tag": "安全漏洞",
+          "url": "https://www.ithome.com/1/033/772.htm",
+          "source": "IT之家"
+        },
+        {
+          "title": "AMD旗舰9950X3D2黑五降至历史低价",
+          "tag": "CPU降价",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "技嘉RTX 5070黑五降至839美元",
+          "tag": "GPU促销",
+          "url": "https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "惠普Omen 35L整机黑五直降38%",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "iBuyPower黑五RTX 5080整机直降650美元",
+          "tag": "整机促销",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/ibuypowers-black-friday-offers-net-you-usd650-off-powerful-rtx-5080-prebuilt-pc-stackable-offer-code-can-net-you-a-bargain-bundle-with-a-free-monitor-and-peripherals",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RTX 5090游戏本黑五直降1200美元",
+          "tag": "游戏本",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/the-hyperx-omen-max-16-gaming-laptop-with-a-rtx-5090-and-a-core-i9-ultra-can-be-yours-for-an-amazing-usd1-200-off-highest-end-gear-for-26-percent-off-less-than-a-comparable-desktop-pc",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "中国AI硬件竞争延伸至PCB上游材料",
+          "tag": "PCB材料",
+          "url": "https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "RX 9070 GRE黑五619美元创最低价",
+          "tag": "GPU促销",
+          "url": "https://www.tomshardware.com/pc-components/gpus/this-usd619-powercolor-radeon-rx-9070-gre-is-the-cheapest-around-this-black-friday-grab-a-great-1080p-or-1440p-gaming-upgrade-for-a-great-price",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "出口管制致中国AI模型落后九个月",
+          "tag": "出口管制",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Origin Code预告EXPO ULL认证DDR5内存",
+          "tag": "存储模组",
+          "url": "https://www.ithome.com/1/033/766.htm",
+          "source": "IT之家"
+        }
+      ],
+      "drama": [
+        {
+          "title": "微短剧成消费入口，视听带动消费新路径",
+          "tag": "商业模式",
+          "url": "https://vv.lmtw.com/mzw/content/detail/id/260502",
+          "source": "流媒体网·微短剧"
+        },
+        {
+          "title": "钛动科技与腾讯云战略合作，AI助企业出海",
+          "tag": "出海营销",
+          "url": "https://www.qbitai.com/2026/11/513194.html",
+          "source": "量子位"
+        },
+        {
+          "title": "腾讯混元发布Hy3D 3.6，3D生成转向可用",
+          "tag": "3D生成",
+          "url": "https://www.qbitai.com/2026/11/513155.html",
+          "source": "量子位"
+        }
+      ]
     }
   }
 }
